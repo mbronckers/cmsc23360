@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
 
-# Data import
+# Community data import (make sure to have path with access to parsed community data)
 path="../parsed/community/"
 day_one="day_1"
 day_two="day_2"
