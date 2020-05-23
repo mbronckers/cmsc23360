@@ -2,8 +2,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+from joblib import dump, load
+
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
+from sklearn.linear_model import LogisticRegression
 
 # Community data import (make sure to have path with access to parsed community data)
 path="../parsed/community/"
@@ -33,9 +36,21 @@ clf.fit(X,y)
 svm_model = svm.SVC()
 svm_model.fit(X, y)
 
+lr = LogisticRegression(random_state=0, max_iter=10e5)
+lr.fit(X, y)
+
 # Evaluate
 rf_acc = clf.score(X_test, y_test)
 svm_acc = svm_model.score(X_test, y_test)
+lr_acc = lr.score(X_test, y_test)
 
+print("Logistic Reg acc: " + str(lr_acc))
 print("RF acc: " + str(rf_acc))
 print("SVM acc: " + str(svm_acc))
+
+# Save models
+dump(clf, 'rf_model.joblib')
+dump(svm_model, 'svm_model.joblib')
+
+# Load models
+# svm_model = load('svm_model.joblib')
