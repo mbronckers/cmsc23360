@@ -1,0 +1,360 @@
+Sequence 2 Active Measurements
+
+[05-18-2020 14:36:25]
+
+=====================================================
+traceroute to www.youtube.com (172.217.12.142), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.402 ms  0.391 ms  0.388 ms
+ 2  10.0.0.1 (10.0.0.1)  6.215 ms  6.220 ms  6.523 ms
+ 3  192.168.172.1 (192.168.172.1)  7.171 ms  7.170 ms  7.508 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  17.073 ms  17.793 ms  17.794 ms
+ 5  te0-2-0-1.asr0.alb1.inoc.net (64.246.129.234)  17.735 ms  17.730 ms  17.727 ms
+ 6  ae1-0-0.asr1.nyc1.inoc.net (64.246.129.219)  18.106 ms  12.558 ms  13.917 ms
+ 7  google-inc-ce.edge.nyc1.inoc.net (64.246.129.73)  16.773 ms  12.978 ms  12.962 ms
+ 8  108.170.248.97 (108.170.248.97)  12.542 ms  12.929 ms  12.926 ms
+ 9  108.170.227.211 (108.170.227.211)  21.583 ms  21.560 ms  21.551 ms
+10  lga34s19-in-f14.1e100.net (172.217.12.142)  20.107 ms  20.110 ms  20.105 ms
+***********************
+PING youtube-ui.l.google.com (172.217.12.142) 56(84) bytes of data.
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=1 ttl=54 time=12.3 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=2 ttl=54 time=14.3 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=3 ttl=54 time=13.6 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=4 ttl=54 time=14.1 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=5 ttl=54 time=12.8 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=6 ttl=54 time=12.8 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=7 ttl=54 time=13.3 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=8 ttl=54 time=13.5 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=9 ttl=54 time=16.1 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=10 ttl=54 time=13.5 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=11 ttl=54 time=12.7 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10024ms
+rtt min/avg/max/mdev = 12.347/13.544/16.133/0.992 ms
+***********************
+    time_namelookup:  0.003314s
+       time_connect:  0.018527s
+    time_appconnect:  0.061062s
+   time_pretransfer:  0.061194s
+      time_redirect:  0.000000s
+ time_starttransfer:  0.124966s
+                    ----------
+         time_total:  0.815808s
+#######################
+***********************
+traceroute to www.youtube.com (172.217.12.142), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.326 ms  0.313 ms  0.309 ms
+ 2  10.0.0.1 (10.0.0.1)  4.828 ms  5.118 ms  5.845 ms
+ 3  192.168.172.1 (192.168.172.1)  6.822 ms  6.821 ms  7.154 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  10.105 ms  10.108 ms  10.104 ms
+ 5  te0-2-0-1.asr0.alb1.inoc.net (64.246.129.234)  10.100 ms  10.096 ms  11.751 ms
+ 6  ae1-0-0.asr1.nyc1.inoc.net (64.246.129.219)  13.839 ms  13.500 ms  16.603 ms
+ 7  google-inc-ce.edge.nyc1.inoc.net (64.246.129.73)  12.359 ms  13.672 ms  14.182 ms
+ 8  108.170.248.97 (108.170.248.97)  13.619 ms  13.627 ms  13.626 ms
+ 9  108.170.227.211 (108.170.227.211)  13.173 ms  13.611 ms  13.611 ms
+10  lga34s19-in-f14.1e100.net (172.217.12.142)  13.608 ms  14.136 ms  14.115 ms
+***********************
+PING youtube-ui.l.google.com (172.217.12.142) 56(84) bytes of data.
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=1 ttl=54 time=14.8 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=2 ttl=54 time=15.4 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=3 ttl=54 time=16.5 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=4 ttl=54 time=14.5 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=5 ttl=54 time=12.9 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=6 ttl=54 time=13.5 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=7 ttl=54 time=15.1 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=8 ttl=54 time=13.8 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=9 ttl=54 time=12.4 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=10 ttl=54 time=13.6 ms
+64 bytes from lga34s19-in-f14.1e100.net (172.217.12.142): icmp_seq=11 ttl=54 time=13.4 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10020ms
+rtt min/avg/max/mdev = 12.422/14.168/16.486/1.137 ms
+=====================================================
+traceroute to www.walmart.com (23.200.229.140), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.240 ms  0.224 ms  0.220 ms
+ 2  10.0.0.1 (10.0.0.1)  10.636 ms  11.031 ms  11.005 ms
+ 3  192.168.172.1 (192.168.172.1)  9.923 ms  10.596 ms  10.988 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  9.883 ms  9.877 ms  9.873 ms
+ 5  te0-3-0-1.asr0.alb1.inoc.net (64.246.129.236)  10.905 ms  11.229 ms  11.228 ms
+ 6  ae1-0-0.asr0.alb2.inoc.net (64.246.129.233)  12.559 ms  11.880 ms  11.847 ms
+ 7  te0-0-2-0.asr0.nyc1.inoc.net (64.246.129.249)  11.426 ms  17.849 ms  17.840 ms
+ 8  nyiix.akamai.net (198.32.160.47)  17.836 ms  17.845 ms  17.844 ms
+ 9  a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140)  17.328 ms  17.815 ms  17.813 ms
+***********************
+PING e4373.x.akamaiedge.net (23.200.229.140) 56(84) bytes of data.
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=1 ttl=56 time=12.1 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=2 ttl=56 time=15.7 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=3 ttl=56 time=14.9 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=4 ttl=56 time=18.8 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=5 ttl=56 time=12.3 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=6 ttl=56 time=18.3 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=7 ttl=56 time=13.1 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=8 ttl=56 time=13.3 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=9 ttl=56 time=12.8 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=10 ttl=56 time=13.0 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=11 ttl=56 time=13.2 ms
+
+--- e4373.x.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10026ms
+rtt min/avg/max/mdev = 12.138/14.319/18.793/2.234 ms
+***********************
+    time_namelookup:  0.010352s
+       time_connect:  0.021993s
+    time_appconnect:  0.057756s
+   time_pretransfer:  0.057915s
+      time_redirect:  0.000000s
+ time_starttransfer:  0.552317s
+                    ----------
+         time_total:  0.552364s
+#######################
+***********************
+traceroute to www.walmart.com (23.200.229.140), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.300 ms  0.284 ms  0.281 ms
+ 2  10.0.0.1 (10.0.0.1)  10.000 ms  10.517 ms  10.489 ms
+ 3  192.168.172.1 (192.168.172.1)  10.474 ms  10.476 ms  10.434 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  10.932 ms  10.932 ms  10.900 ms
+ 5  te0-3-0-1.asr0.alb1.inoc.net (64.246.129.236)  12.195 ms  12.154 ms  12.147 ms
+ 6  ae1-0-0.asr0.alb2.inoc.net (64.246.129.233)  13.570 ms  10.623 ms  12.861 ms
+ 7  te0-0-2-0.asr0.nyc1.inoc.net (64.246.129.249)  13.183 ms  13.592 ms  14.242 ms
+ 8  nyiix.akamai.net (198.32.160.47)  17.266 ms  17.697 ms  17.697 ms
+ 9  a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140)  14.215 ms  14.220 ms  14.217 ms
+***********************
+PING e4373.x.akamaiedge.net (23.200.229.140) 56(84) bytes of data.
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=1 ttl=56 time=10.5 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=2 ttl=56 time=13.1 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=3 ttl=56 time=12.0 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=4 ttl=56 time=12.0 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=5 ttl=56 time=15.7 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=6 ttl=56 time=13.4 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=7 ttl=56 time=15.9 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=8 ttl=56 time=12.0 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=9 ttl=56 time=14.6 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=10 ttl=56 time=12.6 ms
+64 bytes from a23-200-229-140.deploy.static.akamaitechnologies.com (23.200.229.140): icmp_seq=11 ttl=56 time=13.3 ms
+
+--- e4373.x.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10022ms
+rtt min/avg/max/mdev = 10.514/13.194/15.872/1.575 ms
+=====================================================
+traceroute to www.amazon.com (143.204.146.8), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.584 ms  0.558 ms  0.634 ms
+ 2  10.0.0.1 (10.0.0.1)  9.773 ms  9.775 ms  11.040 ms
+ 3  192.168.172.1 (192.168.172.1)  9.765 ms  9.763 ms  11.027 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  10.618 ms  10.617 ms  10.552 ms
+ 5  te0-3-0-1.asr0.alb1.inoc.net (64.246.129.236)  10.545 ms  11.605 ms  11.604 ms
+ 6  te0-7-0-3.ccr21.alb02.atlas.cogentco.com (38.104.52.13)  10.912 ms  8.619 ms  10.451 ms
+ 7  be2915.ccr41.jfk02.atlas.cogentco.com (154.54.40.62)  13.588 ms  13.788 ms  13.777 ms
+ 8  be2235.rcr21.ewr01.atlas.cogentco.com (154.54.44.214)  13.773 ms  13.770 ms  13.766 ms
+ 9  38.142.212.18 (38.142.212.18)  13.170 ms  13.752 ms  13.750 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8)  13.135 ms  13.502 ms  13.501 ms
+***********************
+PING d3ag4hukkh62yn.cloudfront.net (143.204.146.8) 56(84) bytes of data.
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=1 ttl=242 time=15.8 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=2 ttl=242 time=14.8 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=3 ttl=242 time=13.0 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=4 ttl=242 time=11.5 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=5 ttl=242 time=12.0 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=6 ttl=242 time=14.9 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=7 ttl=242 time=14.4 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=8 ttl=242 time=15.1 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=9 ttl=242 time=17.2 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=10 ttl=242 time=15.1 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=11 ttl=242 time=21.0 ms
+
+--- d3ag4hukkh62yn.cloudfront.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10020ms
+rtt min/avg/max/mdev = 11.461/14.985/21.001/2.469 ms
+***********************
+    time_namelookup:  0.008926s
+       time_connect:  0.021321s
+    time_appconnect:  0.068928s
+   time_pretransfer:  0.069155s
+      time_redirect:  0.000000s
+ time_starttransfer:  0.104863s
+                    ----------
+         time_total:  0.104928s
+#######################
+***********************
+traceroute to www.amazon.com (143.204.146.8), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.439 ms  0.402 ms  0.374 ms
+ 2  10.0.0.1 (10.0.0.1)  11.040 ms  11.542 ms  11.536 ms
+ 3  192.168.172.1 (192.168.172.1)  11.518 ms  11.519 ms  11.437 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  11.431 ms  11.427 ms  11.835 ms
+ 5  te0-3-0-1.asr0.alb1.inoc.net (64.246.129.236)  11.834 ms  11.830 ms  11.828 ms
+ 6  te0-7-0-3.ccr21.alb02.atlas.cogentco.com (38.104.52.13)  11.822 ms  9.383 ms  9.351 ms
+ 7  be2915.ccr41.jfk02.atlas.cogentco.com (154.54.40.62)  10.765 ms  13.108 ms  13.565 ms
+ 8  be2235.rcr21.ewr01.atlas.cogentco.com (154.54.44.214)  13.561 ms  13.558 ms  13.970 ms
+ 9  38.142.212.18 (38.142.212.18)  13.537 ms  13.545 ms  13.961 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8)  13.434 ms  13.829 ms  13.832 ms
+***********************
+PING d3ag4hukkh62yn.cloudfront.net (143.204.146.8) 56(84) bytes of data.
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=1 ttl=242 time=14.2 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=2 ttl=242 time=14.5 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=3 ttl=242 time=12.7 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=4 ttl=242 time=14.0 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=5 ttl=242 time=13.9 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=6 ttl=242 time=16.4 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=7 ttl=242 time=13.3 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=8 ttl=242 time=22.0 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=9 ttl=242 time=16.7 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=10 ttl=242 time=26.6 ms
+64 bytes from server-143-204-146-8.ewr52.r.cloudfront.net (143.204.146.8): icmp_seq=11 ttl=242 time=14.3 ms
+
+--- d3ag4hukkh62yn.cloudfront.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10023ms
+rtt min/avg/max/mdev = 12.737/16.241/26.630/4.085 ms
+=====================================================
+traceroute to www.amazon.de (23.192.54.55), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.302 ms  0.281 ms  0.260 ms
+ 2  10.0.0.1 (10.0.0.1)  6.369 ms  6.814 ms  7.158 ms
+ 3  192.168.172.1 (192.168.172.1)  7.155 ms  7.977 ms  7.976 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  10.666 ms  10.660 ms  10.658 ms
+ 5  te0-2-0-1.asr0.alb1.inoc.net (64.246.129.234)  10.654 ms  12.295 ms  12.645 ms
+ 6  6-2-2.ear3.NewYork1.Level3.net (4.28.130.17)  16.418 ms  14.491 ms  14.907 ms
+ 7  * * *
+ 8  208.185.22.10.IPYX-074089-910-ZYO.zip.zayo.com (208.185.22.10)  28.312 ms  28.702 ms  28.703 ms
+ 9  a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55)  11.421 ms  12.747 ms  13.076 ms
+***********************
+PING e15317.e22.akamaiedge.net (23.192.54.55) 56(84) bytes of data.
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=1 ttl=55 time=13.5 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=2 ttl=55 time=13.6 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=3 ttl=55 time=13.2 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=4 ttl=55 time=14.0 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=5 ttl=55 time=13.2 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=6 ttl=55 time=13.0 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=7 ttl=55 time=13.7 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=8 ttl=55 time=15.5 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=9 ttl=55 time=11.6 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=10 ttl=55 time=14.2 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=11 ttl=55 time=11.3 ms
+
+--- e15317.e22.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10020ms
+rtt min/avg/max/mdev = 11.285/13.328/15.472/1.096 ms
+***********************
+    time_namelookup:  0.010689s
+       time_connect:  0.023041s
+    time_appconnect:  0.074521s
+   time_pretransfer:  0.074672s
+      time_redirect:  0.000000s
+ time_starttransfer:  0.192466s
+                    ----------
+         time_total:  0.192530s
+#######################
+***********************
+traceroute to www.amazon.de (23.192.54.55), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.352 ms  0.342 ms  0.321 ms
+ 2  10.0.0.1 (10.0.0.1)  6.524 ms  6.920 ms  6.919 ms
+ 3  192.168.172.1 (192.168.172.1)  7.660 ms  7.656 ms  7.653 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  10.585 ms  11.018 ms  11.016 ms
+ 5  te0-2-0-1.asr0.alb1.inoc.net (64.246.129.234)  11.000 ms  10.997 ms  10.994 ms
+ 6  6-2-2.ear3.NewYork1.Level3.net (4.28.130.17)  14.714 ms  13.273 ms  13.262 ms
+ 7  * * *
+ 8  208.185.22.10.IPYX-074089-910-ZYO.zip.zayo.com (208.185.22.10)  27.215 ms  27.663 ms  27.669 ms
+ 9  a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55)  12.292 ms  12.896 ms  12.905 ms
+***********************
+PING e15317.e22.akamaiedge.net (23.192.54.55) 56(84) bytes of data.
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=1 ttl=55 time=11.7 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=2 ttl=55 time=12.5 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=3 ttl=55 time=15.4 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=4 ttl=55 time=14.8 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=5 ttl=55 time=11.9 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=6 ttl=55 time=14.4 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=7 ttl=55 time=13.1 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=8 ttl=55 time=14.3 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=9 ttl=55 time=13.6 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=10 ttl=55 time=13.7 ms
+64 bytes from a23-192-54-55.deploy.static.akamaitechnologies.com (23.192.54.55): icmp_seq=11 ttl=55 time=14.1 ms
+
+--- e15317.e22.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10023ms
+rtt min/avg/max/mdev = 11.668/13.587/15.444/1.138 ms
+=====================================================
+traceroute to www.bbc.co.uk (212.58.237.252), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.440 ms  0.431 ms  0.409 ms
+ 2  10.0.0.1 (10.0.0.1)  6.945 ms  7.323 ms  7.322 ms
+ 3  192.168.172.1 (192.168.172.1)  9.919 ms  9.922 ms  9.919 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  11.140 ms  26.648 ms  27.116 ms
+ 5  te0-2-0-1.asr0.alb1.inoc.net (64.246.129.234)  27.116 ms  27.112 ms  27.109 ms
+ 6  6-2-2.ear3.NewYork1.Level3.net (4.28.130.17)  27.106 ms  13.166 ms  13.492 ms
+ 7  ae-1-3104.ear2.London2.Level3.net (4.69.143.190)  82.738 ms  81.550 ms  81.533 ms
+ 8  unknown.Level3.net (212.187.139.230)  81.009 ms  81.503 ms  81.500 ms
+ 9  * * *
+10  ae0.er02.telhc.bbc.co.uk (132.185.254.105)  84.831 ms  85.375 ms  85.373 ms
+11  132.185.255.148 (132.185.255.148)  85.363 ms  85.363 ms  85.344 ms
+12  212.58.238.4 (212.58.238.4)  85.336 ms  80.462 ms  79.690 ms
+13  212.58.237.252 (212.58.237.252)  78.958 ms  79.313 ms  81.291 ms
+***********************
+PING www.bbc.net.uk (212.58.237.252) 56(84) bytes of data.
+64 bytes from 212.58.237.252: icmp_seq=1 ttl=52 time=79.0 ms
+64 bytes from 212.58.237.252: icmp_seq=2 ttl=52 time=81.8 ms
+64 bytes from 212.58.237.252: icmp_seq=3 ttl=52 time=80.2 ms
+64 bytes from 212.58.237.252: icmp_seq=4 ttl=52 time=81.6 ms
+64 bytes from 212.58.237.252: icmp_seq=5 ttl=52 time=82.1 ms
+64 bytes from 212.58.237.252: icmp_seq=6 ttl=52 time=81.2 ms
+64 bytes from 212.58.237.252: icmp_seq=7 ttl=52 time=81.9 ms
+64 bytes from 212.58.237.252: icmp_seq=8 ttl=52 time=81.0 ms
+64 bytes from 212.58.237.252: icmp_seq=9 ttl=52 time=78.8 ms
+64 bytes from 212.58.237.252: icmp_seq=10 ttl=52 time=81.0 ms
+64 bytes from 212.58.237.252: icmp_seq=11 ttl=52 time=79.8 ms
+
+--- www.bbc.net.uk ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10019ms
+rtt min/avg/max/mdev = 78.834/80.781/82.108/1.100 ms
+***********************
+    time_namelookup:  0.014012s
+       time_connect:  0.095158s
+    time_appconnect:  0.258731s
+   time_pretransfer:  0.258887s
+      time_redirect:  0.000000s
+ time_starttransfer:  0.531065s
+                    ----------
+         time_total:  0.773654s
+#######################
+***********************
+traceroute to www.bbc.co.uk (212.58.237.252), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.225 ms  0.217 ms  0.213 ms
+ 2  10.0.0.1 (10.0.0.1)  6.562 ms  6.561 ms  6.921 ms
+ 3  192.168.172.1 (192.168.172.1)  6.064 ms  6.521 ms  6.517 ms
+ 4  lo0.bbr0.alb1.inoc.net (96.43.64.0)  9.119 ms  9.523 ms  9.522 ms
+ 5  te0-2-0-1.asr0.alb1.inoc.net (64.246.129.234)  9.519 ms  9.516 ms  9.513 ms
+ 6  6-2-2.ear3.NewYork1.Level3.net (4.28.130.17)  13.383 ms  12.639 ms  12.625 ms
+ 7  * * *
+ 8  unknown.Level3.net (212.187.139.230)  82.121 ms  82.640 ms  82.638 ms
+ 9  * * *
+10  ae0.er02.telhc.bbc.co.uk (132.185.254.105)  82.614 ms  82.617 ms  82.614 ms
+11  132.185.255.148 (132.185.255.148)  83.561 ms  83.503 ms  83.483 ms
+12  212.58.238.4 (212.58.238.4)  82.518 ms  80.738 ms  80.882 ms
+13  212.58.237.252 (212.58.237.252)  80.862 ms  80.865 ms  80.862 ms
+***********************
+PING www.bbc.net.uk (212.58.237.252) 56(84) bytes of data.
+64 bytes from 212.58.237.252: icmp_seq=1 ttl=52 time=78.4 ms
+64 bytes from 212.58.237.252: icmp_seq=2 ttl=52 time=80.8 ms
+64 bytes from 212.58.237.252: icmp_seq=3 ttl=52 time=78.7 ms
+64 bytes from 212.58.237.252: icmp_seq=4 ttl=52 time=80.9 ms
+64 bytes from 212.58.237.252: icmp_seq=5 ttl=52 time=84.5 ms
+64 bytes from 212.58.237.252: icmp_seq=6 ttl=52 time=79.7 ms
+64 bytes from 212.58.237.252: icmp_seq=7 ttl=52 time=82.2 ms
+64 bytes from 212.58.237.252: icmp_seq=8 ttl=52 time=81.9 ms
+64 bytes from 212.58.237.252: icmp_seq=9 ttl=52 time=80.3 ms
+64 bytes from 212.58.237.252: icmp_seq=10 ttl=52 time=82.1 ms
+64 bytes from 212.58.237.252: icmp_seq=11 ttl=52 time=82.3 ms
+
+--- www.bbc.net.uk ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10023ms
+rtt min/avg/max/mdev = 78.420/81.060/84.455/1.683 ms

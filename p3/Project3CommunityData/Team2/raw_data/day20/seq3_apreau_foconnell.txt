@@ -1,0 +1,1074 @@
+Sequence 3 Active Measurements
+
+[05-22-2020 20:48:00]
+
+=====================================================
+traceroute to www.youtube.com (216.58.192.206), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.552 ms  0.517 ms  0.823 ms
+ 2  192.168.4.1 (192.168.4.1)  2.603 ms  2.090 ms  2.072 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  12.535 ms  13.342 ms  13.337 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  11.425 ms  11.825 ms  12.076 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  13.242 ms  15.678 ms  15.171 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  12.596 ms  20.055 ms  19.801 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  40.642 ms  40.638 ms  40.563 ms
+ 9  prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com (96.34.3.35)  35.267 ms  36.296 ms  36.292 ms
+10  74.125.51.142 (74.125.51.142)  35.042 ms  35.004 ms  34.993 ms
+11  108.170.225.170 (108.170.225.170)  36.103 ms  36.100 ms  34.583 ms
+12  108.170.249.163 (108.170.249.163)  35.643 ms  35.596 ms  35.587 ms
+13  209.85.248.247 (209.85.248.247)  35.573 ms  36.830 ms  35.792 ms
+14  142.250.58.189 (142.250.58.189)  58.706 ms  58.906 ms  58.895 ms
+15  216.239.40.188 (216.239.40.188)  64.035 ms  64.027 ms  64.985 ms
+16  108.170.243.174 (108.170.243.174)  60.042 ms  58.973 ms  63.571 ms
+17  216.239.42.107 (216.239.42.107)  61.717 ms  61.721 ms  60.431 ms
+18  ord30s25-in-f14.1e100.net (216.58.192.206)  60.389 ms  58.243 ms  56.167 ms
+***********************
+PING youtube-ui.l.google.com (172.217.8.174) 56(84) bytes of data.
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=1 ttl=63 time=59.2 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=2 ttl=63 time=59.6 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=3 ttl=63 time=136 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=4 ttl=63 time=59.8 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=5 ttl=63 time=60.0 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=6 ttl=63 time=59.1 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=7 ttl=63 time=58.8 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=8 ttl=63 time=60.0 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=9 ttl=63 time=61.5 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=10 ttl=63 time=59.5 ms
+64 bytes from ord37s08-in-f14.1e100.net (172.217.8.174): icmp_seq=11 ttl=63 time=59.7 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10023ms
+rtt min/avg/max/mdev = 58.883/66.709/136.051/21.939 ms
+***********************
+pchar to youtube-ui.l.google.com (172.217.5.14) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+Warning: target host did not respond to initial test.
+ 0: 10.0.2.15 (10.0.2.15)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 0.510444 ms, (b = -0.000201 ms/B), r2 = 0.851421
+                       stddev rtt = 0.039902, stddev b = 0.000048
+    Partial queueing:  avg = 0.000137 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000137 ms (0 bytes)
+ 1: 10.0.2.2 (10.0.2.2)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 3.037620 ms, (b = 0.000053 ms/B), r2 = 0.009065
+                       stddev rtt = 0.491248, stddev b = 0.000318
+    Partial queueing:  avg = 0.000446 ms (1220 bytes)
+    Hop char:          rtt = 2.527176 ms, bw = 31573.210757 Kbps
+    Hop queueing:      avg = 0.000309 ms (1220 bytes)
+ 2: 192.168.4.1 (192.168.4.1)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (1220 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000446 ms (0 bytes)
+ 3: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.617600 ms, (b = 0.000559 ms/B), r2 = 0.355791
+                       stddev rtt = 0.667497, stddev b = 0.000435
+    Partial queueing:  avg = 0.001587 ms (4057 bytes)
+    Hop char:          rtt = 12.617600 ms, bw = 14301.675978 Kbps
+    Hop queueing:      avg = 0.001587 ms (2837 bytes)
+ 4: 96.34.89.50 (096-034-089-050.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 10.685700 ms, (b = 0.000872 ms/B), r2 = 0.710283
+                       stddev rtt = 0.493916, stddev b = 0.000322
+    Partial queueing:  avg = 0.001442 ms (4057 bytes)
+    Hop char:          rtt = --.--- ms, bw = 25584.009994 Kbps
+    Hop queueing:      avg = -0.000145 ms (0 bytes)
+ 5: 96.34.89.9 (dtr01thbdla-tge-2-2.thbd.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 14.124000 ms, (b = -0.000338 ms/B), r2 = 0.118292
+                       stddev rtt = 0.819017, stddev b = 0.000533
+    Partial queueing:  avg = 0.009075 ms (4057 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.007633 ms (0 bytes)
+ 6: 96.34.90.15 (096-034-090-015.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 15.161200 ms, (b = -0.000071 ms/B), r2 = 0.000633
+                       stddev rtt = 2.504855, stddev b = 0.001631
+    Partial queueing:  avg = 0.004632 ms (4057 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.004443 ms (0 bytes)
+ 7: 96.34.0.33 (bbr02slidla-bue-1.slid.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 46.426900 ms, (b = -0.003856 ms/B), r2 = 0.354386
+                       stddev rtt = 4.615064, stddev b = 0.003005
+    Partial queueing:  avg = 0.003022 ms (4057 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.001610 ms (0 bytes)
+ 8: 96.34.0.164 (bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.378100 ms, (b = -0.000245 ms/B), r2 = 0.318363
+                       stddev rtt = 0.317561, stddev b = 0.000207
+    Partial queueing:  avg = 0.001323 ms (4057 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.001698 ms (0 bytes)
+ 9: 96.34.3.35 (prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.556233 ms, (b = 0.000405 ms/B), r2 = 0.056838
+                       stddev rtt = 1.474071, stddev b = 0.000953
+    Partial queueing:  avg = 0.002571 ms (5976 bytes)
+    Hop char:          rtt = 0.178133 ms, bw = 12311.017397 Kbps
+    Hop queueing:      avg = 0.001247 ms (1919 bytes)
+10: 96.34.150.59 (096-034-150-059.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 35.696326 ms, (b = 0.000344 ms/B), r2 = 0.211517
+                       stddev rtt = 0.593332, stddev b = 0.000383
+    Partial queueing:  avg = 0.000747 ms (5976 bytes)
+    Hop char:          rtt = --.--- ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.001824 ms (0 bytes)
+11: 108.170.225.251 (108.170.225.251)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 35.052000 ms, (b = 0.000595 ms/B), r2 = 0.889931
+                       stddev rtt = 0.185421, stddev b = 0.000121
+    Partial queueing:  avg = 0.001752 ms (9986 bytes)
+    Hop char:          rtt = --.--- ms, bw = 31935.205284 Kbps
+    Hop queueing:      avg = 0.001005 ms (4010 bytes)
+12: 108.170.249.76 (108.170.249.76)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.683100 ms, (b = 0.001183 ms/B), r2 = 0.692602
+                       stddev rtt = 0.698689, stddev b = 0.000455
+    Partial queueing:  avg = 0.000431 ms (9986 bytes)
+    Hop char:          rtt = 1.631100 ms, bw = 13603.454002 Kbps
+    Hop queueing:      avg = -0.001321 ms (0 bytes)
+13: 108.170.229.80 (108.170.229.80)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 59.037100 ms, (b = 0.000393 ms/B), r2 = 0.090569
+                       stddev rtt = 1.104842, stddev b = 0.000719
+    Partial queueing:  avg = 0.001279 ms (9986 bytes)
+    Hop char:          rtt = 22.354000 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000848 ms (0 bytes)
+14: 142.250.58.193 (142.250.58.193)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 58.464700 ms, (b = 0.000802 ms/B), r2 = 0.187342
+                       stddev rtt = 1.480848, stddev b = 0.000964
+    Partial queueing:  avg = 0.000881 ms (9986 bytes)
+    Hop char:          rtt = --.--- ms, bw = 19579.349904 Kbps
+    Hop queueing:      avg = -0.000398 ms (0 bytes)
+15: 209.85.254.95 (209.85.254.95)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 59.823471 ms, (b = -0.000041 ms/B), r2 = 0.001204
+                       stddev rtt = 1.058620, stddev b = 0.000684
+    Partial queueing:  avg = 0.001215 ms (9986 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000334 ms (0 bytes)
+16: 108.170.243.193 (108.170.243.193)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 58.978900 ms, (b = 0.000378 ms/B), r2 = 0.380351
+                       stddev rtt = 0.427339, stddev b = 0.000278
+    Partial queueing:  avg = 0.009153 ms (28944 bytes)
+    Hop char:          rtt = --.--- ms, bw = 19107.161193 Kbps
+    Hop queueing:      avg = 0.007938 ms (18958 bytes)
+17: 209.85.255.173 (209.85.255.173)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.009153 ms (0 bytes)
+18: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+19: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+20: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+21: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+22: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+23: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+24: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+25: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+26: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+27: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+28: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+29: no probe responses
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (28944 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000000 ms (0 bytes)
+30: no probe responses
+    End of path not reached after 31 hops
+    Start time:        Fri May 22 20:48:27 2020
+    End time:          Fri May 22 20:56:15 2020
+***********************
+traceroute to www.youtube.com (172.217.5.14), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  3.528 ms  3.484 ms  3.467 ms
+ 2  192.168.4.1 (192.168.4.1)  3.452 ms  3.345 ms  3.327 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  14.137 ms  14.126 ms  15.152 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  14.076 ms  14.081 ms  15.084 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  17.223 ms  13.276 ms  13.071 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  18.067 ms  12.467 ms  12.282 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  37.996 ms  37.989 ms  37.957 ms
+ 9  prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com (96.34.3.35)  36.261 ms  36.035 ms  36.004 ms
+10  096-034-150-059.biz.spectrum.com (96.34.150.59)  35.872 ms  35.779 ms  35.770 ms
+11  108.170.225.251 (108.170.225.251)  35.724 ms  34.540 ms  35.628 ms
+12  108.170.249.76 (108.170.249.76)  35.596 ms  34.851 ms  34.827 ms
+13  108.170.229.80 (108.170.229.80)  36.973 ms  36.888 ms  36.853 ms
+14  142.250.58.193 (142.250.58.193)  90.686 ms  90.612 ms  89.507 ms
+15  209.85.254.95 (209.85.254.95)  59.327 ms  61.171 ms  60.163 ms
+16  108.170.243.193 (108.170.243.193)  57.954 ms  57.685 ms  58.084 ms
+17  209.85.255.173 (209.85.255.173)  59.143 ms  57.981 ms  58.910 ms
+18  ord38s19-in-f14.1e100.net (172.217.5.14)  57.903 ms  60.581 ms  58.744 ms
+***********************
+PING youtube-ui.l.google.com (172.217.8.206) 56(84) bytes of data.
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=1 ttl=63 time=58.5 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=2 ttl=63 time=58.3 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=3 ttl=63 time=57.9 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=4 ttl=63 time=59.7 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=5 ttl=63 time=59.8 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=6 ttl=63 time=60.7 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=7 ttl=63 time=58.8 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=8 ttl=63 time=58.7 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=9 ttl=63 time=60.0 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=10 ttl=63 time=61.0 ms
+64 bytes from ord37s09-in-f14.1e100.net (172.217.8.206): icmp_seq=11 ttl=63 time=57.9 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10017ms
+rtt min/avg/max/mdev = 57.925/59.247/61.030/1.069 ms
+=====================================================
+traceroute to www.reddit.com (199.232.33.140), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.453 ms  0.386 ms  0.330 ms
+ 2  192.168.4.1 (192.168.4.1)  1.961 ms  2.858 ms  2.850 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  13.545 ms  13.533 ms  13.521 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  13.474 ms  13.474 ms  13.475 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  15.919 ms  17.814 ms  17.456 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  13.841 ms  18.035 ms  18.773 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  34.641 ms  43.012 ms  43.017 ms
+ 9  prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com (96.34.3.35)  37.010 ms * *
+10  23.235.41.0 (23.235.41.0)  38.905 ms  38.914 ms  42.771 ms
+11  199.232.33.140 (199.232.33.140)  36.427 ms  36.417 ms  34.539 ms
+***********************
+PING reddit.map.fastly.net (199.232.1.140) 56(84) bytes of data.
+64 bytes from 199.232.1.140: icmp_seq=1 ttl=63 time=50.6 ms
+64 bytes from 199.232.1.140: icmp_seq=2 ttl=63 time=54.0 ms
+64 bytes from 199.232.1.140: icmp_seq=3 ttl=63 time=51.6 ms
+64 bytes from 199.232.1.140: icmp_seq=4 ttl=63 time=53.6 ms
+64 bytes from 199.232.1.140: icmp_seq=5 ttl=63 time=51.9 ms
+64 bytes from 199.232.1.140: icmp_seq=6 ttl=63 time=51.0 ms
+64 bytes from 199.232.1.140: icmp_seq=7 ttl=63 time=52.0 ms
+64 bytes from 199.232.1.140: icmp_seq=8 ttl=63 time=51.4 ms
+64 bytes from 199.232.1.140: icmp_seq=9 ttl=63 time=49.7 ms
+64 bytes from 199.232.1.140: icmp_seq=10 ttl=63 time=50.1 ms
+64 bytes from 199.232.1.140: icmp_seq=11 ttl=63 time=52.0 ms
+
+--- reddit.map.fastly.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10019ms
+rtt min/avg/max/mdev = 49.716/51.673/54.040/1.293 ms
+***********************
+pchar to reddit.map.fastly.net (199.232.33.140) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 10.0.2.15 (10.0.2.15)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 0.581756 ms, (b = -0.000349 ms/B), r2 = 0.761250
+                       stddev rtt = 0.093041, stddev b = 0.000113
+    Partial queueing:  avg = 0.000077 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000077 ms (0 bytes)
+ 1: 10.0.2.2 (10.0.2.2)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 1.674767 ms, (b = 0.000425 ms/B), r2 = 0.174786
+                       stddev rtt = 0.825500, stddev b = 0.000534
+    Partial queueing:  avg = 0.000449 ms (480 bytes)
+    Hop char:          rtt = 1.093010 ms, bw = 10328.914432 Kbps
+    Hop queueing:      avg = 0.000372 ms (480 bytes)
+ 2: 192.168.4.1 (192.168.4.1)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (480 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000449 ms (0 bytes)
+ 3: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 13.079200 ms, (b = -0.000100 ms/B), r2 = 0.024885
+                       stddev rtt = 0.552957, stddev b = 0.000360
+    Partial queueing:  avg = 0.000752 ms (480 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000752 ms (0 bytes)
+ 4: 96.34.89.50 (096-034-089-050.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 10.922200 ms, (b = 0.000468 ms/B), r2 = 0.131800
+                       stddev rtt = 1.065121, stddev b = 0.000693
+    Partial queueing:  avg = 0.001139 ms (1163 bytes)
+    Hop char:          rtt = --.--- ms, bw = 14094.975912 Kbps
+    Hop queueing:      avg = 0.000388 ms (683 bytes)
+ 5: 96.34.89.9 (dtr01thbdla-tge-2-2.thbd.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 10.025300 ms, (b = 0.003039 ms/B), r2 = 0.467147
+                       stddev rtt = 2.878186, stddev b = 0.001874
+    Partial queueing:  avg = 0.001892 ms (1455 bytes)
+    Hop char:          rtt = --.--- ms, bw = 3111.752640 Kbps
+    Hop queueing:      avg = 0.000753 ms (292 bytes)
+ 6: 96.34.90.15 (096-034-090-015.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.840200 ms, (b = 0.000339 ms/B), r2 = 0.151972
+                       stddev rtt = 0.709469, stddev b = 0.000462
+    Partial queueing:  avg = 0.002295 ms (1455 bytes)
+    Hop char:          rtt = 2.814900 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000403 ms (0 bytes)
+ 7: 96.34.0.33 (bbr02slidla-bue-1.slid.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.066900 ms, (b = 0.001108 ms/B), r2 = 0.200968
+                       stddev rtt = 1.959953, stddev b = 0.001276
+    Partial queueing:  avg = 0.001904 ms (1455 bytes)
+    Hop char:          rtt = 23.226700 ms, bw = 10393.301193 Kbps
+    Hop queueing:      avg = -0.000392 ms (0 bytes)
+ 8: 96.34.0.164 (bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 33.977000 ms, (b = 0.000932 ms/B), r2 = 0.803355
+                       stddev rtt = 0.408758, stddev b = 0.000266
+    Partial queueing:  avg = 0.001637 ms (1455 bytes)
+    Hop char:          rtt = --.--- ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.000266 ms (0 bytes)
+ 9: 96.34.3.35 (prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 39.834099 ms, (b = -0.000476 ms/B), r2 = 0.172921
+                       stddev rtt = 0.928944, stddev b = 0.000600
+    Partial queueing:  avg = 0.000743 ms (1455 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000894 ms (0 bytes)
+10: 23.235.41.0 (23.235.41.0)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 35.877300 ms, (b = -0.000160 ms/B), r2 = 0.040939
+                       stddev rtt = 0.684917, stddev b = 0.000446
+    Partial queueing:  avg = 0.001027 ms (1455 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000284 ms (0 bytes)
+11: 199.232.33.140 (199.232.33.140)
+    Path length:       11 hops
+    Path char:         rtt = 35.877300 ms r2 = 0.040939
+    Path bottleneck:   3111.752640 Kbps
+    Path pipe:         13955 bytes
+    Path queueing:     average = 0.001027 ms (1455 bytes)
+    Start time:        Fri May 22 20:56:53 2020
+    End time:          Fri May 22 20:57:52 2020
+***********************
+traceroute to www.reddit.com (199.232.33.140), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.999 ms  0.968 ms  0.955 ms
+ 2  192.168.4.1 (192.168.4.1)  2.311 ms  1.353 ms  2.188 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  11.843 ms  11.833 ms  12.858 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  11.742 ms  11.748 ms  12.701 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  15.207 ms  17.765 ms  18.736 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  12.799 ms  15.723 ms  15.417 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  39.272 ms  39.250 ms  39.239 ms
+ 9  prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com (96.34.3.35)  35.877 ms  35.886 ms  35.807 ms
+10  23.235.41.0 (23.235.41.0)  37.747 ms  38.978 ms  38.817 ms
+11  199.232.33.140 (199.232.33.140)  35.435 ms  34.260 ms  34.278 ms
+***********************
+PING reddit.map.fastly.net (199.232.33.140) 56(84) bytes of data.
+64 bytes from 199.232.33.140: icmp_seq=1 ttl=63 time=37.7 ms
+64 bytes from 199.232.33.140: icmp_seq=2 ttl=63 time=37.4 ms
+64 bytes from 199.232.33.140: icmp_seq=3 ttl=63 time=36.3 ms
+64 bytes from 199.232.33.140: icmp_seq=4 ttl=63 time=36.2 ms
+64 bytes from 199.232.33.140: icmp_seq=5 ttl=63 time=35.1 ms
+64 bytes from 199.232.33.140: icmp_seq=6 ttl=63 time=35.3 ms
+64 bytes from 199.232.33.140: icmp_seq=7 ttl=63 time=36.9 ms
+64 bytes from 199.232.33.140: icmp_seq=8 ttl=63 time=35.5 ms
+64 bytes from 199.232.33.140: icmp_seq=9 ttl=63 time=36.7 ms
+64 bytes from 199.232.33.140: icmp_seq=10 ttl=63 time=34.6 ms
+64 bytes from 199.232.33.140: icmp_seq=11 ttl=63 time=36.1 ms
+
+--- reddit.map.fastly.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10020ms
+rtt min/avg/max/mdev = 34.635/36.211/37.797/0.953 ms
+=====================================================
+traceroute to en.wikipedia.org (208.80.153.224), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.133 ms  0.192 ms  0.181 ms
+ 2  192.168.4.1 (192.168.4.1)  1.731 ms  1.735 ms  2.446 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  10.901 ms  11.989 ms  11.945 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  11.935 ms  12.845 ms  12.859 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  18.127 ms  14.386 ms  14.088 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  18.301 ms  14.438 ms  14.265 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  39.419 ms  39.406 ms  39.270 ms
+ 9  prr01snjsca-tge-0-0-0-5.snjs.ca.charter.com (96.34.3.37)  36.384 ms  36.369 ms  36.211 ms
+10  64.125.15.38 (64.125.15.38)  36.155 ms  36.164 ms  34.436 ms
+11  ae6.cs1.atl10.us.zip.zayo.com (64.125.31.32)  55.199 ms  64.878 ms *
+12  ae2.mpr1.atl10.us.zip.zayo.com (64.125.31.175)  35.872 ms  34.643 ms  34.831 ms
+13  ae28.cs2.iah1.us.zip.zayo.com (64.125.31.170)  56.546 ms  56.396 ms  56.379 ms
+14  ae0.cs1.iah1.us.eth.zayo.com (64.125.28.94)  60.164 ms  57.605 ms  57.567 ms
+15  ae5.cs1.dfw2.us.eth.zayo.com (64.125.28.99)  56.634 ms  55.749 ms  54.316 ms
+16  ae1.mcs1.dfw2.us.eth.zayo.com (64.125.28.125)  61.386 ms  60.617 ms  60.489 ms
+17  ae6.mpr1.dfw78.us.zip.zayo.com (64.125.27.229)  71.995 ms  71.681 ms  71.561 ms
+18  64.125.129.70.IPYX-125449-003-ZYO.zip.zayo.com (64.125.129.70)  57.625 ms  57.047 ms  57.981 ms
+19  text-lb.codfw.wikimedia.org (208.80.153.224)  40.955 ms  40.754 ms  40.394 ms
+***********************
+PING dyna.wikimedia.org (208.80.153.224) 56(84) bytes of data.
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=1 ttl=63 time=42.3 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=2 ttl=63 time=41.5 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=3 ttl=63 time=41.3 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=4 ttl=63 time=43.5 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=5 ttl=63 time=40.4 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=6 ttl=63 time=41.5 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=7 ttl=63 time=41.1 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=8 ttl=63 time=40.6 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=9 ttl=63 time=41.2 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=10 ttl=63 time=43.1 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=11 ttl=63 time=41.4 ms
+
+--- dyna.wikimedia.org ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10022ms
+rtt min/avg/max/mdev = 40.435/41.671/43.526/0.947 ms
+***********************
+pchar to dyna.wikimedia.org (208.80.153.224) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 10.0.2.15 (10.0.2.15)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 0.411403 ms, (b = -0.000159 ms/B), r2 = 0.382710
+                       stddev rtt = 0.096057, stddev b = 0.000117
+    Partial queueing:  avg = 0.000170 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000170 ms (0 bytes)
+ 1: 10.0.2.2 (10.0.2.2)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 2.182935 ms, (b = 0.000285 ms/B), r2 = 0.282446
+                       stddev rtt = 0.406068, stddev b = 0.000262
+    Partial queueing:  avg = 0.000306 ms (306 bytes)
+    Hop char:          rtt = 1.771532 ms, bw = 18010.450111 Kbps
+    Hop queueing:      avg = 0.000136 ms (306 bytes)
+ 2: 192.168.4.1 (192.168.4.1)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (306 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000306 ms (0 bytes)
+ 3: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.047400 ms, (b = 0.000532 ms/B), r2 = 0.354308
+                       stddev rtt = 0.636460, stddev b = 0.000414
+    Partial queueing:  avg = 0.000401 ms (1060 bytes)
+    Hop char:          rtt = 12.047400 ms, bw = 15047.759001 Kbps
+    Hop queueing:      avg = 0.000401 ms (754 bytes)
+ 4: 96.34.89.50 (096-034-089-050.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.138600 ms, (b = 0.000391 ms/B), r2 = 0.056893
+                       stddev rtt = 1.410402, stddev b = 0.000918
+    Partial queueing:  avg = 0.000738 ms (1060 bytes)
+    Hop char:          rtt = 0.091200 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000337 ms (0 bytes)
+ 5: 96.34.89.9 (dtr01thbdla-tge-2-2.thbd.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 11.938000 ms, (b = 0.001429 ms/B), r2 = 0.417887
+                       stddev rtt = 1.495166, stddev b = 0.000973
+    Partial queueing:  avg = 0.002678 ms (2929 bytes)
+    Hop char:          rtt = --.--- ms, bw = 7707.941287 Kbps
+    Hop queueing:      avg = 0.001940 ms (1869 bytes)
+ 6: 96.34.90.15 (096-034-090-015.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 15.689300 ms, (b = -0.000972 ms/B), r2 = 0.247859
+                       stddev rtt = 1.501673, stddev b = 0.000978
+    Partial queueing:  avg = 0.002064 ms (2929 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000614 ms (0 bytes)
+ 7: 96.34.0.33 (bbr02slidla-bue-1.slid.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.259700 ms, (b = 0.000329 ms/B), r2 = 0.085138
+                       stddev rtt = 0.956700, stddev b = 0.000623
+    Partial queueing:  avg = 0.002017 ms (2929 bytes)
+    Hop char:          rtt = 20.570400 ms, bw = 6148.303813 Kbps
+    Hop queueing:      avg = -0.000047 ms (0 bytes)
+ 8: 96.34.0.164 (bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.139400 ms, (b = -0.000277 ms/B), r2 = 0.247365
+                       stddev rtt = 0.427806, stddev b = 0.000279
+    Partial queueing:  avg = 0.004674 ms (2929 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.002657 ms (0 bytes)
+ 9: 96.34.3.37 (prr01snjsca-tge-0-0-0-5.snjs.ca.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 34.600400 ms, (b = 0.000964 ms/B), r2 = 0.387768
+                       stddev rtt = 1.074692, stddev b = 0.000700
+    Partial queueing:  avg = 0.000769 ms (2929 bytes)
+    Hop char:          rtt = --.--- ms, bw = 6446.333019 Kbps
+    Hop queueing:      avg = -0.003905 ms (0 bytes)
+10: 64.125.15.38 (64.125.15.38)
+    Partial loss:      3 / 10 (30%)
+    Partial char:      rtt = 59.035700 ms, (b = -0.000237 ms/B), r2 = 0.009732
+                       stddev rtt = 2.115846, stddev b = 0.001378
+    Partial queueing:  avg = 0.002632 ms (2929 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.001862 ms (0 bytes)
+11: 64.125.31.32 (ae6.cs1.atl10.us.zip.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 35.602600 ms, (b = 0.000346 ms/B), r2 = 0.045774
+                       stddev rtt = 1.401330, stddev b = 0.000912
+    Partial queueing:  avg = 0.001217 ms (2929 bytes)
+    Hop char:          rtt = --.--- ms, bw = 13731.143144 Kbps
+    Hop queueing:      avg = -0.001414 ms (0 bytes)
+12: 64.125.31.175 (ae2.mpr1.atl10.us.zip.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 54.211400 ms, (b = 0.001305 ms/B), r2 = 0.848764
+                       stddev rtt = 0.488394, stddev b = 0.000318
+    Partial queueing:  avg = 0.002152 ms (3903 bytes)
+    Hop char:          rtt = 18.608800 ms, bw = 8345.558272 Kbps
+    Hop queueing:      avg = 0.000934 ms (974 bytes)
+13: 64.125.31.170 (ae28.cs2.iah1.us.zip.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 54.425700 ms, (b = 0.001686 ms/B), r2 = 0.825126
+                       stddev rtt = 0.688375, stddev b = 0.000448
+    Partial queueing:  avg = 0.004277 ms (9474 bytes)
+    Hop char:          rtt = 0.214300 ms, bw = 20972.862263 Kbps
+    Hop queueing:      avg = 0.002125 ms (5571 bytes)
+14: 64.125.28.94 (ae0.cs1.iah1.us.eth.zayo.com)
+    Partial loss:      4 / 10 (40%)
+    Partial char:      rtt = 56.882667 ms, (b = 0.000208 ms/B), r2 = 0.008498
+                       stddev rtt = 4.601482, stddev b = 0.002247
+    Partial queueing:  avg = 0.001176 ms (9474 bytes)
+    Hop char:          rtt = 2.456967 ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.003102 ms (0 bytes)
+15: 64.125.28.99 (ae5.cs1.dfw2.us.eth.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 60.324300 ms, (b = -0.001194 ms/B), r2 = 0.709518
+                       stddev rtt = 0.677475, stddev b = 0.000441
+    Partial queueing:  avg = 0.015254 ms (9474 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.014079 ms (0 bytes)
+16: 64.125.28.125 (ae1.mcs1.dfw2.us.eth.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 58.671300 ms, (b = -0.000595 ms/B), r2 = 0.159073
+                       stddev rtt = 1.212631, stddev b = 0.000789
+    Partial queueing:  avg = 0.001965 ms (9474 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.013289 ms (0 bytes)
+17: 64.125.27.229 (ae6.mpr1.dfw78.us.zip.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 57.040500 ms, (b = 0.000429 ms/B), r2 = 0.101791
+                       stddev rtt = 1.130382, stddev b = 0.000736
+    Partial queueing:  avg = 0.000756 ms (9474 bytes)
+    Hop char:          rtt = --.--- ms, bw = 7813.811522 Kbps
+    Hop queueing:      avg = -0.001209 ms (0 bytes)
+18: 64.125.129.70 (64.125.129.70.IPYX-125449-003-ZYO.zip.zayo.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 41.684700 ms, (b = -0.000057 ms/B), r2 = 0.006901
+                       stddev rtt = 0.608796, stddev b = 0.000396
+    Partial queueing:  avg = 0.001228 ms (9474 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000472 ms (0 bytes)
+19: 208.80.153.224 (text-lb.codfw.wikimedia.org)
+    Path length:       19 hops
+    Path char:         rtt = 41.684700 ms r2 = 0.006901
+    Path bottleneck:   6148.303813 Kbps
+    Path pipe:         32036 bytes
+    Path queueing:     average = 0.001228 ms (9474 bytes)
+    Start time:        Fri May 22 20:58:26 2020
+    End time:          Fri May 22 21:00:10 2020
+***********************
+traceroute to en.wikipedia.org (208.80.153.224), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.381 ms  0.350 ms  0.341 ms
+ 2  192.168.4.1 (192.168.4.1)  2.205 ms  2.209 ms  2.149 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  12.175 ms  12.182 ms  13.016 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  13.017 ms  13.025 ms  15.241 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  17.463 ms  13.544 ms  13.390 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  17.421 ms  11.655 ms  14.025 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  37.782 ms  37.760 ms  38.085 ms
+ 9  prr01snjsca-tge-0-0-0-5.snjs.ca.charter.com (96.34.3.37)  34.687 ms  34.703 ms  35.387 ms
+10  64.125.15.38 (64.125.15.38)  34.563 ms  34.475 ms  35.138 ms
+11  ae6.cs1.atl10.us.zip.zayo.com (64.125.31.32)  55.681 ms  56.322 ms  55.809 ms
+12  ae2.mpr1.atl10.us.zip.zayo.com (64.125.31.175)  34.169 ms  34.144 ms  34.103 ms
+13  ae28.cs2.iah1.us.zip.zayo.com (64.125.31.170)  54.740 ms  55.795 ms  55.236 ms
+14  ae0.cs1.iah1.us.eth.zayo.com (64.125.28.94)  57.324 ms  54.809 ms  54.777 ms
+15  ae5.cs1.dfw2.us.eth.zayo.com (64.125.28.99)  57.714 ms  59.449 ms  64.820 ms
+16  ae1.mcs1.dfw2.us.eth.zayo.com (64.125.28.125)  55.257 ms  56.003 ms  55.023 ms
+17  ae6.mpr1.dfw78.us.zip.zayo.com (64.125.27.229)  54.966 ms  55.535 ms  56.310 ms
+18  64.125.129.70.IPYX-125449-003-ZYO.zip.zayo.com (64.125.129.70)  56.360 ms  57.441 ms  57.385 ms
+19  text-lb.codfw.wikimedia.org (208.80.153.224)  41.272 ms  39.842 ms  39.545 ms
+***********************
+PING dyna.wikimedia.org (208.80.153.224) 56(84) bytes of data.
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=1 ttl=63 time=40.4 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=2 ttl=63 time=43.9 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=3 ttl=63 time=41.0 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=4 ttl=63 time=45.4 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=5 ttl=63 time=42.1 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=6 ttl=63 time=41.2 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=7 ttl=63 time=40.5 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=8 ttl=63 time=41.2 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=9 ttl=63 time=41.7 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=10 ttl=63 time=39.8 ms
+64 bytes from text-lb.codfw.wikimedia.org (208.80.153.224): icmp_seq=11 ttl=63 time=42.4 ms
+
+--- dyna.wikimedia.org ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10019ms
+rtt min/avg/max/mdev = 39.805/41.825/45.445/1.587 ms
+=====================================================
+traceroute to www.wikipedia.jp (202.75.235.177), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.270 ms  0.244 ms  0.235 ms
+ 2  192.168.4.1 (192.168.4.1)  1.377 ms  2.395 ms  2.395 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  14.885 ms  14.904 ms  14.898 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  14.892 ms  14.885 ms  14.879 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  16.610 ms  19.925 ms  19.493 ms
+ 7  bbr01olvemo-tge-0-1-0-6.olve.mo.charter.com (96.34.0.249)  23.320 ms  28.145 ms  27.817 ms
+ 8  prr01dllstx-bue-2.dlls.tx.charter.com (96.34.3.71)  22.988 ms  23.022 ms  24.035 ms
+ 9  dls-b23-link.telia.net (62.115.180.82)  25.386 ms  25.530 ms  25.519 ms
+10  ntt-ic-325660-dls-b21.c.telia.net (62.115.156.249)  25.337 ms  25.395 ms  25.725 ms
+11  ae-5.r24.dllstx09.us.bb.gin.ntt.net (129.250.5.15)  31.654 ms  30.810 ms  22.534 ms
+12  ae-5.r22.lsanca07.us.bb.gin.ntt.net (129.250.7.69)  54.475 ms  53.205 ms  52.956 ms
+13  ae-1.r23.lsanca07.us.bb.gin.ntt.net (129.250.2.207)  64.481 ms  64.501 ms  64.490 ms
+14  ae-12.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.192)  154.639 ms  154.504 ms  154.486 ms
+15  ae-3.r02.tokyjp05.jp.bb.gin.ntt.net (129.250.3.28)  166.680 ms  167.323 ms  167.301 ms
+16  ae-0.a01.tokyjp05.jp.bb.gin.ntt.net (129.250.5.246)  159.956 ms  160.513 ms  162.369 ms
+17  xe-0-0-10-3.a01.tokyjp05.jp.ce.gin.ntt.net (61.213.161.18)  160.516 ms  159.108 ms  159.876 ms
+18  v26.SR2-03.B9A.FreeBit.NET (219.99.124.201)  162.775 ms  161.903 ms  161.878 ms
+19  tokyoA2-10G-IF.ntt-poi.FreeBit.NET (43.244.1.182)  159.816 ms  160.864 ms  162.106 ms
+20  tokyo-21-2A-2.ntt-poi.FreeBit.NET (43.244.2.106)  168.987 ms  170.218 ms  168.914 ms
+21  177.235.75.202.tokyo.global.crust-r.net (202.75.235.177)  162.842 ms  164.513 ms  164.953 ms
+***********************
+PING www.wikipedia.jp (202.75.235.177) 56(84) bytes of data.
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=1 ttl=63 time=237 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=2 ttl=63 time=258 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=3 ttl=63 time=280 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=4 ttl=63 time=303 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=5 ttl=63 time=329 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=6 ttl=63 time=348 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=7 ttl=63 time=175 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=8 ttl=63 time=224 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=9 ttl=63 time=180 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=10 ttl=63 time=236 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=11 ttl=63 time=163 ms
+
+--- www.wikipedia.jp ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10070ms
+rtt min/avg/max/mdev = 163.846/249.020/348.181/59.214 ms
+***********************
+pchar to www.wikipedia.jp (202.75.235.177) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 10.0.2.15 (10.0.2.15)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 0.344837 ms, (b = -0.000133 ms/B), r2 = 0.539703
+                       stddev rtt = 0.058351, stddev b = 0.000071
+    Partial queueing:  avg = 0.000047 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000047 ms (0 bytes)
+ 1: 10.0.2.2 (10.0.2.2)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 2.297549 ms, (b = 0.000689 ms/B), r2 = 0.385623
+                       stddev rtt = 0.777316, stddev b = 0.000502
+    Partial queueing:  avg = 0.000604 ms (676 bytes)
+    Hop char:          rtt = 1.952711 ms, bw = 9729.756567 Kbps
+    Hop queueing:      avg = 0.000556 ms (676 bytes)
+ 2: 192.168.4.1 (192.168.4.1)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (676 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000604 ms (0 bytes)
+ 3: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 10.441900 ms, (b = 0.001286 ms/B), r2 = 0.554548
+                       stddev rtt = 1.021916, stddev b = 0.000665
+    Partial queueing:  avg = 0.000307 ms (914 bytes)
+    Hop char:          rtt = 10.441900 ms, bw = 6222.087194 Kbps
+    Hop queueing:      avg = 0.000307 ms (238 bytes)
+ 4: 96.34.89.50 (096-034-089-050.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.457100 ms, (b = 0.000240 ms/B), r2 = 0.046612
+                       stddev rtt = 0.961151, stddev b = 0.000626
+    Partial queueing:  avg = 0.000376 ms (914 bytes)
+    Hop char:          rtt = 2.015200 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000069 ms (0 bytes)
+ 5: 96.34.89.9 (dtr01thbdla-tge-2-2.thbd.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.699900 ms, (b = 0.002313 ms/B), r2 = 0.439102
+                       stddev rtt = 2.318756, stddev b = 0.001510
+    Partial queueing:  avg = 0.001697 ms (1550 bytes)
+    Hop char:          rtt = 0.242800 ms, bw = 3857.600301 Kbps
+    Hop queueing:      avg = 0.001321 ms (636 bytes)
+ 6: 96.34.90.15 (096-034-090-015.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 24.933000 ms, (b = 0.001471 ms/B), r2 = 0.836029
+                       stddev rtt = 0.577602, stddev b = 0.000376
+    Partial queueing:  avg = 0.002403 ms (1550 bytes)
+    Hop char:          rtt = 12.233100 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000706 ms (0 bytes)
+ 7: 96.34.0.249 (bbr01olvemo-tge-0-1-0-6.olve.mo.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 24.484900 ms, (b = -0.000126 ms/B), r2 = 0.005160
+                       stddev rtt = 1.546355, stddev b = 0.001007
+    Partial queueing:  avg = 0.011684 ms (1550 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.009282 ms (0 bytes)
+ 8: 96.34.3.71 (prr01dllstx-bue-2.dlls.tx.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 23.670600 ms, (b = 0.000571 ms/B), r2 = 0.165338
+                       stddev rtt = 1.137908, stddev b = 0.000741
+    Partial queueing:  avg = 0.000813 ms (1550 bytes)
+    Hop char:          rtt = --.--- ms, bw = 11483.038968 Kbps
+    Hop queueing:      avg = -0.010871 ms (0 bytes)
+ 9: 62.115.180.82 (dls-b23-link.telia.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 26.687700 ms, (b = -0.000310 ms/B), r2 = 0.017186
+                       stddev rtt = 2.078680, stddev b = 0.001353
+    Partial queueing:  avg = 0.016906 ms (1550 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.016093 ms (0 bytes)
+10: 62.115.156.249 (ntt-ic-325660-dls-b21.c.telia.net)
+    Partial loss:      5 / 10 (50%)
+    Partial char:      rtt = 24.854500 ms, (b = -0.000311 ms/B), r2 = 0.203486
+                       stddev rtt = 0.545891, stddev b = 0.000355
+    Partial queueing:  avg = 0.000000 ms (1550 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.016906 ms (0 bytes)
+11: 129.250.5.15 (ae-5.r24.dllstx09.us.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 55.287300 ms, (b = 0.000851 ms/B), r2 = 0.115136
+                       stddev rtt = 2.093054, stddev b = 0.001363
+    Partial queueing:  avg = 0.000655 ms (2113 bytes)
+    Hop char:          rtt = 30.432800 ms, bw = 6881.720430 Kbps
+    Hop queueing:      avg = 0.000655 ms (563 bytes)
+12: 129.250.7.69 (ae-5.r22.lsanca07.us.bb.gin.ntt.net)
+    Partial loss:      8 / 10 (80%)
+    Partial char:      rtt = 54.376000 ms, (b = 0.003977 ms/B), r2 = 1.000000
+                       stddev rtt = -nan, stddev b = -nan
+    Partial queueing:  avg = 0.000000 ms (2113 bytes)
+    Hop char:          rtt = --.--- ms, bw = 2559.840010 Kbps
+    Hop queueing:      avg = -0.000655 ms (0 bytes)
+13: 129.250.2.207 (ae-1.r23.lsanca07.us.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 278.700900 ms, (b = -0.047809 ms/B), r2 = 0.630188
+                       stddev rtt = 32.478328, stddev b = 0.021145
+    Partial queueing:  avg = 0.079119 ms (2113 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.079119 ms (0 bytes)
+14: 129.250.3.192 (ae-12.r31.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 253.146200 ms, (b = -0.034941 ms/B), r2 = 0.359780
+                       stddev rtt = 41.334020, stddev b = 0.026910
+    Partial queueing:  avg = 0.027251 ms (2113 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.051868 ms (0 bytes)
+15: 129.250.3.28 (ae-3.r02.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 218.359400 ms, (b = 0.045225 ms/B), r2 = 0.127056
+                       stddev rtt = 105.125406, stddev b = 0.068441
+    Partial queueing:  avg = 0.059670 ms (2517 bytes)
+    Hop char:          rtt = --.--- ms, bw = 99.792910 Kbps
+    Hop queueing:      avg = 0.032419 ms (404 bytes)
+16: 129.250.5.246 (ae-0.a01.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 188.717000 ms, (b = 0.024836 ms/B), r2 = 0.050580
+                       stddev rtt = 95.424073, stddev b = 0.062125
+    Partial queueing:  avg = 0.072940 ms (2517 bytes)
+    Hop char:          rtt = --.--- ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.013270 ms (0 bytes)
+17: 61.213.161.18 (xe-0-0-10-3.a01.tokyjp05.jp.ce.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 272.013300 ms, (b = -0.030696 ms/B), r2 = 0.095200
+                       stddev rtt = 83.919349, stddev b = 0.054635
+    Partial queueing:  avg = 0.040557 ms (2517 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.032383 ms (0 bytes)
+18: 219.99.124.201 (v26.SR2-03.B9A.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 163.433300 ms, (b = 0.000056 ms/B), r2 = 0.000190
+                       stddev rtt = 3.601721, stddev b = 0.002345
+    Partial queueing:  avg = 0.029675 ms (2517 bytes)
+    Hop char:          rtt = --.--- ms, bw = 260.149383 Kbps
+    Hop queueing:      avg = -0.010882 ms (0 bytes)
+19: 43.244.1.182 (tokyoA2-10G-IF.ntt-poi.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 184.445000 ms, (b = 0.000876 ms/B), r2 = 0.000416
+                       stddev rtt = 38.080176, stddev b = 0.024792
+    Partial queueing:  avg = 0.028755 ms (2517 bytes)
+    Hop char:          rtt = 21.011700 ms, bw = 9754.703501 Kbps
+    Hop queueing:      avg = -0.000920 ms (0 bytes)
+20: 43.244.2.106 (tokyo-21-2A-2.ntt-poi.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 356.645200 ms, (b = -0.074560 ms/B), r2 = 0.336313
+                       stddev rtt = 92.885382, stddev b = 0.060472
+    Partial queueing:  avg = 0.046002 ms (2517 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.017247 ms (0 bytes)
+21: 202.75.235.177 (177.235.75.202.tokyo.global.crust-r.net)
+    Path length:       21 hops
+    Path char:         rtt = 356.645200 ms r2 = 0.336313
+    Path bottleneck:   99.792910 Kbps
+    Path pipe:         4448 bytes
+    Path queueing:     average = 0.046002 ms (2517 bytes)
+    Start time:        Fri May 22 21:00:45 2020
+    End time:          Fri May 22 21:03:11 2020
+***********************
+traceroute to www.wikipedia.jp (202.75.235.177), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.238 ms  0.199 ms  0.361 ms
+ 2  192.168.4.1 (192.168.4.1)  5.852 ms  5.856 ms  5.848 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  14.016 ms  13.995 ms  13.978 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  13.936 ms  14.622 ms  14.616 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  19.098 ms  12.307 ms  11.953 ms
+ 7  bbr01olvemo-tge-0-1-0-6.olve.mo.charter.com (96.34.0.249)  24.882 ms  27.140 ms  26.879 ms
+ 8  prr01dllstx-bue-2.dlls.tx.charter.com (96.34.3.71)  24.900 ms  24.881 ms  24.872 ms
+ 9  dls-b23-link.telia.net (62.115.180.82)  24.829 ms  24.851 ms  24.841 ms
+10  ntt-ic-325660-dls-b21.c.telia.net (62.115.156.249)  24.828 ms  24.766 ms  24.747 ms
+11  ae-5.r24.dllstx09.us.bb.gin.ntt.net (129.250.5.15)  30.428 ms  25.033 ms  26.060 ms
+12  ae-5.r22.lsanca07.us.bb.gin.ntt.net (129.250.7.69)  59.341 ms  59.048 ms  59.013 ms
+13  ae-1.r23.lsanca07.us.bb.gin.ntt.net (129.250.2.207)  58.730 ms  60.016 ms *
+14  ae-12.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.192)  156.487 ms  156.268 ms  155.616 ms
+15  ae-3.r02.tokyjp05.jp.bb.gin.ntt.net (129.250.3.28)  167.391 ms  168.573 ms  169.620 ms
+16  ae-0.a01.tokyjp05.jp.bb.gin.ntt.net (129.250.5.246)  161.451 ms  162.087 ms  162.043 ms
+17  xe-0-0-10-3.a01.tokyjp05.jp.ce.gin.ntt.net (61.213.161.18)  161.708 ms  161.703 ms  161.177 ms
+18  v26.SR2-03.B9A.FreeBit.NET (219.99.124.201)  177.535 ms  177.512 ms  177.496 ms
+19  tokyoA2-10G-IF.ntt-poi.FreeBit.NET (43.244.1.182)  160.633 ms  160.570 ms  162.112 ms
+20  tokyo-21-2A-2.ntt-poi.FreeBit.NET (43.244.2.106)  169.530 ms  170.128 ms  170.118 ms
+21  177.235.75.202.tokyo.global.crust-r.net (202.75.235.177)  166.234 ms  165.973 ms  165.957 ms
+***********************
+PING www.wikipedia.jp (202.75.235.177) 56(84) bytes of data.
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=1 ttl=63 time=380 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=2 ttl=63 time=185 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=3 ttl=63 time=207 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=4 ttl=63 time=233 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=5 ttl=63 time=293 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=6 ttl=63 time=164 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=7 ttl=63 time=164 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=8 ttl=63 time=325 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=9 ttl=63 time=163 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=10 ttl=63 time=164 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=11 ttl=63 time=190 ms
+
+--- www.wikipedia.jp ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10006ms
+rtt min/avg/max/mdev = 163.740/224.836/380.055/71.888 ms
+=====================================================
+traceroute to www.chicagotribune.com (23.211.118.200), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.576 ms  0.550 ms  0.544 ms
+ 2  192.168.4.1 (192.168.4.1)  2.673 ms  2.688 ms  2.928 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  11.907 ms  11.725 ms  11.706 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  11.671 ms  12.260 ms  12.273 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  14.711 ms  18.413 ms  17.958 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  19.836 ms  13.978 ms  13.580 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  46.513 ms  49.120 ms  49.252 ms
+ 9  prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com (96.34.3.35)  40.129 ms  40.139 ms  40.127 ms
+10  096-034-150-039.biz.spectrum.com (96.34.150.39)  43.299 ms  43.148 ms  39.841 ms
+11  ae8.datasite-atl.netarch.akamai.com (23.203.144.201)  39.388 ms  37.404 ms  42.901 ms
+12  a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200)  35.947 ms  35.787 ms  35.864 ms
+***********************
+PING e24866.f.akamaiedge.net (23.211.118.48) 56(84) bytes of data.
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=1 ttl=63 time=34.5 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=2 ttl=63 time=38.9 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=3 ttl=63 time=37.6 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=4 ttl=63 time=36.9 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=5 ttl=63 time=37.6 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=6 ttl=63 time=36.1 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=7 ttl=63 time=35.6 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=8 ttl=63 time=35.8 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=9 ttl=63 time=42.0 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=10 ttl=63 time=36.4 ms
+64 bytes from a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48): icmp_seq=11 ttl=63 time=36.3 ms
+
+--- e24866.f.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10019ms
+rtt min/avg/max/mdev = 34.554/37.108/42.054/1.937 ms
+***********************
+pchar to e24866.f.akamaiedge.net (23.67.255.50) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 10.0.2.15 (10.0.2.15)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 0.404744 ms, (b = -0.000138 ms/B), r2 = 0.242687
+                       stddev rtt = 0.116210, stddev b = 0.000141
+    Partial queueing:  avg = 0.000089 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000089 ms (0 bytes)
+ 1: 10.0.2.2 (10.0.2.2)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 4.575310 ms, (b = -0.000584 ms/B), r2 = 0.347331
+                       stddev rtt = 0.715542, stddev b = 0.000462
+    Partial queueing:  avg = 0.001283 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.001193 ms (0 bytes)
+ 2: 192.168.4.1 (192.168.4.1)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.001283 ms (0 bytes)
+ 3: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 10.849600 ms, (b = 0.001127 ms/B), r2 = 0.911496
+                       stddev rtt = 0.311309, stddev b = 0.000203
+    Partial queueing:  avg = 0.000483 ms (429 bytes)
+    Hop char:          rtt = 10.849600 ms, bw = 7101.248266 Kbps
+    Hop queueing:      avg = 0.000483 ms (429 bytes)
+ 4: 96.34.89.50 (096-034-089-050.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 11.511000 ms, (b = 0.000323 ms/B), r2 = 0.423068
+                       stddev rtt = 0.334544, stddev b = 0.000218
+    Partial queueing:  avg = 0.000695 ms (429 bytes)
+    Hop char:          rtt = 0.661400 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000211 ms (0 bytes)
+ 5: 96.34.89.9 (dtr01thbdla-tge-2-2.thbd.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 11.711300 ms, (b = 0.000760 ms/B), r2 = 0.585291
+                       stddev rtt = 0.567293, stddev b = 0.000369
+    Partial queueing:  avg = 0.001865 ms (3106 bytes)
+    Hop char:          rtt = 0.200300 ms, bw = 18310.236924 Kbps
+    Hop queueing:      avg = 0.001170 ms (2677 bytes)
+ 6: 96.34.90.15 (096-034-090-015.biz.spectrum.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 12.643500 ms, (b = 0.000363 ms/B), r2 = 0.290827
+                       stddev rtt = 0.502263, stddev b = 0.000327
+    Partial queueing:  avg = 0.004033 ms (3106 bytes)
+    Hop char:          rtt = 0.932200 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.002168 ms (0 bytes)
+ 7: 96.34.0.33 (bbr02slidla-bue-1.slid.la.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 34.275100 ms, (b = 0.002838 ms/B), r2 = 0.582765
+                       stddev rtt = 2.129611, stddev b = 0.001386
+    Partial queueing:  avg = 0.002355 ms (3106 bytes)
+    Hop char:          rtt = 21.631600 ms, bw = 3231.813161 Kbps
+    Hop queueing:      avg = -0.001678 ms (0 bytes)
+ 8: 96.34.0.164 (bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 34.766300 ms, (b = 0.001020 ms/B), r2 = 0.596077
+                       stddev rtt = 0.744410, stddev b = 0.000485
+    Partial queueing:  avg = 0.000859 ms (3106 bytes)
+    Hop char:          rtt = 0.491200 ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.001496 ms (0 bytes)
+ 9: 96.34.3.35 (prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 34.282100 ms, (b = 0.001963 ms/B), r2 = 0.389451
+                       stddev rtt = 2.179736, stddev b = 0.001419
+    Partial queueing:  avg = 0.002186 ms (4512 bytes)
+    Hop char:          rtt = --.--- ms, bw = 8480.331263 Kbps
+    Hop queueing:      avg = 0.001327 ms (1406 bytes)
+10: 96.34.150.39 (096-034-150-039.biz.spectrum.com)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 16.629600 ms, (b = 0.026765 ms/B), r2 = 0.794820
+                       stddev rtt = 12.059640, stddev b = 0.007851
+    Partial queueing:  avg = 0.041361 ms (6091 bytes)
+    Hop char:          rtt = --.--- ms, bw = 322.552702 Kbps
+    Hop queueing:      avg = 0.039175 ms (1579 bytes)
+11: 23.203.144.197 (ae3.datasite-atl2.netarch.akamai.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 35.538000 ms, (b = 0.000845 ms/B), r2 = 0.796968
+                       stddev rtt = 0.378189, stddev b = 0.000246
+    Partial queueing:  avg = 0.000408 ms (6091 bytes)
+    Hop char:          rtt = 18.908400 ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.040953 ms (0 bytes)
+12: 23.67.255.50 (a23-67-255-50.deploy.static.akamaitechnologies.com)
+    Path length:       12 hops
+    Path char:         rtt = 35.538000 ms r2 = 0.796968
+    Path bottleneck:   322.552702 Kbps
+    Path pipe:         1432 bytes
+    Path queueing:     average = 0.000408 ms (6091 bytes)
+    Start time:        Fri May 22 21:03:46 2020
+    End time:          Fri May 22 21:04:52 2020
+***********************
+traceroute to www.chicagotribune.com (23.211.118.48), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.398 ms  0.370 ms  0.363 ms
+ 2  192.168.4.1 (192.168.4.1)  3.445 ms  3.449 ms  3.302 ms
+ 3  * * *
+ 4  096-034-089-050.biz.spectrum.com (96.34.89.50)  11.741 ms  11.738 ms  12.200 ms
+ 5  dtr01thbdla-tge-2-2.thbd.la.charter.com (96.34.89.9)  12.166 ms  11.990 ms  12.456 ms
+ 6  096-034-090-015.biz.spectrum.com (96.34.90.15)  14.956 ms  18.063 ms  17.486 ms
+ 7  bbr02slidla-bue-1.slid.la.charter.com (96.34.0.33)  18.193 ms  20.201 ms  20.052 ms
+ 8  bbr01sgnwmi-tge-0-2-0-10.sgnw.mi.charter.com (96.34.0.164)  38.813 ms  38.813 ms  38.804 ms
+ 9  prr01snjsca-tge-0-0-0-1.snjs.ca.charter.com (96.34.3.35)  36.630 ms  36.635 ms  36.625 ms
+10  096-034-150-039.biz.spectrum.com (96.34.150.39)  35.742 ms  35.607 ms  35.590 ms
+11  ae8.datasite-atl.netarch.akamai.com (23.203.144.201)  39.581 ms  48.251 ms  39.135 ms
+12  a23-211-118-48.deploy.static.akamaitechnologies.com (23.211.118.48)  34.638 ms  34.585 ms  34.555 ms
+***********************
+PING e24866.f.akamaiedge.net (23.211.118.200) 56(84) bytes of data.
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=1 ttl=63 time=36.6 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=2 ttl=63 time=35.8 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=3 ttl=63 time=34.1 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=4 ttl=63 time=36.8 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=5 ttl=63 time=36.6 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=6 ttl=63 time=37.3 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=7 ttl=63 time=35.7 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=8 ttl=63 time=35.5 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=9 ttl=63 time=39.2 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=10 ttl=63 time=37.8 ms
+64 bytes from a23-211-118-200.deploy.static.akamaitechnologies.com (23.211.118.200): icmp_seq=11 ttl=63 time=42.3 ms
+
+--- e24866.f.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10018ms
+rtt min/avg/max/mdev = 34.149/37.114/42.301/2.083 ms

@@ -1,0 +1,639 @@
+Sequence 1 Active Measurements
+
+[05-20-2020 14:32:06]
+
+=====================================================
+traceroute to 23.45.3.210 (23.45.3.210), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.220 ms  0.200 ms  0.197 ms
+ 2  205.208.121.2 (205.208.121.2)  33.663 ms  34.106 ms  34.207 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  34.432 ms  41.797 ms  41.794 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  34.701 ms  41.754 ms  41.776 ms
+ 5  borderfw-to-h01-391-500.p2p.uchicago.net (192.170.192.38)  144.803 ms  144.803 ms  144.890 ms
+ 6  h01-391-500-to-b65-ll129-500.p2p.uchicago.net (192.170.192.42)  145.054 ms *  144.582 ms
+ 7  et-11-0-5.2089.rtsw.chic.net.internet2.edu (64.57.21.21)  34.831 ms  34.309 ms  34.280 ms
+ 8  ae-2.4079.rtsw.eqch.net.internet2.edu (162.252.70.133)  34.762 ms  35.375 ms  35.196 ms
+ 9  ae-0.4079.rtsw.minn.net.internet2.edu (162.252.70.107)  45.048 ms  44.740 ms  44.735 ms
+10  * * *
+11  * * *
+12  bundle-ether41.br05.chc01.pccwbtn.net (63.218.4.234)  92.499 ms  92.554 ms  93.273 ms
+13  bundle-ether41.br05.chc01.pccwbtn.net (63.218.4.234)  93.069 ms  93.446 ms  95.955 ms
+14  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  95.978 ms  95.964 ms  97.239 ms
+15  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  95.906 ms  91.237 ms  91.227 ms
+***********************
+PING 23.45.3.210 (23.45.3.210) 56(84) bytes of data.
+64 bytes from 23.45.3.210: icmp_seq=1 ttl=53 time=93.3 ms
+64 bytes from 23.45.3.210: icmp_seq=2 ttl=53 time=93.2 ms
+64 bytes from 23.45.3.210: icmp_seq=3 ttl=53 time=92.5 ms
+64 bytes from 23.45.3.210: icmp_seq=4 ttl=53 time=99.9 ms
+64 bytes from 23.45.3.210: icmp_seq=5 ttl=53 time=100 ms
+64 bytes from 23.45.3.210: icmp_seq=6 ttl=53 time=98.8 ms
+64 bytes from 23.45.3.210: icmp_seq=7 ttl=53 time=95.6 ms
+64 bytes from 23.45.3.210: icmp_seq=8 ttl=53 time=89.8 ms
+64 bytes from 23.45.3.210: icmp_seq=9 ttl=53 time=90.7 ms
+64 bytes from 23.45.3.210: icmp_seq=10 ttl=53 time=92.8 ms
+64 bytes from 23.45.3.210: icmp_seq=11 ttl=53 time=91.2 ms
+
+--- 23.45.3.210 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10020ms
+rtt min/avg/max/mdev = 89.834/94.371/100.202/3.540 ms
+***********************
+traceroute to 23.45.3.210 (23.45.3.210), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.387 ms  0.351 ms  0.340 ms
+ 2  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  34.216 ms  34.209 ms  34.320 ms
+ 3  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  33.779 ms  33.763 ms  33.860 ms
+ 4  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  33.663 ms  33.468 ms  33.917 ms
+ 5  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  123.903 ms  123.900 ms  123.648 ms
+ 6  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  124.039 ms  127.385 ms  127.388 ms
+ 7  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  72.696 ms  66.715 ms  66.617 ms
+ 8  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  33.586 ms  33.626 ms  33.787 ms
+ 9  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  42.278 ms  42.336 ms  42.219 ms
+10  * * *
+11  * * *
+12  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  91.877 ms  90.664 ms  90.508 ms
+13  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  89.726 ms  89.265 ms  93.578 ms
+14  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  102.330 ms  102.299 ms  95.098 ms
+15  a23-45-3-210.deploy.static.akamaitechnologies.com (23.45.3.210)  90.866 ms  91.037 ms  93.944 ms
+***********************
+PING 23.45.3.210 (23.45.3.210) 56(84) bytes of data.
+64 bytes from 23.45.3.210: icmp_seq=1 ttl=53 time=92.2 ms
+64 bytes from 23.45.3.210: icmp_seq=2 ttl=53 time=92.6 ms
+64 bytes from 23.45.3.210: icmp_seq=3 ttl=53 time=93.0 ms
+64 bytes from 23.45.3.210: icmp_seq=4 ttl=53 time=93.2 ms
+64 bytes from 23.45.3.210: icmp_seq=5 ttl=53 time=89.9 ms
+64 bytes from 23.45.3.210: icmp_seq=6 ttl=53 time=90.4 ms
+64 bytes from 23.45.3.210: icmp_seq=7 ttl=53 time=93.6 ms
+64 bytes from 23.45.3.210: icmp_seq=8 ttl=53 time=91.8 ms
+64 bytes from 23.45.3.210: icmp_seq=9 ttl=53 time=91.4 ms
+64 bytes from 23.45.3.210: icmp_seq=10 ttl=53 time=91.6 ms
+64 bytes from 23.45.3.210: icmp_seq=11 ttl=53 time=91.1 ms
+
+--- 23.45.3.210 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10019ms
+rtt min/avg/max/mdev = 89.892/91.902/93.628/1.125 ms
+=====================================================
+traceroute to 23.65.254.77 (23.65.254.77), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.256 ms  0.238 ms  0.232 ms
+ 2  205.208.121.2 (205.208.121.2)  31.200 ms  31.046 ms  30.935 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  31.338 ms  31.712 ms  31.866 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  31.458 ms  31.165 ms  31.245 ms
+ 5  borderfw-to-h01-391-500.p2p.uchicago.net (192.170.192.38)  138.612 ms  138.719 ms  139.858 ms
+ 6  h01-391-500-to-b65-ll129-500.p2p.uchicago.net (192.170.192.42)  140.726 ms  133.036 ms  132.889 ms
+ 7  et-11-0-5.2089.rtsw.chic.net.internet2.edu (64.57.21.21)  32.753 ms  35.108 ms  34.965 ms
+ 8  ae-2.4079.rtsw.eqch.net.internet2.edu (162.252.70.133)  39.150 ms  39.260 ms  40.400 ms
+ 9  ae-0.4079.rtsw.minn.net.internet2.edu (162.252.70.107)  44.498 ms  44.670 ms  44.661 ms
+10  * * *
+11  * * *
+12  bundle-ether41.br05.chc01.pccwbtn.net (63.218.4.234)  78.015 ms  78.117 ms  78.481 ms
+13  bundle-ether41.br05.chc01.pccwbtn.net (63.218.4.234)  78.196 ms  77.010 ms  75.515 ms
+14  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  317.043 ms  316.891 ms  291.996 ms
+15  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  78.422 ms  78.633 ms  78.215 ms
+***********************
+PING 23.65.254.77 (23.65.254.77) 56(84) bytes of data.
+64 bytes from 23.65.254.77: icmp_seq=1 ttl=53 time=75.8 ms
+64 bytes from 23.65.254.77: icmp_seq=2 ttl=53 time=79.3 ms
+64 bytes from 23.65.254.77: icmp_seq=3 ttl=53 time=77.3 ms
+64 bytes from 23.65.254.77: icmp_seq=4 ttl=53 time=77.8 ms
+64 bytes from 23.65.254.77: icmp_seq=5 ttl=53 time=77.8 ms
+64 bytes from 23.65.254.77: icmp_seq=6 ttl=53 time=76.3 ms
+64 bytes from 23.65.254.77: icmp_seq=7 ttl=53 time=77.3 ms
+64 bytes from 23.65.254.77: icmp_seq=8 ttl=53 time=77.0 ms
+64 bytes from 23.65.254.77: icmp_seq=9 ttl=53 time=76.0 ms
+64 bytes from 23.65.254.77: icmp_seq=10 ttl=53 time=78.4 ms
+64 bytes from 23.65.254.77: icmp_seq=11 ttl=53 time=77.6 ms
+
+--- 23.65.254.77 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10039ms
+rtt min/avg/max/mdev = 75.753/77.320/79.305/0.998 ms
+***********************
+traceroute to 23.65.254.77 (23.65.254.77), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  10.577 ms  10.522 ms  10.505 ms
+ 2  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  31.506 ms  31.520 ms  31.715 ms
+ 3  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  32.427 ms  34.383 ms  34.529 ms
+ 4  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  32.043 ms  31.964 ms  33.362 ms
+ 5  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  136.141 ms  135.473 ms  135.499 ms
+ 6  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  135.629 ms  143.016 ms  142.948 ms
+ 7  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  35.627 ms  35.027 ms  35.015 ms
+ 8  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  35.525 ms  35.048 ms  35.526 ms
+ 9  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  44.569 ms  44.583 ms  44.652 ms
+10  * * *
+11  * * *
+12  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  80.402 ms *  81.543 ms
+13  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  80.245 ms  77.670 ms *
+14  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  82.264 ms  81.074 ms  78.062 ms
+15  a23-65-254-77.deploy.static.akamaitechnologies.com (23.65.254.77)  76.599 ms  75.506 ms  77.042 ms
+***********************
+PING 23.65.254.77 (23.65.254.77) 56(84) bytes of data.
+64 bytes from 23.65.254.77: icmp_seq=1 ttl=53 time=76.6 ms
+64 bytes from 23.65.254.77: icmp_seq=2 ttl=53 time=76.2 ms
+64 bytes from 23.65.254.77: icmp_seq=3 ttl=53 time=74.8 ms
+64 bytes from 23.65.254.77: icmp_seq=4 ttl=53 time=76.7 ms
+64 bytes from 23.65.254.77: icmp_seq=5 ttl=53 time=79.4 ms
+64 bytes from 23.65.254.77: icmp_seq=6 ttl=53 time=74.8 ms
+64 bytes from 23.65.254.77: icmp_seq=7 ttl=53 time=75.2 ms
+64 bytes from 23.65.254.77: icmp_seq=8 ttl=53 time=76.0 ms
+64 bytes from 23.65.254.77: icmp_seq=9 ttl=53 time=78.3 ms
+64 bytes from 23.65.254.77: icmp_seq=10 ttl=53 time=78.9 ms
+64 bytes from 23.65.254.77: icmp_seq=11 ttl=53 time=80.6 ms
+
+--- 23.65.254.77 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10021ms
+rtt min/avg/max/mdev = 74.769/77.054/80.647/1.878 ms
+=====================================================
+traceroute to 157.240.18.35 (157.240.18.35), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.379 ms  0.336 ms  0.325 ms
+ 2  205.208.121.2 (205.208.121.2)  38.082 ms  38.084 ms  38.076 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  38.079 ms  38.066 ms  37.949 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  37.930 ms  37.918 ms  37.911 ms
+ 5  borderfw-to-b65-ll129-500.p2p.uchicago.net (192.170.192.36)  120.357 ms  120.505 ms  120.622 ms
+ 6  r-equinix-isp-ae2-2213.wiscnet.net (216.56.50.45)  37.774 ms  30.323 ms  30.942 ms
+ 7  facebook-pni-b.wiscnet.net (205.213.119.42)  108.707 ms  124.039 ms  123.525 ms
+ 8  po121.asw04.ord3.tfbnw.net (31.13.31.116)  33.755 ms  33.924 ms  34.064 ms
+ 9  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  123.326 ms  123.723 ms  123.473 ms
+10  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  123.654 ms  123.965 ms  112.595 ms
+11  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  33.919 ms  33.358 ms  33.521 ms
+***********************
+PING 157.240.18.35 (157.240.18.35) 56(84) bytes of data.
+64 bytes from 157.240.18.35: icmp_seq=1 ttl=53 time=32.3 ms
+64 bytes from 157.240.18.35: icmp_seq=2 ttl=53 time=35.9 ms
+64 bytes from 157.240.18.35: icmp_seq=3 ttl=53 time=34.3 ms
+64 bytes from 157.240.18.35: icmp_seq=4 ttl=53 time=32.3 ms
+64 bytes from 157.240.18.35: icmp_seq=5 ttl=53 time=33.3 ms
+64 bytes from 157.240.18.35: icmp_seq=6 ttl=53 time=35.5 ms
+64 bytes from 157.240.18.35: icmp_seq=7 ttl=53 time=32.8 ms
+64 bytes from 157.240.18.35: icmp_seq=8 ttl=53 time=31.1 ms
+64 bytes from 157.240.18.35: icmp_seq=9 ttl=53 time=37.0 ms
+64 bytes from 157.240.18.35: icmp_seq=10 ttl=53 time=35.5 ms
+64 bytes from 157.240.18.35: icmp_seq=11 ttl=53 time=36.3 ms
+
+--- 157.240.18.35 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10022ms
+rtt min/avg/max/mdev = 31.128/34.214/36.982/1.848 ms
+***********************
+traceroute to 157.240.18.35 (157.240.18.35), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.302 ms  0.297 ms  0.290 ms
+ 2  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  30.955 ms  30.797 ms  30.944 ms
+ 3  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  31.258 ms  31.686 ms  31.505 ms
+ 4  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  34.781 ms  34.880 ms  34.865 ms
+ 5  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  128.122 ms  128.269 ms  128.399 ms
+ 6  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  36.808 ms  31.854 ms  32.132 ms
+ 7  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  132.356 ms  131.511 ms  130.358 ms
+ 8  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  31.088 ms  31.289 ms  32.609 ms
+ 9  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  124.722 ms  124.959 ms  125.236 ms
+10  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  124.957 ms  125.084 ms  123.429 ms
+11  edge-star-mini-shv-02-ort2.facebook.com (157.240.18.35)  33.732 ms  33.973 ms  33.420 ms
+***********************
+PING 157.240.18.35 (157.240.18.35) 56(84) bytes of data.
+64 bytes from 157.240.18.35: icmp_seq=1 ttl=53 time=32.7 ms
+64 bytes from 157.240.18.35: icmp_seq=2 ttl=53 time=32.5 ms
+64 bytes from 157.240.18.35: icmp_seq=3 ttl=53 time=34.4 ms
+64 bytes from 157.240.18.35: icmp_seq=4 ttl=53 time=32.6 ms
+64 bytes from 157.240.18.35: icmp_seq=5 ttl=53 time=32.7 ms
+64 bytes from 157.240.18.35: icmp_seq=6 ttl=53 time=33.9 ms
+64 bytes from 157.240.18.35: icmp_seq=7 ttl=53 time=32.2 ms
+64 bytes from 157.240.18.35: icmp_seq=8 ttl=53 time=32.7 ms
+64 bytes from 157.240.18.35: icmp_seq=9 ttl=53 time=31.9 ms
+64 bytes from 157.240.18.35: icmp_seq=10 ttl=53 time=33.2 ms
+64 bytes from 157.240.18.35: icmp_seq=11 ttl=53 time=34.1 ms
+
+--- 157.240.18.35 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10021ms
+rtt min/avg/max/mdev = 31.913/32.996/34.416/0.772 ms
+=====================================================
+traceroute to 104.244.42.1 (104.244.42.1), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.260 ms  0.243 ms  0.238 ms
+ 2  205.208.121.2 (205.208.121.2)  31.223 ms  31.081 ms  30.961 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  33.678 ms  33.329 ms  33.326 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  33.044 ms  32.935 ms  32.963 ms
+ 5  borderfw-to-h01-391-500.p2p.uchicago.net (192.170.192.38)  144.971 ms  144.995 ms  145.059 ms
+ 6  h01-391-500-to-b65-ll129-500.p2p.uchicago.net (192.170.192.42)  145.057 ms  132.788 ms  132.931 ms
+ 7  r-equinix-isp-ae2-2213.wiscnet.net (216.56.50.45)  32.358 ms  31.180 ms  31.124 ms
+ 8  104.244.42.1 (104.244.42.1)  136.329 ms  136.720 ms  136.089 ms
+ 9  * * *
+10  104.244.42.1 (104.244.42.1)  52.896 ms  52.913 ms  50.825 ms
+***********************
+PING 104.244.42.1 (104.244.42.1) 56(84) bytes of data.
+64 bytes from 104.244.42.1: icmp_seq=1 ttl=56 time=53.4 ms
+64 bytes from 104.244.42.1: icmp_seq=2 ttl=56 time=55.3 ms
+64 bytes from 104.244.42.1: icmp_seq=3 ttl=56 time=57.3 ms
+64 bytes from 104.244.42.1: icmp_seq=4 ttl=56 time=53.1 ms
+64 bytes from 104.244.42.1: icmp_seq=5 ttl=56 time=54.1 ms
+64 bytes from 104.244.42.1: icmp_seq=6 ttl=56 time=55.9 ms
+64 bytes from 104.244.42.1: icmp_seq=7 ttl=56 time=53.5 ms
+64 bytes from 104.244.42.1: icmp_seq=8 ttl=56 time=54.7 ms
+64 bytes from 104.244.42.1: icmp_seq=9 ttl=56 time=52.4 ms
+64 bytes from 104.244.42.1: icmp_seq=10 ttl=56 time=53.3 ms
+64 bytes from 104.244.42.1: icmp_seq=11 ttl=56 time=55.0 ms
+
+--- 104.244.42.1 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10019ms
+rtt min/avg/max/mdev = 52.412/54.349/57.267/1.368 ms
+***********************
+traceroute to 104.244.42.1 (104.244.42.1), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.542 ms  0.498 ms  0.483 ms
+ 2  104.244.42.1 (104.244.42.1)  31.689 ms  31.960 ms  31.715 ms
+ 3  104.244.42.1 (104.244.42.1)  35.455 ms  35.618 ms  35.465 ms
+ 4  104.244.42.1 (104.244.42.1)  33.015 ms  33.182 ms  33.326 ms
+ 5  104.244.42.1 (104.244.42.1)  139.558 ms  139.441 ms  139.521 ms
+ 6  104.244.42.1 (104.244.42.1)  139.374 ms  135.396 ms  135.538 ms
+ 7  104.244.42.1 (104.244.42.1)  32.160 ms r-equinix-isp-ae2-2213.wiscnet.net (216.56.50.45)  38.208 ms  35.121 ms
+ 8  104.244.42.1 (104.244.42.1)  119.363 ms  119.061 ms  119.337 ms
+ 9  * * *
+10  104.244.42.1 (104.244.42.1)  52.114 ms  57.970 ms  58.883 ms
+***********************
+PING 104.244.42.1 (104.244.42.1) 56(84) bytes of data.
+64 bytes from 104.244.42.1: icmp_seq=1 ttl=56 time=56.3 ms
+64 bytes from 104.244.42.1: icmp_seq=2 ttl=56 time=55.0 ms
+64 bytes from 104.244.42.1: icmp_seq=3 ttl=56 time=56.4 ms
+64 bytes from 104.244.42.1: icmp_seq=4 ttl=56 time=56.1 ms
+64 bytes from 104.244.42.1: icmp_seq=5 ttl=56 time=55.6 ms
+64 bytes from 104.244.42.1: icmp_seq=6 ttl=56 time=54.1 ms
+64 bytes from 104.244.42.1: icmp_seq=7 ttl=56 time=52.5 ms
+64 bytes from 104.244.42.1: icmp_seq=8 ttl=56 time=53.0 ms
+64 bytes from 104.244.42.1: icmp_seq=9 ttl=56 time=57.3 ms
+64 bytes from 104.244.42.1: icmp_seq=10 ttl=56 time=54.8 ms
+64 bytes from 104.244.42.1: icmp_seq=11 ttl=56 time=55.8 ms
+
+--- 104.244.42.1 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10017ms
+rtt min/avg/max/mdev = 52.525/55.169/57.342/1.419 ms
+=====================================================
+traceroute to 193.252.148.70 (193.252.148.70), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.303 ms  0.296 ms  0.291 ms
+ 2  205.208.121.2 (205.208.121.2)  33.577 ms  33.592 ms  33.583 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  33.993 ms  33.984 ms  34.361 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  33.566 ms  33.720 ms  33.711 ms
+ 5  borderfw-to-b65-ll129-500.p2p.uchicago.net (192.170.192.36)  120.138 ms  120.440 ms  120.439 ms
+ 6  10-1-31.ear2.Chicago2.Level3.net (4.15.84.241)  35.306 ms  33.027 ms  33.762 ms
+ 7  * * *
+ 8  FranceTelecom-level3-10G.Chicago2.Level3.net (4.68.70.178)  126.903 ms  125.931 ms  126.847 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * fw-bae00-v2999.neon.net.s1.p.fti.net (80.12.246.47)  364.731 ms *
+15  * www.orange.fr.inter.s0.fti.net (193.252.148.70)  367.282 ms  367.270 ms
+***********************
+PING 193.252.148.70 (193.252.148.70) 56(84) bytes of data.
+64 bytes from 193.252.148.70: icmp_seq=1 ttl=236 time=323 ms
+64 bytes from 193.252.148.70: icmp_seq=2 ttl=236 time=263 ms
+64 bytes from 193.252.148.70: icmp_seq=3 ttl=236 time=166 ms
+64 bytes from 193.252.148.70: icmp_seq=4 ttl=236 time=189 ms
+64 bytes from 193.252.148.70: icmp_seq=5 ttl=236 time=213 ms
+64 bytes from 193.252.148.70: icmp_seq=6 ttl=236 time=240 ms
+64 bytes from 193.252.148.70: icmp_seq=7 ttl=236 time=146 ms
+64 bytes from 193.252.148.70: icmp_seq=8 ttl=236 time=260 ms
+64 bytes from 193.252.148.70: icmp_seq=9 ttl=236 time=308 ms
+64 bytes from 193.252.148.70: icmp_seq=10 ttl=236 time=330 ms
+64 bytes from 193.252.148.70: icmp_seq=11 ttl=236 time=153 ms
+
+--- 193.252.148.70 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10006ms
+rtt min/avg/max/mdev = 145.660/235.506/330.484/64.519 ms
+***********************
+traceroute to 193.252.148.70 (193.252.148.70), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.482 ms  0.439 ms  0.427 ms
+ 2  www.orange.fr.inter.s0.fti.net (193.252.148.70)  34.282 ms  34.635 ms  34.610 ms
+ 3  www.orange.fr.inter.s0.fti.net (193.252.148.70)  34.548 ms  34.527 ms  35.006 ms
+ 4  www.orange.fr.inter.s0.fti.net (193.252.148.70)  34.509 ms  34.773 ms  34.766 ms
+ 5  www.orange.fr.inter.s0.fti.net (193.252.148.70)  125.780 ms  125.574 ms  125.731 ms
+ 6  www.orange.fr.inter.s0.fti.net (193.252.148.70)  37.174 ms  34.153 ms  34.413 ms
+ 7  * * *
+ 8  www.orange.fr.inter.s0.fti.net (193.252.148.70)  141.377 ms  140.313 ms  141.314 ms
+ 9  * * *
+10  www.orange.fr.inter.s0.fti.net (193.252.148.70)  229.165 ms  229.884 ms  225.875 ms
+11  * * *
+12  * * *
+13  * * *
+14  www.orange.fr.inter.s0.fti.net (193.252.148.70)  247.555 ms  204.613 ms  141.539 ms
+15  www.orange.fr.inter.s0.fti.net (193.252.148.70)  269.565 ms  202.559 ms  203.879 ms
+***********************
+PING 193.252.148.70 (193.252.148.70) 56(84) bytes of data.
+64 bytes from 193.252.148.70: icmp_seq=1 ttl=236 time=244 ms
+64 bytes from 193.252.148.70: icmp_seq=2 ttl=236 time=272 ms
+64 bytes from 193.252.148.70: icmp_seq=3 ttl=236 time=287 ms
+64 bytes from 193.252.148.70: icmp_seq=4 ttl=236 time=310 ms
+64 bytes from 193.252.148.70: icmp_seq=5 ttl=236 time=538 ms
+64 bytes from 193.252.148.70: icmp_seq=6 ttl=236 time=357 ms
+64 bytes from 193.252.148.70: icmp_seq=7 ttl=236 time=172 ms
+64 bytes from 193.252.148.70: icmp_seq=8 ttl=236 time=194 ms
+64 bytes from 193.252.148.70: icmp_seq=9 ttl=236 time=218 ms
+64 bytes from 193.252.148.70: icmp_seq=10 ttl=236 time=238 ms
+64 bytes from 193.252.148.70: icmp_seq=11 ttl=236 time=145 ms
+
+--- 193.252.148.70 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10017ms
+rtt min/avg/max/mdev = 145.361/270.405/537.536/102.809 ms
+=====================================================
+traceroute to 199.232.77.67 (199.232.77.67), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.543 ms  0.495 ms  0.488 ms
+ 2  205.208.121.2 (205.208.121.2)  34.959 ms  34.949 ms  34.645 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  35.281 ms  35.189 ms  37.465 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  142.163 ms  141.865 ms  142.134 ms
+ 5  borderfw-to-b65-ll129-500.p2p.uchicago.net (192.170.192.36)  254.221 ms  253.208 ms  254.155 ms
+ 6  b65-ll129-500-to-h01-391-500.p2p.uchicago.net (192.170.192.41)  141.941 ms  138.135 ms  137.783 ms
+ 7  te0-0-1-0.nr12.b010917-1.ord01.atlas.cogentco.com (38.104.103.9)  138.118 ms  146.512 ms  147.574 ms
+ 8  154.24.64.29 (154.24.64.29)  242.076 ms  241.668 ms  242.054 ms
+ 9  be2523.ccr41.ord01.atlas.cogentco.com (154.54.81.101)  147.580 ms  142.758 ms  142.088 ms
+10  be2765.ccr41.ord03.atlas.cogentco.com (154.54.45.18)  245.837 ms  245.225 ms  239.369 ms
+11  38.88.204.34 (38.88.204.34)  239.063 ms  239.053 ms  235.699 ms
+12  199.232.77.67 (199.232.77.67)  237.408 ms  237.376 ms  237.321 ms
+***********************
+PING 199.232.77.67 (199.232.77.67) 56(84) bytes of data.
+64 bytes from 199.232.77.67: icmp_seq=1 ttl=54 time=325 ms
+64 bytes from 199.232.77.67: icmp_seq=2 ttl=54 time=765 ms
+64 bytes from 199.232.77.67: icmp_seq=3 ttl=54 time=580 ms
+64 bytes from 199.232.77.67: icmp_seq=4 ttl=54 time=273 ms
+64 bytes from 199.232.77.67: icmp_seq=5 ttl=54 time=216 ms
+64 bytes from 199.232.77.67: icmp_seq=6 ttl=54 time=232 ms
+64 bytes from 199.232.77.67: icmp_seq=7 ttl=54 time=254 ms
+64 bytes from 199.232.77.67: icmp_seq=8 ttl=54 time=280 ms
+64 bytes from 199.232.77.67: icmp_seq=9 ttl=54 time=303 ms
+64 bytes from 199.232.77.67: icmp_seq=10 ttl=54 time=486 ms
+64 bytes from 199.232.77.67: icmp_seq=11 ttl=54 time=542 ms
+
+--- 199.232.77.67 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10013ms
+rtt min/avg/max/mdev = 215.959/387.034/764.984/170.639 ms
+***********************
+traceroute to 199.232.77.67 (199.232.77.67), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.398 ms  0.381 ms  0.377 ms
+ 2  199.232.77.67 (199.232.77.67)  34.623 ms  35.106 ms  35.108 ms
+ 3  199.232.77.67 (199.232.77.67)  35.105 ms  35.099 ms  35.097 ms
+ 4  199.232.77.67 (199.232.77.67)  135.268 ms  135.256 ms  135.261 ms
+ 5  199.232.77.67 (199.232.77.67)  233.100 ms  232.676 ms  232.998 ms
+ 6  199.232.77.67 (199.232.77.67)  135.375 ms  130.799 ms  130.385 ms
+ 7  199.232.77.67 (199.232.77.67)  130.778 ms  138.401 ms  138.399 ms
+ 8  199.232.77.67 (199.232.77.67)  234.334 ms  234.618 ms  234.608 ms
+ 9  199.232.77.67 (199.232.77.67)  138.383 ms  132.547 ms  132.935 ms
+10  199.232.77.67 (199.232.77.67)  238.664 ms  238.236 ms  238.670 ms
+11  199.232.77.67 (199.232.77.67)  238.662 ms  238.659 ms  229.060 ms
+12  199.232.77.67 (199.232.77.67)  228.976 ms  228.074 ms  230.505 ms
+***********************
+PING 199.232.77.67 (199.232.77.67) 56(84) bytes of data.
+64 bytes from 199.232.77.67: icmp_seq=1 ttl=54 time=557 ms
+64 bytes from 199.232.77.67: icmp_seq=2 ttl=54 time=390 ms
+64 bytes from 199.232.77.67: icmp_seq=3 ttl=54 time=452 ms
+64 bytes from 199.232.77.67: icmp_seq=4 ttl=54 time=828 ms
+64 bytes from 199.232.77.67: icmp_seq=5 ttl=54 time=646 ms
+64 bytes from 199.232.77.67: icmp_seq=6 ttl=54 time=460 ms
+64 bytes from 199.232.77.67: icmp_seq=7 ttl=54 time=279 ms
+64 bytes from 199.232.77.67: icmp_seq=8 ttl=54 time=300 ms
+64 bytes from 199.232.77.67: icmp_seq=9 ttl=54 time=732 ms
+64 bytes from 199.232.77.67: icmp_seq=10 ttl=54 time=353 ms
+64 bytes from 199.232.77.67: icmp_seq=11 ttl=54 time=378 ms
+
+--- 199.232.77.67 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10014ms
+rtt min/avg/max/mdev = 278.690/488.557/828.091/172.037 ms
+=====================================================
+traceroute to 13.249.141.93 (13.249.141.93), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.518 ms  0.485 ms  0.475 ms
+ 2  205.208.121.2 (205.208.121.2)  34.867 ms  34.870 ms  34.861 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  34.848 ms  34.836 ms  34.761 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  130.619 ms  130.233 ms  130.595 ms
+ 5  borderfw-to-b65-ll129-500.p2p.uchicago.net (192.170.192.36)  225.008 ms  226.209 ms  225.822 ms
+ 6  internet2-router.uchicago.edu (128.135.247.125)  227.403 ms  231.851 ms  232.073 ms
+ 7  ae-9.4070.rtsw3.eqch.net.internet2.edu (64.57.28.105)  157.640 ms  184.320 ms  183.785 ms
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  186.261 ms  186.169 ms  186.142 ms
+***********************
+PING 13.249.141.93 (13.249.141.93) 56(84) bytes of data.
+64 bytes from 13.249.141.93: icmp_seq=1 ttl=238 time=408 ms
+64 bytes from 13.249.141.93: icmp_seq=2 ttl=238 time=230 ms
+64 bytes from 13.249.141.93: icmp_seq=3 ttl=238 time=251 ms
+64 bytes from 13.249.141.93: icmp_seq=4 ttl=238 time=271 ms
+64 bytes from 13.249.141.93: icmp_seq=5 ttl=238 time=308 ms
+64 bytes from 13.249.141.93: icmp_seq=6 ttl=238 time=322 ms
+64 bytes from 13.249.141.93: icmp_seq=7 ttl=238 time=960 ms
+64 bytes from 13.249.141.93: icmp_seq=8 ttl=238 time=777 ms
+64 bytes from 13.249.141.93: icmp_seq=9 ttl=238 time=597 ms
+64 bytes from 13.249.141.93: icmp_seq=10 ttl=238 time=412 ms
+64 bytes from 13.249.141.93: icmp_seq=11 ttl=238 time=233 ms
+
+--- 13.249.141.93 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10011ms
+rtt min/avg/max/mdev = 230.140/433.443/960.008/232.143 ms
+***********************
+traceroute to 13.249.141.93 (13.249.141.93), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.335 ms  0.318 ms  0.297 ms
+ 2  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  36.298 ms  36.797 ms  36.798 ms
+ 3  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  37.152 ms  36.790 ms  37.091 ms
+ 4  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  117.107 ms  117.107 ms  116.624 ms
+ 5  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  197.243 ms  196.730 ms  197.216 ms
+ 6  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  217.768 ms  193.417 ms  193.623 ms
+ 7  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  114.202 ms  113.861 ms  113.851 ms
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  server-13-249-141-93.ord51.r.cloudfront.net (13.249.141.93)  310.122 ms  311.212 ms  311.152 ms
+***********************
+PING 13.249.141.93 (13.249.141.93) 56(84) bytes of data.
+64 bytes from 13.249.141.93: icmp_seq=1 ttl=238 time=742 ms
+64 bytes from 13.249.141.93: icmp_seq=2 ttl=238 time=562 ms
+64 bytes from 13.249.141.93: icmp_seq=3 ttl=238 time=382 ms
+64 bytes from 13.249.141.93: icmp_seq=4 ttl=238 time=203 ms
+64 bytes from 13.249.141.93: icmp_seq=6 ttl=238 time=632 ms
+64 bytes from 13.249.141.93: icmp_seq=7 ttl=238 time=243 ms
+64 bytes from 13.249.141.93: icmp_seq=8 ttl=238 time=265 ms
+64 bytes from 13.249.141.93: icmp_seq=9 ttl=238 time=289 ms
+64 bytes from 13.249.141.93: icmp_seq=10 ttl=238 time=312 ms
+64 bytes from 13.249.141.93: icmp_seq=11 ttl=238 time=538 ms
+
+--- 13.249.141.93 ping statistics ---
+11 packets transmitted, 10 received, 9.09091% packet loss, time 10030ms
+rtt min/avg/max/mdev = 202.805/416.622/742.387/177.622 ms
+=====================================================
+traceroute to 104.16.159.5 (104.16.159.5), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.454 ms  0.417 ms  0.406 ms
+ 2  205.208.121.2 (205.208.121.2)  35.359 ms  35.060 ms  35.051 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  34.688 ms  34.709 ms  34.946 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  34.624 ms  34.615 ms  34.512 ms
+ 5  borderfw-to-b65-ll129-500.p2p.uchicago.net (192.170.192.36)  161.793 ms  161.470 ms  161.780 ms
+ 6  r-equinix-isp-ae2-2213.wiscnet.net (216.56.50.45)  35.481 ms  32.618 ms  32.605 ms
+ 7  * * *
+ 8  104.16.159.5 (104.16.159.5)  38.649 ms  39.284 ms  38.179 ms
+***********************
+PING 104.16.159.5 (104.16.159.5) 56(84) bytes of data.
+64 bytes from 104.16.159.5: icmp_seq=1 ttl=57 time=36.2 ms
+64 bytes from 104.16.159.5: icmp_seq=2 ttl=57 time=33.1 ms
+64 bytes from 104.16.159.5: icmp_seq=3 ttl=57 time=38.2 ms
+64 bytes from 104.16.159.5: icmp_seq=4 ttl=57 time=38.7 ms
+64 bytes from 104.16.159.5: icmp_seq=5 ttl=57 time=34.3 ms
+64 bytes from 104.16.159.5: icmp_seq=6 ttl=57 time=39.8 ms
+64 bytes from 104.16.159.5: icmp_seq=7 ttl=57 time=36.0 ms
+64 bytes from 104.16.159.5: icmp_seq=8 ttl=57 time=38.3 ms
+64 bytes from 104.16.159.5: icmp_seq=9 ttl=57 time=36.1 ms
+64 bytes from 104.16.159.5: icmp_seq=10 ttl=57 time=36.0 ms
+64 bytes from 104.16.159.5: icmp_seq=11 ttl=57 time=37.8 ms
+
+--- 104.16.159.5 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10023ms
+rtt min/avg/max/mdev = 33.085/36.765/39.763/1.913 ms
+***********************
+traceroute to 104.16.159.5 (104.16.159.5), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.623 ms  0.581 ms  0.567 ms
+ 2  104.16.159.5 (104.16.159.5)  35.072 ms  35.444 ms  35.437 ms
+ 3  104.16.159.5 (104.16.159.5)  35.427 ms  35.662 ms  35.627 ms
+ 4  104.16.159.5 (104.16.159.5)  35.298 ms  35.287 ms  35.584 ms
+ 5  104.16.159.5 (104.16.159.5)  147.598 ms  147.984 ms  147.881 ms
+ 6  104.16.159.5 (104.16.159.5)  35.750 ms  33.229 ms  33.203 ms
+ 7  * * *
+ 8  104.16.159.5 (104.16.159.5)  37.728 ms  36.539 ms  36.530 ms
+***********************
+PING 104.16.159.5 (104.16.159.5) 56(84) bytes of data.
+64 bytes from 104.16.159.5: icmp_seq=1 ttl=57 time=35.3 ms
+64 bytes from 104.16.159.5: icmp_seq=2 ttl=57 time=38.6 ms
+64 bytes from 104.16.159.5: icmp_seq=3 ttl=57 time=39.2 ms
+64 bytes from 104.16.159.5: icmp_seq=4 ttl=57 time=37.2 ms
+64 bytes from 104.16.159.5: icmp_seq=5 ttl=57 time=38.2 ms
+64 bytes from 104.16.159.5: icmp_seq=6 ttl=57 time=35.9 ms
+64 bytes from 104.16.159.5: icmp_seq=7 ttl=57 time=39.0 ms
+64 bytes from 104.16.159.5: icmp_seq=8 ttl=57 time=36.3 ms
+64 bytes from 104.16.159.5: icmp_seq=9 ttl=57 time=36.4 ms
+64 bytes from 104.16.159.5: icmp_seq=10 ttl=57 time=36.2 ms
+64 bytes from 104.16.159.5: icmp_seq=11 ttl=57 time=35.9 ms
+
+--- 104.16.159.5 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10022ms
+rtt min/avg/max/mdev = 35.260/37.103/39.222/1.345 ms
+=====================================================
+traceroute to 172.224.7.132 (172.224.7.132), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.612 ms  0.475 ms  0.315 ms
+ 2  205.208.121.2 (205.208.121.2)  35.034 ms  34.963 ms  34.529 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  34.931 ms  35.353 ms  35.355 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  34.883 ms  35.153 ms  35.132 ms
+ 5  borderfw-to-h01-391-500.p2p.uchicago.net (192.170.192.38)  110.599 ms  110.589 ms  110.284 ms
+ 6  h01-391-500-to-b65-ll129-500.p2p.uchicago.net (192.170.192.42)  110.858 ms  115.156 ms  115.381 ms
+ 7  10-1-31.ear2.Chicago2.Level3.net (4.15.84.241)  41.358 ms  33.790 ms  33.764 ms
+ 8  * * *
+ 9  4.79.77.246 (4.79.77.246)  34.897 ms  34.066 ms  34.057 ms
+10  ae6.latisys-ord4.netarch.akamai.com (23.203.151.205)  36.299 ms  40.853 ms  40.544 ms
+11  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  32.144 ms  32.540 ms  32.536 ms
+***********************
+PING 172.224.7.132 (172.224.7.132) 56(84) bytes of data.
+64 bytes from 172.224.7.132: icmp_seq=1 ttl=52 time=34.0 ms
+64 bytes from 172.224.7.132: icmp_seq=2 ttl=52 time=35.8 ms
+64 bytes from 172.224.7.132: icmp_seq=3 ttl=52 time=34.6 ms
+64 bytes from 172.224.7.132: icmp_seq=4 ttl=52 time=36.7 ms
+64 bytes from 172.224.7.132: icmp_seq=5 ttl=52 time=34.5 ms
+64 bytes from 172.224.7.132: icmp_seq=6 ttl=52 time=34.4 ms
+64 bytes from 172.224.7.132: icmp_seq=7 ttl=52 time=35.2 ms
+64 bytes from 172.224.7.132: icmp_seq=8 ttl=52 time=36.7 ms
+64 bytes from 172.224.7.132: icmp_seq=9 ttl=52 time=36.0 ms
+64 bytes from 172.224.7.132: icmp_seq=10 ttl=52 time=35.6 ms
+64 bytes from 172.224.7.132: icmp_seq=11 ttl=52 time=32.3 ms
+
+--- 172.224.7.132 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10021ms
+rtt min/avg/max/mdev = 32.326/35.068/36.723/1.237 ms
+***********************
+traceroute to 172.224.7.132 (172.224.7.132), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.391 ms  0.371 ms  0.365 ms
+ 2  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  36.526 ms  36.052 ms  36.519 ms
+ 3  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  36.513 ms  41.416 ms  41.062 ms
+ 4  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  36.880 ms  36.870 ms  41.354 ms
+ 5  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  126.785 ms  127.179 ms  127.165 ms
+ 6  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  127.118 ms  128.816 ms  128.804 ms
+ 7  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  33.696 ms  32.245 ms  32.585 ms
+ 8  * * *
+ 9  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  46.304 ms  46.648 ms  46.651 ms
+10  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  69.810 ms  37.835 ms  37.570 ms
+11  a172-224-7-132.deploy.static.akamaitechnologies.com (172.224.7.132)  35.321 ms  34.670 ms  34.013 ms
+***********************
+PING 172.224.7.132 (172.224.7.132) 56(84) bytes of data.
+64 bytes from 172.224.7.132: icmp_seq=1 ttl=52 time=38.1 ms
+64 bytes from 172.224.7.132: icmp_seq=2 ttl=52 time=38.3 ms
+64 bytes from 172.224.7.132: icmp_seq=3 ttl=52 time=38.6 ms
+64 bytes from 172.224.7.132: icmp_seq=4 ttl=52 time=37.0 ms
+64 bytes from 172.224.7.132: icmp_seq=5 ttl=52 time=37.8 ms
+64 bytes from 172.224.7.132: icmp_seq=6 ttl=52 time=35.6 ms
+64 bytes from 172.224.7.132: icmp_seq=7 ttl=52 time=41.1 ms
+64 bytes from 172.224.7.132: icmp_seq=8 ttl=52 time=36.4 ms
+64 bytes from 172.224.7.132: icmp_seq=9 ttl=52 time=37.0 ms
+64 bytes from 172.224.7.132: icmp_seq=10 ttl=52 time=35.8 ms
+64 bytes from 172.224.7.132: icmp_seq=11 ttl=52 time=39.5 ms
+
+--- 172.224.7.132 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10022ms
+rtt min/avg/max/mdev = 35.569/37.738/41.106/1.558 ms
+=====================================================
+traceroute to 184.31.192.49 (184.31.192.49), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  0.629 ms  0.617 ms  0.605 ms
+ 2  205.208.121.2 (205.208.121.2)  36.113 ms  32.455 ms  36.088 ms
+ 3  b65-ll129-250-to-b65-ll129-300.p2p.uchicago.net (10.5.1.4)  36.075 ms  35.975 ms  35.958 ms
+ 4  b65-ll129-300-to-borderfw.p2p.uchicago.net (192.170.192.32)  123.321 ms  122.917 ms  123.300 ms
+ 5  borderfw-to-b65-ll129-500.p2p.uchicago.net (192.170.192.36)  212.794 ms  212.985 ms  212.965 ms
+ 6  10-1-31.ear2.Chicago2.Level3.net (4.15.84.241)  123.128 ms  125.970 ms  125.622 ms
+ 7  * * *
+ 8  4.79.77.246 (4.79.77.246)  124.974 ms  125.241 ms  125.229 ms
+ 9  ae6.latisys-ord4.netarch.akamai.com (23.203.151.205)  126.099 ms  125.846 ms  125.824 ms
+10  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  234.444 ms  234.487 ms  216.749 ms
+***********************
+PING 184.31.192.49 (184.31.192.49) 56(84) bytes of data.
+64 bytes from 184.31.192.49: icmp_seq=1 ttl=52 time=312 ms
+64 bytes from 184.31.192.49: icmp_seq=2 ttl=52 time=339 ms
+64 bytes from 184.31.192.49: icmp_seq=3 ttl=52 time=414 ms
+64 bytes from 184.31.192.49: icmp_seq=4 ttl=52 time=799 ms
+64 bytes from 184.31.192.49: icmp_seq=5 ttl=52 time=613 ms
+64 bytes from 184.31.192.49: icmp_seq=6 ttl=52 time=432 ms
+64 bytes from 184.31.192.49: icmp_seq=7 ttl=52 time=249 ms
+64 bytes from 184.31.192.49: icmp_seq=8 ttl=52 time=266 ms
+64 bytes from 184.31.192.49: icmp_seq=9 ttl=52 time=290 ms
+64 bytes from 184.31.192.49: icmp_seq=10 ttl=52 time=312 ms
+64 bytes from 184.31.192.49: icmp_seq=11 ttl=52 time=337 ms
+
+--- 184.31.192.49 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10011ms
+rtt min/avg/max/mdev = 249.188/396.541/798.877/160.062 ms
+***********************
+traceroute to 184.31.192.49 (184.31.192.49), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.2.2)  5.158 ms  5.130 ms  5.125 ms
+ 2  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  31.928 ms  32.407 ms  32.408 ms
+ 3  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  32.405 ms  32.401 ms  32.397 ms
+ 4  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  150.671 ms  150.319 ms  150.651 ms
+ 5  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  274.144 ms  274.154 ms  273.568 ms
+ 6  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  150.571 ms  147.343 ms  148.377 ms
+ 7  * * *
+ 8  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  151.410 ms  152.872 ms  152.982 ms
+ 9  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  166.690 ms  187.582 ms  186.658 ms
+10  a184-31-192-49.deploy.static.akamaitechnologies.com (184.31.192.49)  282.942 ms  281.721 ms  292.912 ms
+***********************
+PING 184.31.192.49 (184.31.192.49) 56(84) bytes of data.
+64 bytes from 184.31.192.49: icmp_seq=1 ttl=52 time=1026 ms
+64 bytes from 184.31.192.49: icmp_seq=2 ttl=52 time=821 ms
+64 bytes from 184.31.192.49: icmp_seq=3 ttl=52 time=642 ms
+64 bytes from 184.31.192.49: icmp_seq=4 ttl=52 time=251 ms
+64 bytes from 184.31.192.49: icmp_seq=5 ttl=52 time=272 ms
+64 bytes from 184.31.192.49: icmp_seq=6 ttl=52 time=295 ms
+64 bytes from 184.31.192.49: icmp_seq=7 ttl=52 time=657 ms
+64 bytes from 184.31.192.49: icmp_seq=8 ttl=52 time=548 ms
+64 bytes from 184.31.192.49: icmp_seq=9 ttl=52 time=185 ms
+64 bytes from 184.31.192.49: icmp_seq=10 ttl=52 time=1002 ms
+64 bytes from 184.31.192.49: icmp_seq=11 ttl=52 time=819 ms
+
+--- 184.31.192.49 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10038ms
+rtt min/avg/max/mdev = 185.066/592.484/1025.839/292.544 ms

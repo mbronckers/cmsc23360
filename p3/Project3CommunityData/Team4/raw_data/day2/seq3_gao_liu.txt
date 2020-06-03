@@ -1,0 +1,1626 @@
+Sequence 3 Active Measurements
+
+[05-13-2020 15:36:07]
+
+=====================================================
+traceroute to www.youtube.com (172.217.12.174), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.523 ms  8.662 ms  8.586 ms
+ 2  96.120.74.249 (96.120.74.249)  17.951 ms  18.273 ms  18.242 ms
+ 3  68.86.223.249 (68.86.223.249)  19.589 ms  19.750 ms  19.747 ms
+ 4  96.108.142.197 (96.108.142.197)  18.083 ms  18.055 ms  18.127 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  25.288 ms  38.001 ms  38.313 ms
+ 6  69.241.68.158 (69.241.68.158)  38.388 ms  146.286 ms  19.556 ms
+ 7  108.170.228.96 (108.170.228.96)  19.892 ms  19.808 ms  19.765 ms
+ 8  172.253.70.5 (172.253.70.5)  19.942 ms  19.935 ms  19.826 ms
+ 9  lga25s62-in-f14.1e100.net (172.217.12.174)  19.524 ms  19.505 ms  21.844 ms
+***********************
+PING youtube-ui.l.google.com (172.217.6.238) 56(84) bytes of data.
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=1 ttl=51 time=166 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=2 ttl=51 time=55.6 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=3 ttl=51 time=37.9 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=4 ttl=51 time=55.5 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=5 ttl=51 time=33.8 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=6 ttl=51 time=30.6 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=7 ttl=51 time=32.8 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=8 ttl=51 time=26.6 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=9 ttl=51 time=40.10 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=10 ttl=51 time=37.5 ms
+64 bytes from lga25s55-in-f14.1e100.net (172.217.6.238): icmp_seq=11 ttl=51 time=37.3 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 26ms
+rtt min/avg/max/mdev = 26.596/50.447/166.464/37.726 ms
+***********************
+pchar to youtube-ui.l.google.com (172.217.6.238) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 7.167405 ms, (b = 0.000337 ms/B), r2 = 0.084077
+                       stddev rtt = 0.819776, stddev b = 0.000641
+    Partial queueing:  avg = 0.000566 ms (1682 bytes)
+    Hop char:          rtt = 7.167405 ms, bw = 23773.426548 Kbps
+    Hop queueing:      avg = 0.000566 ms (1682 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 34.937894 ms, (b = 0.000080 ms/B), r2 = 0.000045
+                       stddev rtt = 5.691679, stddev b = 0.006907
+    Partial queueing:  avg = 0.015937 ms (1682 bytes)
+    Hop char:          rtt = 27.770488 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.015371 ms (0 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 40.885444 ms, (b = -0.000901 ms/B), r2 = 0.001592
+                       stddev rtt = 10.731645, stddev b = 0.013024
+    Partial queueing:  avg = 0.016595 ms (1682 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000658 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 34.470887 ms, (b = 0.006073 ms/B), r2 = 0.058800
+                       stddev rtt = 12.120289, stddev b = 0.014028
+    Partial queueing:  avg = 0.010904 ms (1682 bytes)
+    Hop char:          rtt = --.--- ms, bw = 1147.146138 Kbps
+    Hop queueing:      avg = -0.005691 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 27.531025 ms, (b = 0.004723 ms/B), r2 = 0.052036
+                       stddev rtt = 10.055037, stddev b = 0.011638
+    Partial queueing:  avg = 0.011406 ms (1682 bytes)
+    Hop char:          rtt = --.--- ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.000502 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 57.172176 ms, (b = -0.020387 ms/B), r2 = 0.627250
+                       stddev rtt = 11.599669, stddev b = 0.009074
+    Partial queueing:  avg = 0.006500 ms (1682 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.004906 ms (0 bytes)
+ 6: 69.241.68.158 (69.241.68.158)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 31.828414 ms, (b = -0.000754 ms/B), r2 = 0.006635
+                       stddev rtt = 6.812768, stddev b = 0.005329
+    Partial queueing:  avg = 0.004717 ms (1682 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.001783 ms (0 bytes)
+ 7: 108.170.228.96 (108.170.228.96)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 29.743625 ms, (b = 0.001233 ms/B), r2 = 0.008710
+                       stddev rtt = 9.709597, stddev b = 0.007595
+    Partial queueing:  avg = 0.006911 ms (2785 bytes)
+    Hop char:          rtt = --.--- ms, bw = 4025.206721 Kbps
+    Hop queueing:      avg = 0.002193 ms (1103 bytes)
+ 8: 108.170.237.211 (108.170.237.211)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 26.464812 ms, (b = 0.003580 ms/B), r2 = 0.089351
+                       stddev rtt = 5.701253, stddev b = 0.006599
+    Partial queueing:  avg = 0.004878 ms (2785 bytes)
+    Hop char:          rtt = --.--- ms, bw = 3408.615482 Kbps
+    Hop queueing:      avg = -0.002032 ms (0 bytes)
+ 9: 172.217.6.238 (lga25s55-in-f238.1e100.net)
+    Path length:       9 hops
+    Path char:         rtt = 26.464812 ms r2 = 0.089351
+    Path bottleneck:   1147.146138 Kbps
+    Path pipe:         3794 bytes
+    Path queueing:     average = 0.004878 ms (2785 bytes)
+    Start time:        Wed May 13 15:36:20 2020
+    End time:          Wed May 13 15:36:49 2020
+***********************
+traceroute to www.youtube.com (172.217.6.238), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.715 ms  8.914 ms  8.906 ms
+ 2  96.120.74.249 (96.120.74.249)  18.028 ms  18.213 ms  18.209 ms
+ 3  68.86.223.249 (68.86.223.249)  18.497 ms  18.584 ms  20.313 ms
+ 4  96.108.142.197 (96.108.142.197)  21.933 ms  22.271 ms  22.266 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  22.254 ms  22.323 ms  36.482 ms
+ 6  69.241.68.158 (69.241.68.158)  35.832 ms  27.332 ms  18.119 ms
+ 7  108.170.228.96 (108.170.228.96)  21.212 ms  21.273 ms  28.745 ms
+ 8  108.170.237.211 (108.170.237.211)  37.315 ms  37.483 ms  37.481 ms
+ 9  lga25s55-in-f238.1e100.net (172.217.6.238)  20.948 ms  21.088 ms  21.077 ms
+***********************
+PING youtube-ui.l.google.com (172.217.12.174) 56(84) bytes of data.
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=1 ttl=53 time=37.3 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=2 ttl=53 time=22.0 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=3 ttl=53 time=35.5 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=4 ttl=53 time=48.4 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=5 ttl=53 time=29.7 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=6 ttl=53 time=37.4 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=7 ttl=53 time=37.3 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=8 ttl=53 time=36.9 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=9 ttl=53 time=49.1 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=10 ttl=53 time=22.4 ms
+64 bytes from lga25s62-in-f14.1e100.net (172.217.12.174): icmp_seq=11 ttl=53 time=33.6 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 25ms
+rtt min/avg/max/mdev = 22.013/35.420/49.101/8.277 ms
+=====================================================
+traceroute to www.reddit.com (151.101.1.140), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.973 ms  9.177 ms  9.167 ms
+ 2  96.120.74.249 (96.120.74.249)  27.984 ms  28.301 ms  28.300 ms
+ 3  68.86.223.249 (68.86.223.249)  26.517 ms  26.738 ms  26.740 ms
+ 4  96.108.142.197 (96.108.142.197)  28.205 ms  28.197 ms  28.350 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  28.342 ms  28.333 ms  39.039 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  39.233 ms  19.299 ms  24.188 ms
+ 7  be-2202-pe02.newark.nj.ibone.comcast.net (96.110.37.54)  24.035 ms  20.014 ms  25.694 ms
+ 8  50.242.150.178 (50.242.150.178)  40.066 ms  48.503 ms  21.440 ms
+ 9  151.101.1.140 (151.101.1.140)  21.716 ms  21.708 ms  21.697 ms
+***********************
+PING reddit.map.fastly.net (151.101.1.140) 56(84) bytes of data.
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=1 ttl=56 time=35.5 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=2 ttl=56 time=39.7 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=3 ttl=56 time=33.0 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=4 ttl=56 time=33.8 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=5 ttl=56 time=89.2 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=6 ttl=56 time=192 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=7 ttl=56 time=73.3 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=8 ttl=56 time=75.6 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=9 ttl=56 time=39.1 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=10 ttl=56 time=34.1 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=11 ttl=56 time=35.1 ms
+
+--- reddit.map.fastly.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 24ms
+rtt min/avg/max/mdev = 33.012/61.856/191.929/45.522 ms
+***********************
+pchar to reddit.map.fastly.net (151.101.1.140) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 8.520478 ms, (b = 0.000122 ms/B), r2 = 0.009232
+                       stddev rtt = 0.933798, stddev b = 0.000730
+    Partial queueing:  avg = 0.000366 ms (3000 bytes)
+    Hop char:          rtt = 8.520478 ms, bw = 65507.583743 Kbps
+    Hop queueing:      avg = 0.000366 ms (3000 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 38.941378 ms, (b = -0.003337 ms/B), r2 = 0.017412
+                       stddev rtt = 11.925973, stddev b = 0.014473
+    Partial queueing:  avg = 0.007384 ms (3000 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.007018 ms (0 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 29.725991 ms, (b = 0.003277 ms/B), r2 = 0.075341
+                       stddev rtt = 5.461506, stddev b = 0.006628
+    Partial queueing:  avg = 0.007306 ms (3000 bytes)
+    Hop char:          rtt = --.--- ms, bw = 1209.544059 Kbps
+    Hop queueing:      avg = -0.000078 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 28.627375 ms, (b = -0.002048 ms/B), r2 = 0.012593
+                       stddev rtt = 9.044796, stddev b = 0.010469
+    Partial queueing:  avg = 0.005879 ms (3000 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.001427 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 33.274400 ms, (b = -0.007006 ms/B), r2 = 0.182291
+                       stddev rtt = 7.402115, stddev b = 0.008567
+    Partial queueing:  avg = 0.006077 ms (3000 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000198 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 19.224850 ms, (b = 0.018933 ms/B), r2 = 0.866693
+                       stddev rtt = 3.703922, stddev b = 0.004287
+    Partial queueing:  avg = 0.005623 ms (3000 bytes)
+    Hop char:          rtt = --.--- ms, bw = 308.415156 Kbps
+    Hop queueing:      avg = -0.000455 ms (0 bytes)
+ 6: 96.110.42.37 (be-31123-cs02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 25.733900 ms, (b = 0.003709 ms/B), r2 = 0.039432
+                       stddev rtt = 9.132598, stddev b = 0.010570
+    Partial queueing:  avg = 0.007212 ms (3000 bytes)
+    Hop char:          rtt = 6.509050 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.001589 ms (0 bytes)
+ 7: 96.110.37.54 (be-2202-pe02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 43.229072 ms, (b = -0.006420 ms/B), r2 = 0.403290
+                       stddev rtt = 5.764116, stddev b = 0.004509
+    Partial queueing:  avg = 0.006964 ms (3000 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000248 ms (0 bytes)
+ 8: 50.242.150.178 (50.242.150.178)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 39.182900 ms, (b = -0.002184 ms/B), r2 = 0.196353
+                       stddev rtt = 3.917912, stddev b = 0.002551
+    Partial queueing:  avg = 0.003880 ms (3000 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.003084 ms (0 bytes)
+ 9: 151.101.1.140 (151.101.1.140)
+    Path length:       9 hops
+    Path char:         rtt = 39.182900 ms r2 = 0.196353
+    Path bottleneck:   308.415156 Kbps
+    Path pipe:         1510 bytes
+    Path queueing:     average = 0.003880 ms (3000 bytes)
+    Start time:        Wed May 13 15:37:13 2020
+    End time:          Wed May 13 15:37:42 2020
+***********************
+traceroute to www.reddit.com (151.101.1.140), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.311 ms  8.458 ms  8.445 ms
+ 2  96.120.74.249 (96.120.74.249)  16.874 ms  17.209 ms  17.206 ms
+ 3  68.86.223.249 (68.86.223.249)  19.066 ms  19.398 ms  19.395 ms
+ 4  96.108.142.197 (96.108.142.197)  19.597 ms  19.601 ms  19.593 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  27.225 ms  29.827 ms  36.485 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  41.756 ms  34.797 ms  21.184 ms
+ 7  be-2202-pe02.newark.nj.ibone.comcast.net (96.110.37.54)  17.834 ms  17.998 ms  17.991 ms
+ 8  50.242.150.178 (50.242.150.178)  21.620 ms  21.932 ms  21.927 ms
+ 9  151.101.1.140 (151.101.1.140)  21.915 ms  21.910 ms  27.289 ms
+***********************
+PING reddit.map.fastly.net (151.101.1.140) 56(84) bytes of data.
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=1 ttl=56 time=21.0 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=2 ttl=56 time=21.6 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=3 ttl=56 time=36.4 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=4 ttl=56 time=34.6 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=5 ttl=56 time=61.10 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=6 ttl=56 time=54.1 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=7 ttl=56 time=36.8 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=8 ttl=56 time=17.9 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=9 ttl=56 time=47.3 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=10 ttl=56 time=55.10 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=11 ttl=56 time=36.3 ms
+
+--- reddit.map.fastly.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 25ms
+rtt min/avg/max/mdev = 17.913/38.541/61.951/14.197 ms
+=====================================================
+traceroute to en.wikipedia.org (208.80.154.224), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  6.252 ms  7.135 ms  7.813 ms
+ 2  96.120.74.249 (96.120.74.249)  20.578 ms  20.840 ms  20.812 ms
+ 3  68.86.223.249 (68.86.223.249)  18.939 ms  19.181 ms  19.165 ms
+ 4  96.108.142.197 (96.108.142.197)  20.664 ms  20.633 ms  20.784 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  20.755 ms  30.415 ms  35.674 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  35.746 ms  21.727 ms  21.164 ms
+ 7  be-2203-pe03.newark.nj.ibone.comcast.net (96.110.37.70)  20.831 ms  23.310 ms  23.267 ms
+ 8  66.208.229.78 (66.208.229.78)  26.588 ms  43.543 ms  31.370 ms
+ 9  108.162.218.10 (108.162.218.10)  19.201 ms  19.607 ms  19.593 ms
+10  108.162.218.10 (108.162.218.10)  19.583 ms  19.548 ms  19.827 ms
+11  * * *
+12  text-lb.eqiad.wikimedia.org (208.80.154.224)  25.586 ms  25.816 ms  25.822 ms
+***********************
+PING dyna.wikimedia.org (208.80.154.224) 56(84) bytes of data.
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=1 ttl=53 time=47.9 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=2 ttl=53 time=49.10 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=3 ttl=53 time=63.6 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=4 ttl=53 time=48.7 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=5 ttl=53 time=40.9 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=6 ttl=53 time=47.7 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=7 ttl=53 time=41.7 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=8 ttl=53 time=30.1 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=9 ttl=53 time=42.1 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=10 ttl=53 time=34.8 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=11 ttl=53 time=44.7 ms
+
+--- dyna.wikimedia.org ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 26ms
+rtt min/avg/max/mdev = 30.059/44.740/63.595/8.326 ms
+***********************
+pchar to dyna.wikimedia.org (208.80.154.224) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 8.481879 ms, (b = -0.000220 ms/B), r2 = 0.008645
+                       stddev rtt = 1.740296, stddev b = 0.001361
+    Partial queueing:  avg = 0.009139 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.009139 ms (0 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 39.079925 ms, (b = -0.000284 ms/B), r2 = 0.000658
+                       stddev rtt = 5.270661, stddev b = 0.006396
+    Partial queueing:  avg = 0.001997 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.007142 ms (0 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 31.520012 ms, (b = -0.001711 ms/B), r2 = 0.013054
+                       stddev rtt = 7.077371, stddev b = 0.008589
+    Partial queueing:  avg = 0.005138 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.003141 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 21.379275 ms, (b = 0.004780 ms/B), r2 = 0.205717
+                       stddev rtt = 4.685713, stddev b = 0.005423
+    Partial queueing:  avg = 0.005307 ms (26 bytes)
+    Hop char:          rtt = --.--- ms, bw = 1232.398604 Kbps
+    Hop queueing:      avg = 0.000169 ms (26 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 16.660137 ms, (b = 0.016731 ms/B), r2 = 0.685240
+                       stddev rtt = 5.656401, stddev b = 0.006547
+    Partial queueing:  avg = 0.003650 ms (26 bytes)
+    Hop char:          rtt = --.--- ms, bw = 669.434184 Kbps
+    Hop queueing:      avg = -0.001657 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 45.007088 ms, (b = -0.006596 ms/B), r2 = 0.374763
+                       stddev rtt = 4.249700, stddev b = 0.004919
+    Partial queueing:  avg = 0.006031 ms (26 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.002382 ms (0 bytes)
+ 6: 96.110.42.37 (be-31123-cs02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 48.907537 ms, (b = -0.015707 ms/B), r2 = 0.332271
+                       stddev rtt = 11.106836, stddev b = 0.012855
+    Partial queueing:  avg = 0.005563 ms (26 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.000469 ms (0 bytes)
+ 7: 96.110.37.70 (be-2203-pe03.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 26.599106 ms, (b = 0.004145 ms/B), r2 = 0.032800
+                       stddev rtt = 10.706845, stddev b = 0.012994
+    Partial queueing:  avg = 0.007860 ms (141 bytes)
+    Hop char:          rtt = --.--- ms, bw = 402.998878 Kbps
+    Hop queueing:      avg = 0.002297 ms (115 bytes)
+ 8: 66.208.229.78 (66.208.229.78)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 48.039861 ms, (b = -0.007791 ms/B), r2 = 0.172934
+                       stddev rtt = 12.575437, stddev b = 0.009837
+    Partial queueing:  avg = 0.004309 ms (141 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.003551 ms (0 bytes)
+ 9: 108.162.218.10 (108.162.218.10)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 18.735990 ms, (b = 0.011182 ms/B), r2 = 0.211820
+                       stddev rtt = 15.920613, stddev b = 0.012454
+    Partial queueing:  avg = 0.006135 ms (237 bytes)
+    Hop char:          rtt = --.--- ms, bw = 421.652023 Kbps
+    Hop queueing:      avg = 0.001826 ms (96 bytes)
+10: 108.162.218.10 (108.162.218.10)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (237 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.006135 ms (0 bytes)
+11: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 48.499000 ms, (b = 0.000120 ms/B), r2 = 0.000096
+                       stddev rtt = 10.800307, stddev b = 0.007031
+    Partial queueing:  avg = 0.009507 ms (79772 bytes)
+    Hop char:          rtt = 48.499000 ms, bw = 66928.104575 Kbps
+    Hop queueing:      avg = 0.009507 ms (79535 bytes)
+12: 208.80.154.224 (text-lb.eqiad.wikimedia.org)
+    Path length:       12 hops
+    Path char:         rtt = 48.499000 ms r2 = 0.000096
+    Path bottleneck:   402.998878 Kbps
+    Path pipe:         2443 bytes
+    Path queueing:     average = 0.009507 ms (79772 bytes)
+    Start time:        Wed May 13 15:38:06 2020
+    End time:          Wed May 13 15:39:16 2020
+***********************
+traceroute to en.wikipedia.org (208.80.154.224), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  6.529 ms  6.676 ms  7.604 ms
+ 2  96.120.74.249 (96.120.74.249)  20.732 ms  21.133 ms  21.134 ms
+ 3  68.86.223.249 (68.86.223.249)  21.418 ms  21.415 ms  21.407 ms
+ 4  96.108.142.197 (96.108.142.197)  21.600 ms  21.599 ms  21.590 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  21.577 ms  21.569 ms  30.260 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  35.911 ms  22.149 ms  35.134 ms
+ 7  be-2203-pe03.newark.nj.ibone.comcast.net (96.110.37.70)  49.342 ms  39.996 ms  33.036 ms
+ 8  66.208.229.78 (66.208.229.78)  20.919 ms  21.064 ms  21.063 ms
+ 9  108.162.218.10 (108.162.218.10)  20.363 ms  20.702 ms  20.703 ms
+10  108.162.218.10 (108.162.218.10)  20.692 ms  20.687 ms  20.913 ms
+11  * * *
+12  text-lb.eqiad.wikimedia.org (208.80.154.224)  33.876 ms  35.898 ms  35.890 ms
+***********************
+PING dyna.wikimedia.org (208.80.154.224) 56(84) bytes of data.
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=1 ttl=53 time=33.3 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=2 ttl=53 time=64.7 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=3 ttl=53 time=48.1 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=4 ttl=53 time=47.1 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=5 ttl=53 time=48.9 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=6 ttl=53 time=58.8 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=7 ttl=53 time=64.6 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=8 ttl=53 time=45.9 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=9 ttl=53 time=49.4 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=10 ttl=53 time=45.0 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=11 ttl=53 time=43.1 ms
+
+--- dyna.wikimedia.org ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 23ms
+rtt min/avg/max/mdev = 33.301/49.901/64.699/8.984 ms
+=====================================================
+traceroute to www.wikipedia.jp (202.75.235.177), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  9.020 ms  9.155 ms  9.150 ms
+ 2  96.120.74.249 (96.120.74.249)  17.812 ms  18.051 ms  18.049 ms
+ 3  68.86.223.249 (68.86.223.249)  18.185 ms  18.467 ms  18.460 ms
+ 4  96.108.142.197 (96.108.142.197)  19.732 ms  19.929 ms  19.927 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  24.810 ms  24.985 ms  24.982 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  26.827 ms  37.128 ms  19.595 ms
+ 7  be-1401-cr01.newark.nj.ibone.comcast.net (96.110.36.94)  19.637 ms  23.945 ms  23.935 ms
+ 8  be-10203-cr02.newyork.ny.ibone.comcast.net (68.86.85.186)  23.510 ms  23.829 ms  24.037 ms
+ 9  be-10381-pe02.111eighthave.ny.ibone.comcast.net (68.86.86.250)  23.983 ms  21.599 ms  21.656 ms
+10  50.242.151.70 (50.242.151.70)  29.741 ms  29.908 ms  29.905 ms
+11  ae-5.r20.nwrknj03.us.bb.gin.ntt.net (129.250.3.128)  34.396 ms  34.262 ms  42.279 ms
+12  ae-5.r22.sttlwa01.us.bb.gin.ntt.net (129.250.6.177)  86.078 ms  87.375 ms  87.366 ms
+13  ae-13.r30.tokyjp05.jp.bb.gin.ntt.net (129.250.4.143)  180.446 ms  180.666 ms  180.660 ms
+14  ae-2.r03.tokyjp05.jp.bb.gin.ntt.net (129.250.3.33)  180.648 ms  195.032 ms  176.020 ms
+15  ae-1.a02.tokyjp05.jp.bb.gin.ntt.net (129.250.6.189)  175.118 ms  175.428 ms  175.408 ms
+16  xe-0-0-12-2.a02.tokyjp05.jp.ce.gin.ntt.net (61.213.161.22)  172.145 ms  175.345 ms  175.314 ms
+17  ae0.3.TR2.B9A.FreeBit.NET (219.99.124.61)  189.552 ms  253.616 ms  253.686 ms
+18  v26.SR2-03.B9A.FreeBit.NET (219.99.124.201)  205.325 ms  202.812 ms  193.856 ms
+19  tokyoA-10G-IF.ntt-poi.FreeBit.NET (122.152.1.174)  187.944 ms  190.864 ms  194.083 ms
+20  tokyo-26-1A-2.ntt-poi.FreeBit.NET (220.150.74.86)  179.408 ms  176.677 ms  178.967 ms
+21  177.235.75.202.tokyo.global.crust-r.net (202.75.235.177)  176.218 ms  186.802 ms  215.745 ms
+***********************
+PING www.wikipedia.jp (202.75.235.177) 56(84) bytes of data.
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=1 ttl=42 time=176 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=2 ttl=42 time=198 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=3 ttl=42 time=198 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=4 ttl=42 time=200 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=5 ttl=42 time=197 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=6 ttl=42 time=206 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=7 ttl=42 time=199 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=8 ttl=42 time=207 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=9 ttl=42 time=195 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=10 ttl=42 time=194 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=11 ttl=42 time=192 ms
+
+--- www.wikipedia.jp ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 24ms
+rtt min/avg/max/mdev = 176.470/196.682/207.316/7.761 ms
+***********************
+pchar to www.wikipedia.jp (202.75.235.177) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 6.336907 ms, (b = 0.000677 ms/B), r2 = 0.304253
+                       stddev rtt = 0.755283, stddev b = 0.000591
+    Partial queueing:  avg = 0.000302 ms (445 bytes)
+    Hop char:          rtt = 6.336907 ms, bw = 11822.086036 Kbps
+    Hop queueing:      avg = 0.000302 ms (445 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 39.842359 ms, (b = -0.008458 ms/B), r2 = 0.492245
+                       stddev rtt = 4.086782, stddev b = 0.004960
+    Partial queueing:  avg = 0.003673 ms (445 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.003372 ms (0 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 35.780863 ms, (b = 0.003970 ms/B), r2 = 0.029946
+                       stddev rtt = 10.750342, stddev b = 0.013047
+    Partial queueing:  avg = 0.003518 ms (445 bytes)
+    Hop char:          rtt = --.--- ms, bw = 643.681051 Kbps
+    Hop queueing:      avg = -0.000155 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.559437 ms, (b = -0.002679 ms/B), r2 = 0.038798
+                       stddev rtt = 6.650415, stddev b = 0.007697
+    Partial queueing:  avg = 0.004189 ms (445 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000671 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 18.377663 ms, (b = 0.012557 ms/B), r2 = 0.478426
+                       stddev rtt = 6.539989, stddev b = 0.007569
+    Partial queueing:  avg = 0.007507 ms (662 bytes)
+    Hop char:          rtt = --.--- ms, bw = 525.101277 Kbps
+    Hop queueing:      avg = 0.003318 ms (217 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 42.700112 ms, (b = -0.004904 ms/B), r2 = 0.114020
+                       stddev rtt = 6.819483, stddev b = 0.007893
+    Partial queueing:  avg = 0.004788 ms (662 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.002718 ms (0 bytes)
+ 6: 96.110.42.45 (be-31143-cs04.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 28.366650 ms, (b = 0.013283 ms/B), r2 = 0.122466
+                       stddev rtt = 17.736474, stddev b = 0.020528
+    Partial queueing:  avg = 0.008789 ms (881 bytes)
+    Hop char:          rtt = --.--- ms, bw = 439.871990 Kbps
+    Hop queueing:      avg = 0.004000 ms (219 bytes)
+ 7: 96.110.36.94 (be-1401-cr01.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 137.147250 ms, (b = -0.030592 ms/B), r2 = 0.106507
+                       stddev rtt = 44.199751, stddev b = 0.051157
+    Partial queueing:  avg = 0.059724 ms (881 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.050935 ms (0 bytes)
+ 8: 68.86.85.186 (be-10203-cr02.newyork.ny.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 25.832575 ms, (b = 0.037515 ms/B), r2 = 0.662567
+                       stddev rtt = 13.354735, stddev b = 0.015457
+    Partial queueing:  avg = 0.019567 ms (881 bytes)
+    Hop char:          rtt = --.--- ms, bw = 117.462175 Kbps
+    Hop queueing:      avg = -0.040157 ms (0 bytes)
+ 9: 68.86.86.250 (be-10381-pe02.111eighthave.ny.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 45.672778 ms, (b = -0.012612 ms/B), r2 = 0.270723
+                       stddev rtt = 9.847775, stddev b = 0.011951
+    Partial queueing:  avg = 0.014539 ms (881 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.005028 ms (0 bytes)
+10: 50.242.151.70 (50.242.151.70)
+    Partial loss:      8 / 10 (80%)
+    Partial char:      rtt = 60.541906 ms, (b = -0.014660 ms/B), r2 = 1.000000
+                       stddev rtt = nan, stddev b = nan
+    Partial queueing:  avg = 0.000000 ms (881 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.014539 ms (0 bytes)
+11: 129.250.3.128 (ae-5.r20.nwrknj03.us.bb.gin.ntt.net)
+    Partial loss:      5 / 10 (50%)
+    Partial char:      rtt = 117.134630 ms, (b = -0.019422 ms/B), r2 = 0.434302
+                       stddev rtt = 12.727339, stddev b = 0.015674
+    Partial queueing:  avg = 0.007105 ms (881 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.007105 ms (0 bytes)
+12: 129.250.6.177 (ae-5.r22.sttlwa01.us.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 208.439969 ms, (b = -0.013437 ms/B), r2 = 0.446453
+                       stddev rtt = 8.085339, stddev b = 0.008638
+    Partial queueing:  avg = 0.007855 ms (881 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000751 ms (0 bytes)
+13: 129.250.4.143 (ae-13.r30.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 306.102456 ms, (b = -0.092104 ms/B), r2 = 0.570342
+                       stddev rtt = 43.200335, stddev b = 0.046154
+    Partial queueing:  avg = 0.029221 ms (881 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.021366 ms (0 bytes)
+14: 129.250.3.33 (ae-2.r03.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 146.665781 ms, (b = 0.138479 ms/B), r2 = 0.491561
+                       stddev rtt = 67.000978, stddev b = 0.081312
+    Partial queueing:  avg = 0.053131 ms (984 bytes)
+    Hop char:          rtt = --.--- ms, bw = 34.694693 Kbps
+    Hop queueing:      avg = 0.023911 ms (103 bytes)
+15: 129.250.6.189 (ae-1.a02.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 228.387147 ms, (b = 0.009728 ms/B), r2 = 0.004893
+                       stddev rtt = 65.997339, stddev b = 0.080094
+    Partial queueing:  avg = 0.074383 ms (984 bytes)
+    Hop char:          rtt = 81.721366 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.021251 ms (0 bytes)
+16: 61.213.161.22 (xe-0-0-12-2.a02.tokyjp05.jp.ce.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 196.997681 ms, (b = 0.013266 ms/B), r2 = 0.667925
+                       stddev rtt = 4.450144, stddev b = 0.005401
+    Partial queueing:  avg = 0.005610 ms (984 bytes)
+    Hop char:          rtt = --.--- ms, bw = 2260.735180 Kbps
+    Hop queueing:      avg = -0.068772 ms (0 bytes)
+17: 219.99.124.61 (ae0.3.TR2.B9A.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 209.999716 ms, (b = 0.011793 ms/B), r2 = 0.022532
+                       stddev rtt = 36.951170, stddev b = 0.044844
+    Partial queueing:  avg = 0.026300 ms (984 bytes)
+    Hop char:          rtt = 13.002034 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.020689 ms (0 bytes)
+18: 219.99.124.201 (v26.SR2-03.B9A.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 265.162875 ms, (b = -0.041216 ms/B), r2 = 0.083695
+                       stddev rtt = 64.878079, stddev b = 0.078736
+    Partial queueing:  avg = 0.040613 ms (984 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.014313 ms (0 bytes)
+19: 122.152.1.174 (tokyoA-10G-IF.ntt-poi.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 201.633541 ms, (b = 0.001946 ms/B), r2 = 0.001662
+                       stddev rtt = 22.689422, stddev b = 0.027536
+    Partial queueing:  avg = 0.076370 ms (1812 bytes)
+    Hop char:          rtt = --.--- ms, bw = 185.351108 Kbps
+    Hop queueing:      avg = 0.035757 ms (828 bytes)
+20: 220.150.74.86 (tokyo-26-1A-2.ntt-poi.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 187.883500 ms, (b = 0.009004 ms/B), r2 = 0.271474
+                       stddev rtt = 13.080636, stddev b = 0.008516
+    Partial queueing:  avg = 0.112521 ms (6933 bytes)
+    Hop char:          rtt = --.--- ms, bw = 1133.401588 Kbps
+    Hop queueing:      avg = 0.036151 ms (5121 bytes)
+21: 202.75.235.177 (177.235.75.202.tokyo.global.crust-r.net)
+    Path length:       21 hops
+    Path char:         rtt = 187.883500 ms r2 = 0.271474
+    Path bottleneck:   34.694693 Kbps
+    Path pipe:         814 bytes
+    Path queueing:     average = 0.112521 ms (6933 bytes)
+    Start time:        Wed May 13 15:39:42 2020
+    End time:          Wed May 13 15:41:45 2020
+***********************
+traceroute to www.wikipedia.jp (202.75.235.177), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  6.470 ms  6.654 ms  6.645 ms
+ 2  96.120.74.249 (96.120.74.249)  17.702 ms  17.716 ms  17.710 ms
+ 3  68.86.223.249 (68.86.223.249)  17.920 ms  17.918 ms  17.909 ms
+ 4  96.108.142.197 (96.108.142.197)  17.608 ms  18.152 ms  18.539 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  18.535 ms  25.015 ms  25.103 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  37.420 ms  23.812 ms  19.233 ms
+ 7  be-1401-cr01.newark.nj.ibone.comcast.net (96.110.36.94)  19.413 ms  19.402 ms  19.393 ms
+ 8  be-10203-cr02.newyork.ny.ibone.comcast.net (68.86.85.186)  20.416 ms  20.411 ms  20.402 ms
+ 9  be-10381-pe02.111eighthave.ny.ibone.comcast.net (68.86.86.250)  19.296 ms  20.058 ms  20.253 ms
+10  50.242.151.70 (50.242.151.70)  23.554 ms  23.626 ms  19.852 ms
+11  ae-5.r20.nwrknj03.us.bb.gin.ntt.net (129.250.3.128)  21.282 ms  35.370 ms  35.229 ms
+12  ae-5.r22.sttlwa01.us.bb.gin.ntt.net (129.250.6.177)  82.823 ms  83.151 ms  83.145 ms
+13  ae-13.r30.tokyjp05.jp.bb.gin.ntt.net (129.250.4.143)  179.270 ms  179.435 ms  179.430 ms
+14  ae-2.r03.tokyjp05.jp.bb.gin.ntt.net (129.250.3.33)  179.115 ms  179.119 ms  179.109 ms
+15  ae-1.a02.tokyjp05.jp.bb.gin.ntt.net (129.250.6.189)  178.646 ms  188.706 ms  188.786 ms
+16  xe-0-0-12-2.a02.tokyjp05.jp.ce.gin.ntt.net (61.213.161.22)  181.227 ms  181.400 ms  181.390 ms
+17  ae0.3.TR2.B9A.FreeBit.NET (219.99.124.61)  204.785 ms  188.996 ms  188.818 ms
+18  v26.SR2-03.B9A.FreeBit.NET (219.99.124.201)  188.540 ms  200.359 ms  188.286 ms
+19  tokyoA-10G-IF.ntt-poi.FreeBit.NET (122.152.1.174)  190.836 ms  190.997 ms  190.991 ms
+20  tokyo-26-1A-2.ntt-poi.FreeBit.NET (220.150.74.86)  179.992 ms  180.372 ms  180.361 ms
+21  177.235.75.202.tokyo.global.crust-r.net (202.75.235.177)  180.520 ms  180.521 ms  174.873 ms
+***********************
+PING www.wikipedia.jp (202.75.235.177) 56(84) bytes of data.
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=1 ttl=42 time=217 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=2 ttl=42 time=357 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=3 ttl=42 time=266 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=4 ttl=42 time=347 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=5 ttl=42 time=521 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=6 ttl=42 time=222 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=7 ttl=42 time=194 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=8 ttl=42 time=207 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=9 ttl=42 time=239 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=10 ttl=42 time=233 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=11 ttl=42 time=211 ms
+
+--- www.wikipedia.jp ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 22ms
+rtt min/avg/max/mdev = 194.051/274.006/521.089/93.968 ms
+=====================================================
+traceroute to www.inquirer.com (23.59.250.88), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.110 ms  8.258 ms  8.182 ms
+ 2  96.120.74.249 (96.120.74.249)  19.146 ms  19.119 ms  19.081 ms
+ 3  68.86.223.249 (68.86.223.249)  19.839 ms  19.995 ms  19.975 ms
+ 4  96.108.142.197 (96.108.142.197)  18.926 ms  18.896 ms  18.975 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  26.174 ms  26.342 ms  26.314 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  37.121 ms  38.699 ms  19.882 ms
+ 7  be-2412-pe12.newark.nj.ibone.comcast.net (96.110.34.14)  20.003 ms  19.995 ms  19.984 ms
+ 8  as36408-1.350ecermak.il.ibone.comcast.net (75.149.228.46)  20.318 ms  20.313 ms  20.304 ms
+ 9  ae2.halsey-ewr.netarch.akamai.com (23.203.154.129)  23.211 ms  28.202 ms  28.288 ms
+10  a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88)  23.246 ms  21.220 ms  21.287 ms
+***********************
+PING e15833.a.akamaiedge.net (23.59.250.122) 56(84) bytes of data.
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=1 ttl=55 time=24.4 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=2 ttl=55 time=31.1 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=3 ttl=55 time=582 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=4 ttl=55 time=733 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=5 ttl=55 time=764 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=6 ttl=55 time=420 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=7 ttl=55 time=193 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=8 ttl=55 time=130 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=9 ttl=55 time=144 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=10 ttl=55 time=156 ms
+64 bytes from a23-59-250-122.deploy.static.akamaitechnologies.com (23.59.250.122): icmp_seq=11 ttl=55 time=36.7 ms
+
+--- e15833.a.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 20ms
+rtt min/avg/max/mdev = 24.443/292.250/764.291/269.486 ms
+***********************
+pchar to e15833.a.akamaiedge.net (23.59.250.122) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 6.406070 ms, (b = 0.000668 ms/B), r2 = 0.234671
+                       stddev rtt = 0.890966, stddev b = 0.000697
+    Partial queueing:  avg = 0.001226 ms (1834 bytes)
+    Hop char:          rtt = 6.406070 ms, bw = 11968.218311 Kbps
+    Hop queueing:      avg = 0.001226 ms (1834 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 110.972406 ms, (b = 0.012182 ms/B), r2 = 0.001008
+                       stddev rtt = 182.449415, stddev b = 0.221419
+    Partial queueing:  avg = 0.185833 ms (17867 bytes)
+    Hop char:          rtt = 104.566336 ms, bw = 694.830809 Kbps
+    Hop queueing:      avg = 0.184607 ms (16033 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 138.268781 ms, (b = 0.042679 ms/B), r2 = 0.012275
+                       stddev rtt = 182.133233, stddev b = 0.221035
+    Partial queueing:  avg = 0.149107 ms (17867 bytes)
+    Hop char:          rtt = 27.296375 ms, bw = 262.321959 Kbps
+    Hop queueing:      avg = -0.036726 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 72.280850 ms, (b = 0.045333 ms/B), r2 = 0.040192
+                       stddev rtt = 110.506290, stddev b = 0.127901
+    Partial queueing:  avg = 0.120168 ms (17867 bytes)
+    Hop char:          rtt = --.--- ms, bw = 3014.424492 Kbps
+    Hop queueing:      avg = -0.028939 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 30.260737 ms, (b = 0.063193 ms/B), r2 = 0.319163
+                       stddev rtt = 46.040520, stddev b = 0.053288
+    Partial queueing:  avg = 0.029229 ms (17867 bytes)
+    Hop char:          rtt = --.--- ms, bw = 447.914616 Kbps
+    Hop queueing:      avg = -0.090939 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 309.021262 ms, (b = -0.151500 ms/B), r2 = 0.085683
+                       stddev rtt = 246.868037, stddev b = 0.285727
+    Partial queueing:  avg = 0.162912 ms (17867 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.133682 ms (0 bytes)
+ 6: 96.110.42.37 (be-31123-cs02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 51.261575 ms, (b = 0.006471 ms/B), r2 = 0.125273
+                       stddev rtt = 8.529796, stddev b = 0.009872
+    Partial queueing:  avg = 0.014351 ms (17867 bytes)
+    Hop char:          rtt = --.--- ms, bw = 50.642302 Kbps
+    Hop queueing:      avg = -0.148561 ms (0 bytes)
+ 7: 96.110.34.6 (be-2212-pe12.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 21.896122 ms, (b = 0.022525 ms/B), r2 = 0.256781
+                       stddev rtt = 18.230610, stddev b = 0.022125
+    Partial queueing:  avg = 0.036639 ms (19255 bytes)
+    Hop char:          rtt = --.--- ms, bw = 498.333212 Kbps
+    Hop queueing:      avg = 0.022288 ms (1388 bytes)
+ 8: 75.149.228.46 (as36408-1.350ecermak.il.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 132.726228 ms, (b = 0.020344 ms/B), r2 = 0.003727
+                       stddev rtt = 158.241726, stddev b = 0.192041
+    Partial queueing:  avg = 0.088541 ms (19255 bytes)
+    Hop char:          rtt = 110.830106 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.051902 ms (0 bytes)
+ 9: 23.203.154.129 (ae2.halsey-ewr.netarch.akamai.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 124.630800 ms, (b = 0.014377 ms/B), r2 = 0.008025
+                       stddev rtt = 141.748876, stddev b = 0.092284
+    Partial queueing:  avg = 0.048004 ms (19255 bytes)
+    Hop char:          rtt = --.--- ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.040537 ms (0 bytes)
+10: 23.59.250.122 (a23-59-250-122.deploy.static.akamaitechnologies.com)
+    Path length:       10 hops
+    Path char:         rtt = 124.630800 ms r2 = 0.008025
+    Path bottleneck:   50.642302 Kbps
+    Path pipe:         788 bytes
+    Path queueing:     average = 0.048004 ms (19255 bytes)
+    Start time:        Wed May 13 15:42:11 2020
+    End time:          Wed May 13 15:43:00 2020
+***********************
+traceroute to www.inquirer.com (23.59.250.88), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.163 ms  8.354 ms  8.347 ms
+ 2  96.120.74.249 (96.120.74.249)  16.470 ms  16.470 ms  16.462 ms
+ 3  68.86.223.249 (68.86.223.249)  17.677 ms  17.755 ms  18.766 ms
+ 4  96.108.142.197 (96.108.142.197)  19.923 ms  20.082 ms  20.077 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  28.650 ms  28.831 ms  28.827 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  28.818 ms  24.233 ms  21.132 ms
+ 7  be-2412-pe12.newark.nj.ibone.comcast.net (96.110.34.14)  21.471 ms  21.459 ms  21.445 ms
+ 8  as36408-1.350ecermak.il.ibone.comcast.net (75.149.228.46)  21.512 ms  23.310 ms  56.332 ms
+ 9  ae2.halsey-ewr.netarch.akamai.com (23.203.154.129)  56.887 ms  21.544 ms  21.581 ms
+10  a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88)  19.103 ms  19.299 ms  19.295 ms
+***********************
+PING e15833.a.akamaiedge.net (23.59.250.88) 56(84) bytes of data.
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=1 ttl=54 time=29.9 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=2 ttl=54 time=23.2 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=3 ttl=54 time=38.1 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=4 ttl=54 time=37.0 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=5 ttl=54 time=52.3 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=6 ttl=54 time=334 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=7 ttl=54 time=115 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=8 ttl=54 time=219 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=9 ttl=54 time=402 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=10 ttl=54 time=288 ms
+64 bytes from a23-59-250-88.deploy.static.akamaitechnologies.com (23.59.250.88): icmp_seq=11 ttl=54 time=105 ms
+
+--- e15833.a.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 24ms
+rtt min/avg/max/mdev = 23.200/149.335/402.251/131.312 ms
+Sequence 3 Active Measurements
+
+[05-13-2020 22:06:52]
+
+=====================================================
+traceroute to www.youtube.com (172.217.3.110), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.061 ms  8.162 ms  8.152 ms
+ 2  96.120.74.249 (96.120.74.249)  19.886 ms  20.178 ms  20.182 ms
+ 3  68.86.223.249 (68.86.223.249)  21.013 ms  21.181 ms  21.179 ms
+ 4  96.108.142.197 (96.108.142.197)  20.129 ms  20.123 ms  20.228 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  20.223 ms  35.858 ms  35.917 ms
+ 6  69.241.68.158 (69.241.68.158)  38.205 ms  20.722 ms  37.041 ms
+ 7  108.170.228.94 (108.170.228.94)  44.617 ms  60.789 ms  24.133 ms
+ 8  209.85.244.65 (209.85.244.65)  23.551 ms  23.749 ms  23.715 ms
+ 9  lga34s18-in-f14.1e100.net (172.217.3.110)  22.791 ms  23.294 ms  23.299 ms
+***********************
+PING youtube-ui.l.google.com (142.250.64.110) 56(84) bytes of data.
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=1 ttl=51 time=483 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=2 ttl=51 time=311 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=3 ttl=51 time=37.3 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=4 ttl=51 time=73.10 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=5 ttl=51 time=169 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=6 ttl=51 time=56.7 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=7 ttl=51 time=493 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=8 ttl=51 time=313 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=9 ttl=51 time=31.5 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=10 ttl=51 time=55.4 ms
+64 bytes from lga34s31-in-f14.1e100.net (142.250.64.110): icmp_seq=11 ttl=51 time=83.3 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 22ms
+rtt min/avg/max/mdev = 31.453/191.624/493.254/169.834 ms
+***********************
+pchar to youtube-ui.l.google.com (172.217.10.46) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 12.092474 ms, (b = -0.002715 ms/B), r2 = 0.344753
+                       stddev rtt = 2.762654, stddev b = 0.002161
+    Partial queueing:  avg = 0.032909 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.032909 ms (0 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 32.425034 ms, (b = 0.008301 ms/B), r2 = 0.074207
+                       stddev rtt = 13.948926, stddev b = 0.016928
+    Partial queueing:  avg = 0.054407 ms (1951 bytes)
+    Hop char:          rtt = 20.332560 ms, bw = 726.204135 Kbps
+    Hop queueing:      avg = 0.021498 ms (1951 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 23.604122 ms, (b = 0.011275 ms/B), r2 = 0.153151
+                       stddev rtt = 12.612795, stddev b = 0.015307
+    Partial queueing:  avg = 0.010451 ms (1951 bytes)
+    Hop char:          rtt = --.--- ms, bw = 2690.488702 Kbps
+    Hop queueing:      avg = -0.043955 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 9.531487 ms, (b = 0.045036 ms/B), r2 = 0.580992
+                       stddev rtt = 19.078076, stddev b = 0.022081
+    Partial queueing:  avg = 0.025141 ms (2386 bytes)
+    Hop char:          rtt = --.--- ms, bw = 236.960244 Kbps
+    Hop queueing:      avg = 0.014690 ms (435 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 73.032563 ms, (b = 0.001816 ms/B), r2 = 0.000114
+                       stddev rtt = 84.902044, stddev b = 0.098266
+    Partial queueing:  avg = 0.093259 ms (2386 bytes)
+    Hop char:          rtt = 63.501075 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.068118 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 98.190593 ms, (b = -0.013990 ms/B), r2 = 0.030612
+                       stddev rtt = 58.104682, stddev b = 0.045451
+    Partial queueing:  avg = 0.044915 ms (2386 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.048344 ms (0 bytes)
+ 6: 69.241.68.158 (69.241.68.158)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 54.276551 ms, (b = 0.023053 ms/B), r2 = 0.079105
+                       stddev rtt = 58.053548, stddev b = 0.045411
+    Partial queueing:  avg = 0.090834 ms (3625 bytes)
+    Hop char:          rtt = --.--- ms, bw = 215.970380 Kbps
+    Hop queueing:      avg = 0.045918 ms (1239 bytes)
+ 7: 108.170.228.98 (108.170.228.98)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 371.715711 ms, (b = -0.144047 ms/B), r2 = 0.280116
+                       stddev rtt = 170.440460, stddev b = 0.133323
+    Partial queueing:  avg = 0.034855 ms (3625 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.055979 ms (0 bytes)
+ 8: 216.239.62.171 (216.239.62.171)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 42.987125 ms, (b = 0.096307 ms/B), r2 = 0.108274
+                       stddev rtt = 137.868238, stddev b = 0.159570
+    Partial queueing:  avg = 0.018019 ms (3625 bytes)
+    Hop char:          rtt = --.--- ms, bw = 33.284254 Kbps
+    Hop queueing:      avg = -0.016836 ms (0 bytes)
+ 9: 172.217.10.46 (lga34s13-in-f14.1e100.net)
+    Path length:       9 hops
+    Path char:         rtt = 42.987125 ms r2 = 0.108274
+    Path bottleneck:   33.284254 Kbps
+    Path pipe:         178 bytes
+    Path queueing:     average = 0.018019 ms (3625 bytes)
+    Start time:        Wed May 13 22:07:06 2020
+    End time:          Wed May 13 22:07:44 2020
+***********************
+traceroute to www.youtube.com (172.217.10.46), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  7.345 ms  7.506 ms  7.490 ms
+ 2  96.120.74.249 (96.120.74.249)  16.762 ms  16.763 ms  16.755 ms
+ 3  68.86.223.249 (68.86.223.249)  18.647 ms  18.842 ms  18.838 ms
+ 4  96.108.142.197 (96.108.142.197)  17.532 ms  17.525 ms  17.516 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  17.244 ms  36.883 ms  36.992 ms
+ 6  69.241.68.158 (69.241.68.158)  37.306 ms  18.640 ms  17.775 ms
+ 7  108.170.228.98 (108.170.228.98)  17.373 ms  17.574 ms  17.568 ms
+ 8  216.239.62.171 (216.239.62.171)  19.577 ms  19.570 ms  19.641 ms
+ 9  lga34s13-in-f14.1e100.net (172.217.10.46)  19.136 ms  19.436 ms  22.275 ms
+***********************
+PING youtube-ui.l.google.com (172.217.12.206) 56(84) bytes of data.
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=1 ttl=51 time=109 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=2 ttl=51 time=202 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=3 ttl=51 time=208 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=4 ttl=51 time=97.6 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=5 ttl=51 time=101 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=6 ttl=51 time=106 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=7 ttl=51 time=79.4 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=8 ttl=51 time=24.3 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=9 ttl=51 time=52.0 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=10 ttl=51 time=48.4 ms
+64 bytes from lga25s63-in-f14.1e100.net (172.217.12.206): icmp_seq=11 ttl=51 time=65.4 ms
+
+--- youtube-ui.l.google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 25ms
+rtt min/avg/max/mdev = 24.337/99.438/208.111/56.057 ms
+=====================================================
+traceroute to www.reddit.com (151.101.1.140), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  7.449 ms  7.692 ms  7.657 ms
+ 2  96.120.74.249 (96.120.74.249)  22.057 ms  22.391 ms  22.391 ms
+ 3  68.86.223.249 (68.86.223.249)  20.974 ms  21.215 ms  21.213 ms
+ 4  96.108.142.197 (96.108.142.197)  22.296 ms  22.288 ms  22.462 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  22.458 ms  25.349 ms  39.476 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  39.549 ms  202.930 ms  18.629 ms
+ 7  be-2202-pe02.newark.nj.ibone.comcast.net (96.110.37.54)  18.186 ms  18.408 ms  18.400 ms
+ 8  50.242.150.178 (50.242.150.178)  50.470 ms  59.504 ms  21.141 ms
+ 9  151.101.1.140 (151.101.1.140)  21.420 ms  21.381 ms  21.368 ms
+***********************
+PING reddit.map.fastly.net (151.101.1.140) 56(84) bytes of data.
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=1 ttl=56 time=70.4 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=2 ttl=56 time=29.3 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=3 ttl=56 time=204 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=4 ttl=56 time=153 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=5 ttl=56 time=59.3 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=6 ttl=56 time=21.3 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=7 ttl=56 time=25.3 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=8 ttl=56 time=47.9 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=9 ttl=56 time=294 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=10 ttl=56 time=77.7 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=11 ttl=56 time=411 ms
+
+--- reddit.map.fastly.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 23ms
+rtt min/avg/max/mdev = 21.262/126.692/411.420/121.698 ms
+***********************
+pchar to reddit.map.fastly.net (151.101.1.140) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 5.336940 ms, (b = 0.001251 ms/B), r2 = 0.296506
+                       stddev rtt = 1.421880, stddev b = 0.001112
+    Partial queueing:  avg = 0.009843 ms (7869 bytes)
+    Hop char:          rtt = 5.336940 ms, bw = 6396.556432 Kbps
+    Hop queueing:      avg = 0.009843 ms (7869 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 24.462866 ms, (b = 0.002936 ms/B), r2 = 0.028097
+                       stddev rtt = 8.215907, stddev b = 0.009971
+    Partial queueing:  avg = 0.007590 ms (7869 bytes)
+    Hop char:          rtt = 19.125926 ms, bw = 4745.929086 Kbps
+    Hop queueing:      avg = -0.002253 ms (0 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 32.292144 ms, (b = 0.007187 ms/B), r2 = 0.030643
+                       stddev rtt = 19.229582, stddev b = 0.023337
+    Partial queueing:  avg = 0.017080 ms (10101 bytes)
+    Hop char:          rtt = 7.829278 ms, bw = 1882.179947 Kbps
+    Hop queueing:      avg = 0.009490 ms (2232 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 7.388537 ms, (b = 0.050787 ms/B), r2 = 0.341885
+                       stddev rtt = 35.149335, stddev b = 0.040682
+    Partial queueing:  avg = 0.008499 ms (10101 bytes)
+    Hop char:          rtt = --.--- ms, bw = 183.484595 Kbps
+    Hop queueing:      avg = -0.008581 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 29.758712 ms, (b = 0.011539 ms/B), r2 = 0.429287
+                       stddev rtt = 6.637020, stddev b = 0.007682
+    Partial queueing:  avg = 0.015872 ms (10101 bytes)
+    Hop char:          rtt = 22.370175 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.007373 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 32.085388 ms, (b = 0.017989 ms/B), r2 = 0.214074
+                       stddev rtt = 17.193394, stddev b = 0.019900
+    Partial queueing:  avg = 0.070456 ms (18564 bytes)
+    Hop char:          rtt = 2.326675 ms, bw = 1240.460327 Kbps
+    Hop queueing:      avg = 0.054584 ms (8463 bytes)
+ 6: 96.110.42.37 (be-31123-cs02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 37.497113 ms, (b = -0.011542 ms/B), r2 = 0.420584
+                       stddev rtt = 6.757648, stddev b = 0.007821
+    Partial queueing:  avg = 0.071068 ms (18564 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000612 ms (0 bytes)
+ 7: 96.110.37.54 (be-2202-pe02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 21.384132 ms, (b = 0.004290 ms/B), r2 = 0.369219
+                       stddev rtt = 4.138469, stddev b = 0.003237
+    Partial queueing:  avg = 0.048347 ms (18564 bytes)
+    Hop char:          rtt = --.--- ms, bw = 505.318889 Kbps
+    Hop queueing:      avg = -0.022722 ms (0 bytes)
+ 8: 50.242.150.178 (50.242.150.178)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 37.908100 ms, (b = 0.010061 ms/B), r2 = 0.281496
+                       stddev rtt = 14.254645, stddev b = 0.009280
+    Partial queueing:  avg = 0.157486 ms (37474 bytes)
+    Hop char:          rtt = 16.523968 ms, bw = 1386.159262 Kbps
+    Hop queueing:      avg = 0.109139 ms (18910 bytes)
+ 9: 151.101.1.140 (151.101.1.140)
+    Path length:       9 hops
+    Path char:         rtt = 37.908100 ms r2 = 0.281496
+    Path bottleneck:   183.484595 Kbps
+    Path pipe:         869 bytes
+    Path queueing:     average = 0.157486 ms (37474 bytes)
+    Start time:        Wed May 13 22:08:10 2020
+    End time:          Wed May 13 22:08:43 2020
+***********************
+traceroute to www.reddit.com (151.101.1.140), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.154 ms  8.311 ms  8.297 ms
+ 2  96.120.74.249 (96.120.74.249)  17.448 ms  17.552 ms  18.018 ms
+ 3  68.86.223.249 (68.86.223.249)  20.965 ms  21.161 ms  21.155 ms
+ 4  96.108.142.197 (96.108.142.197)  21.451 ms  21.445 ms  21.437 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  21.424 ms  37.883 ms  37.974 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  44.931 ms  31.330 ms  18.459 ms
+ 7  be-2202-pe02.newark.nj.ibone.comcast.net (96.110.37.54)  18.225 ms  20.661 ms  46.505 ms
+ 8  50.242.150.178 (50.242.150.178)  90.891 ms  20.143 ms  20.100 ms
+ 9  151.101.1.140 (151.101.1.140)  19.435 ms  19.752 ms  19.748 ms
+***********************
+PING reddit.map.fastly.net (151.101.1.140) 56(84) bytes of data.
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=1 ttl=56 time=73.8 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=2 ttl=56 time=59.9 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=3 ttl=56 time=68.9 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=4 ttl=56 time=98.8 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=5 ttl=56 time=32.0 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=6 ttl=56 time=197 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=7 ttl=56 time=50.8 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=8 ttl=56 time=53.9 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=9 ttl=56 time=39.1 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=10 ttl=56 time=17.1 ms
+64 bytes from 151.101.1.140 (151.101.1.140): icmp_seq=11 ttl=56 time=50.8 ms
+
+--- reddit.map.fastly.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 22ms
+rtt min/avg/max/mdev = 17.113/67.461/196.976/45.917 ms
+=====================================================
+traceroute to en.wikipedia.org (208.80.154.224), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  7.466 ms  7.628 ms  7.627 ms
+ 2  96.120.74.249 (96.120.74.249)  28.505 ms  28.736 ms  28.733 ms
+ 3  68.86.223.249 (68.86.223.249)  34.743 ms  34.904 ms  34.900 ms
+ 4  96.108.142.197 (96.108.142.197)  44.326 ms  44.682 ms  44.679 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  44.667 ms  50.612 ms  61.410 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  63.388 ms  46.740 ms  46.504 ms
+ 7  be-2203-pe03.newark.nj.ibone.comcast.net (96.110.37.70)  44.402 ms  33.594 ms  19.647 ms
+ 8  66.208.229.78 (66.208.229.78)  32.810 ms  32.966 ms  32.958 ms
+ 9  108.162.218.10 (108.162.218.10)  20.899 ms  21.032 ms  25.465 ms
+10  108.162.218.10 (108.162.218.10)  25.644 ms  25.646 ms  25.638 ms
+11  * * *
+12  text-lb.eqiad.wikimedia.org (208.80.154.224)  59.245 ms  59.405 ms  59.151 ms
+***********************
+PING dyna.wikimedia.org (208.80.154.224) 56(84) bytes of data.
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=1 ttl=53 time=458 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=2 ttl=53 time=86.8 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=3 ttl=53 time=121 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=4 ttl=53 time=91.6 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=5 ttl=53 time=103 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=6 ttl=53 time=84.9 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=7 ttl=53 time=67.9 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=8 ttl=53 time=76.6 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=9 ttl=53 time=42.1 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=10 ttl=53 time=131 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=11 ttl=53 time=535 ms
+
+--- dyna.wikimedia.org ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 21ms
+rtt min/avg/max/mdev = 42.131/163.420/535.087/159.626 ms
+***********************
+pchar to dyna.wikimedia.org (208.80.154.224) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 44.874839 ms, (b = -0.016960 ms/B), r2 = 0.061891
+                       stddev rtt = 48.734148, stddev b = 0.038121
+    Partial queueing:  avg = 0.011237 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.011237 ms (0 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 13.250569 ms, (b = 0.026265 ms/B), r2 = 0.956803
+                       stddev rtt = 2.654970, stddev b = 0.003222
+    Partial queueing:  avg = 0.036059 ms (574 bytes)
+    Hop char:          rtt = --.--- ms, bw = 185.080841 Kbps
+    Hop queueing:      avg = 0.024822 ms (574 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 11.236422 ms, (b = 0.022087 ms/B), r2 = 0.347573
+                       stddev rtt = 14.396214, stddev b = 0.017471
+    Partial queueing:  avg = 0.031768 ms (574 bytes)
+    Hop char:          rtt = --.--- ms, bw = --.--- Kbps
+    Hop queueing:      avg = -0.004290 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 56.021688 ms, (b = -0.015183 ms/B), r2 = 0.029020
+                       stddev rtt = 43.810134, stddev b = 0.050706
+    Partial queueing:  avg = 0.041852 ms (574 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.010084 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 68.359275 ms, (b = -0.019082 ms/B), r2 = 0.129160
+                       stddev rtt = 24.716292, stddev b = 0.028607
+    Partial queueing:  avg = 0.012880 ms (574 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.028972 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 30.765700 ms, (b = -0.003028 ms/B), r2 = 0.025437
+                       stddev rtt = 9.349737, stddev b = 0.010821
+    Partial queueing:  avg = 0.013929 ms (574 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.001049 ms (0 bytes)
+ 6: 96.110.42.37 (be-31123-cs02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 25.802550 ms, (b = 0.021736 ms/B), r2 = 0.284697
+                       stddev rtt = 17.186420, stddev b = 0.019892
+    Partial queueing:  avg = 0.053266 ms (2162 bytes)
+    Hop char:          rtt = --.--- ms, bw = 323.048773 Kbps
+    Hop queueing:      avg = 0.039337 ms (1588 bytes)
+ 7: 96.110.37.70 (be-2203-pe03.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 26.660759 ms, (b = -0.001033 ms/B), r2 = 0.010604
+                       stddev rtt = 4.747863, stddev b = 0.005762
+    Partial queueing:  avg = 0.025197 ms (2162 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.028069 ms (0 bytes)
+ 8: 66.208.229.78 (66.208.229.78)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 141.422609 ms, (b = -0.062018 ms/B), r2 = 0.575722
+                       stddev rtt = 39.295461, stddev b = 0.030738
+    Partial queueing:  avg = 0.013032 ms (2162 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.012164 ms (0 bytes)
+ 9: 108.162.218.10 (108.162.218.10)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 39.278773 ms, (b = -0.005238 ms/B), r2 = 0.091757
+                       stddev rtt = 12.164269, stddev b = 0.009515
+    Partial queueing:  avg = 0.020107 ms (2162 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.007074 ms (0 bytes)
+10: 108.162.218.10 (108.162.218.10)
+    Partial loss:      10 / 10 (100%)
+    Partial char:      rtt = 0.000000 ms, (b = 0.000000 ms/B), r2 = 0.000000
+                       stddev rtt = 0.000000, stddev b = 0.000000
+    Partial queueing:  avg = 0.000000 ms (2162 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.020107 ms (0 bytes)
+11: no probe responses
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 84.320900 ms, (b = -0.009137 ms/B), r2 = 0.323210
+                       stddev rtt = 11.725058, stddev b = 0.007634
+    Partial queueing:  avg = 0.078912 ms (2162 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.078912 ms (0 bytes)
+12: 208.80.154.224 (text-lb.eqiad.wikimedia.org)
+    Path length:       12 hops
+    Path char:         rtt = 84.320900 ms r2 = 0.323210
+    Path bottleneck:   185.080841 Kbps
+    Path pipe:         1950 bytes
+    Path queueing:     average = 0.078912 ms (2162 bytes)
+    Start time:        Wed May 13 22:09:09 2020
+    End time:          Wed May 13 22:10:23 2020
+***********************
+traceroute to en.wikipedia.org (208.80.154.224), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  7.762 ms  7.949 ms  7.940 ms
+ 2  96.120.74.249 (96.120.74.249)  17.492 ms  17.719 ms  17.718 ms
+ 3  68.86.223.249 (68.86.223.249)  20.299 ms  20.396 ms  21.251 ms
+ 4  96.108.142.197 (96.108.142.197)  23.473 ms  23.790 ms  23.784 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  23.772 ms  23.844 ms  27.355 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  36.345 ms  55.536 ms  18.156 ms
+ 7  be-2203-pe03.newark.nj.ibone.comcast.net (96.110.37.70)  17.748 ms  17.903 ms  20.698 ms
+ 8  66.208.229.78 (66.208.229.78)  67.163 ms  19.585 ms  23.874 ms
+ 9  108.162.218.10 (108.162.218.10)  23.680 ms  33.373 ms  33.705 ms
+10  108.162.218.10 (108.162.218.10)  33.698 ms  33.694 ms  33.682 ms
+11  * * *
+12  text-lb.eqiad.wikimedia.org (208.80.154.224)  45.894 ms  45.969 ms  48.214 ms
+***********************
+PING dyna.wikimedia.org (208.80.154.224) 56(84) bytes of data.
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=1 ttl=53 time=56.5 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=2 ttl=53 time=90.8 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=3 ttl=53 time=131 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=4 ttl=53 time=183 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=5 ttl=53 time=227 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=6 ttl=53 time=189 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=7 ttl=53 time=64.8 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=8 ttl=53 time=106 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=9 ttl=53 time=123 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=10 ttl=53 time=360 ms
+64 bytes from text-lb.eqiad.wikimedia.org (208.80.154.224): icmp_seq=11 ttl=53 time=115 ms
+
+--- dyna.wikimedia.org ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 22ms
+rtt min/avg/max/mdev = 56.517/149.658/359.950/83.332 ms
+=====================================================
+traceroute to www.wikipedia.jp (202.75.235.177), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  7.068 ms  7.230 ms  7.224 ms
+ 2  96.120.74.249 (96.120.74.249)  20.219 ms  20.601 ms  20.598 ms
+ 3  68.86.223.249 (68.86.223.249)  17.982 ms  18.228 ms  18.232 ms
+ 4  96.108.142.197 (96.108.142.197)  20.509 ms  20.502 ms  20.667 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  20.661 ms  32.618 ms  32.859 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  32.856 ms  18.505 ms  21.489 ms
+ 7  be-1401-cr01.newark.nj.ibone.comcast.net (96.110.36.94)  21.539 ms  23.640 ms  23.486 ms
+ 8  be-10203-cr02.newyork.ny.ibone.comcast.net (68.86.85.186)  26.493 ms  96.919 ms  24.123 ms
+ 9  be-10381-pe02.111eighthave.ny.ibone.comcast.net (68.86.86.250)  23.703 ms  23.949 ms  23.951 ms
+10  50.242.151.70 (50.242.151.70)  29.431 ms  29.746 ms  29.741 ms
+11  ae-5.r20.nwrknj03.us.bb.gin.ntt.net (129.250.3.128)  29.749 ms  29.704 ms  29.799 ms
+12  * * *
+13  ae-13.r30.tokyjp05.jp.bb.gin.ntt.net (129.250.4.143)  194.652 ms  200.621 ms  214.122 ms
+14  ae-2.r03.tokyjp05.jp.bb.gin.ntt.net (129.250.3.33)  190.948 ms  175.997 ms  176.967 ms
+15  ae-1.a02.tokyjp05.jp.bb.gin.ntt.net (129.250.6.189)  267.540 ms  183.514 ms  183.419 ms
+16  xe-0-0-12-2.a02.tokyjp05.jp.ce.gin.ntt.net (61.213.161.22)  183.070 ms  183.278 ms  183.280 ms
+17  ae0.3.TR2.B9A.FreeBit.NET (219.99.124.61)  234.672 ms  234.704 ms  234.701 ms
+18  v26.SR2-03.B9A.FreeBit.NET (219.99.124.201)  191.771 ms  192.002 ms  192.004 ms
+19  tokyoA-10G-IF.ntt-poi.FreeBit.NET (122.152.1.174)  186.845 ms  186.923 ms  175.069 ms
+20  tokyo-26-1A-2.ntt-poi.FreeBit.NET (220.150.74.86)  180.100 ms  180.170 ms  183.628 ms
+21  177.235.75.202.tokyo.global.crust-r.net (202.75.235.177)  183.318 ms  179.757 ms  196.021 ms
+***********************
+PING www.wikipedia.jp (202.75.235.177) 56(84) bytes of data.
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=1 ttl=42 time=191 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=2 ttl=42 time=198 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=3 ttl=42 time=212 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=4 ttl=42 time=413 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=5 ttl=42 time=1149 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=6 ttl=42 time=414 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=7 ttl=42 time=250 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=8 ttl=42 time=838 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=9 ttl=42 time=685 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=10 ttl=42 time=398 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=11 ttl=42 time=272 ms
+
+--- www.wikipedia.jp ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 44ms
+rtt min/avg/max/mdev = 190.960/456.373/1148.501/294.984 ms, pipe 2
+***********************
+pchar to www.wikipedia.jp (202.75.235.177) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 9.284275 ms, (b = -0.001031 ms/B), r2 = 0.050074
+                       stddev rtt = 3.312978, stddev b = 0.002592
+    Partial queueing:  avg = 0.000555 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000555 ms (0 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 104.691234 ms, (b = 0.014476 ms/B), r2 = 0.009196
+                       stddev rtt = 71.484459, stddev b = 0.086753
+    Partial queueing:  avg = 0.067550 ms (4320 bytes)
+    Hop char:          rtt = 95.406959 ms, bw = 515.904778 Kbps
+    Hop queueing:      avg = 0.066995 ms (4320 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 52.217575 ms, (b = -0.014428 ms/B), r2 = 0.411585
+                       stddev rtt = 8.207074, stddev b = 0.009960
+    Partial queueing:  avg = 0.027284 ms (4320 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.040266 ms (0 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 54.905950 ms, (b = 0.041973 ms/B), r2 = 0.230459
+                       stddev rtt = 38.260130, stddev b = 0.044283
+    Partial queueing:  avg = 0.065536 ms (4998 bytes)
+    Hop char:          rtt = 2.688375 ms, bw = 141.840042 Kbps
+    Hop queueing:      avg = 0.038251 ms (678 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 85.254687 ms, (b = -0.049658 ms/B), r2 = 0.714372
+                       stddev rtt = 15.663253, stddev b = 0.018129
+    Partial queueing:  avg = 0.049139 ms (4998 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.016396 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 42.360850 ms, (b = 0.005264 ms/B), r2 = 0.013020
+                       stddev rtt = 22.862449, stddev b = 0.026461
+    Partial queueing:  avg = 0.019575 ms (4998 bytes)
+    Hop char:          rtt = --.--- ms, bw = 145.660415 Kbps
+    Hop queueing:      avg = -0.029564 ms (0 bytes)
+ 6: 96.110.42.45 (be-31143-cs04.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 57.474625 ms, (b = -0.018334 ms/B), r2 = 0.121332
+                       stddev rtt = 24.610771, stddev b = 0.028485
+    Partial queueing:  avg = 0.013201 ms (4998 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.006374 ms (0 bytes)
+ 7: 96.110.36.94 (be-1401-cr01.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 46.105362 ms, (b = 0.008104 ms/B), r2 = 0.042614
+                       stddev rtt = 19.159847, stddev b = 0.022176
+    Partial queueing:  avg = 0.058928 ms (6727 bytes)
+    Hop char:          rtt = --.--- ms, bw = 302.604944 Kbps
+    Hop queueing:      avg = 0.045726 ms (1729 bytes)
+ 8: 68.86.85.186 (be-10203-cr02.newyork.ny.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 161.088875 ms, (b = -0.098451 ms/B), r2 = 0.621323
+                       stddev rtt = 38.339606, stddev b = 0.044375
+    Partial queueing:  avg = 0.039395 ms (6727 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.019532 ms (0 bytes)
+ 9: 68.86.86.250 (be-10381-pe02.111eighthave.ny.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 57.680931 ms, (b = -0.024652 ms/B), r2 = 0.991466
+                       stddev rtt = 1.088100, stddev b = 0.001321
+    Partial queueing:  avg = 0.060353 ms (6727 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.020957 ms (0 bytes)
+10: 50.242.151.70 (50.242.151.70)
+    Partial loss:      6 / 10 (60%)
+    Partial char:      rtt = 118.402113 ms, (b = 0.033505 ms/B), r2 = 0.031885
+                       stddev rtt = 122.189654, stddev b = 0.130545
+    Partial queueing:  avg = 0.000000 ms (6727 bytes)
+    Hop char:          rtt = 60.721181 ms, bw = 137.558603 Kbps
+    Hop queueing:      avg = -0.060353 ms (0 bytes)
+11: 129.250.3.128 (ae-5.r20.nwrknj03.us.bb.gin.ntt.net)
+    Partial loss:      2 / 10 (20%)
+    Partial char:      rtt = 102.339203 ms, (b = 0.085148 ms/B), r2 = 0.080173
+                       stddev rtt = 156.523262, stddev b = 0.166514
+    Partial queueing:  avg = 0.032317 ms (7352 bytes)
+    Hop char:          rtt = --.--- ms, bw = 154.909762 Kbps
+    Hop queueing:      avg = 0.032317 ms (625 bytes)
+12: 129.250.6.177 (ae-5.r22.sttlwa01.us.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 201.806725 ms, (b = -0.009453 ms/B), r2 = 0.371168
+                       stddev rtt = 6.649252, stddev b = 0.007104
+    Partial queueing:  avg = 0.062195 ms (7352 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.029879 ms (0 bytes)
+13: 129.250.4.143 (ae-13.r30.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 82.316394 ms, (b = 0.220848 ms/B), r2 = 0.632319
+                       stddev rtt = 91.007091, stddev b = 0.097230
+    Partial queueing:  avg = 0.032029 ms (7352 bytes)
+    Hop char:          rtt = --.--- ms, bw = 34.737181 Kbps
+    Hop queueing:      avg = -0.030166 ms (0 bytes)
+14: 129.250.3.33 (ae-2.r03.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 225.727959 ms, (b = -0.012233 ms/B), r2 = 0.028725
+                       stddev rtt = 33.841273, stddev b = 0.041070
+    Partial queueing:  avg = 0.029748 ms (7352 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.002281 ms (0 bytes)
+15: 129.250.6.189 (ae-1.a02.tokyjp05.jp.bb.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 378.341687 ms, (b = -0.136452 ms/B), r2 = 0.276827
+                       stddev rtt = 104.920836, stddev b = 0.127331
+    Partial queueing:  avg = 0.036085 ms (7352 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.006337 ms (0 bytes)
+16: 61.213.161.22 (xe-0-0-12-2.a02.tokyjp05.jp.ce.gin.ntt.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 174.340306 ms, (b = 0.129770 ms/B), r2 = 0.810282
+                       stddev rtt = 29.872725, stddev b = 0.036253
+    Partial queueing:  avg = 0.025018 ms (7352 bytes)
+    Hop char:          rtt = --.--- ms, bw = 30.050211 Kbps
+    Hop queueing:      avg = -0.011068 ms (0 bytes)
+17: 219.99.124.61 (ae0.3.TR2.B9A.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 211.771022 ms, (b = 0.007412 ms/B), r2 = 0.048859
+                       stddev rtt = 15.558184, stddev b = 0.018881
+    Partial queueing:  avg = 0.068351 ms (7352 bytes)
+    Hop char:          rtt = 37.430716 ms, bw = --.--- Kbps
+    Hop queueing:      avg = 0.043334 ms (0 bytes)
+18: 219.99.124.201 (v26.SR2-03.B9A.FreeBit.NET)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 396.341497 ms, (b = -0.099929 ms/B), r2 = 0.141131
+                       stddev rtt = 117.275601, stddev b = 0.142325
+    Partial queueing:  avg = 0.022885 ms (7352 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.045466 ms (0 bytes)
+19: 122.152.1.174 (tokyoA-10G-IF.ntt-poi.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 244.726894 ms, (b = 0.030430 ms/B), r2 = 0.025796
+                       stddev rtt = 88.965332, stddev b = 0.107968
+    Partial queueing:  avg = 0.074820 ms (7750 bytes)
+    Hop char:          rtt = --.--- ms, bw = 61.368996 Kbps
+    Hop queueing:      avg = 0.051935 ms (398 bytes)
+20: 220.150.74.86 (tokyo-26-1A-2.ntt-poi.FreeBit.NET)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 204.337300 ms, (b = -0.004258 ms/B), r2 = 0.038599
+                       stddev rtt = 18.845204, stddev b = 0.012269
+    Partial queueing:  avg = 0.073811 ms (7750 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.001009 ms (0 bytes)
+21: 202.75.235.177 (177.235.75.202.tokyo.global.crust-r.net)
+    Path length:       21 hops
+    Path char:         rtt = 204.337300 ms r2 = 0.038599
+    Path bottleneck:   30.050211 Kbps
+    Path pipe:         767 bytes
+    Path queueing:     average = 0.073811 ms (7750 bytes)
+    Start time:        Wed May 13 22:10:53 2020
+    End time:          Wed May 13 22:12:55 2020
+***********************
+traceroute to www.wikipedia.jp (202.75.235.177), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.288 ms  8.455 ms  8.447 ms
+ 2  96.120.74.249 (96.120.74.249)  20.983 ms  20.984 ms  20.975 ms
+ 3  68.86.223.249 (68.86.223.249)  20.408 ms  20.546 ms  26.682 ms
+ 4  96.108.142.197 (96.108.142.197)  25.268 ms  25.579 ms  25.574 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  25.562 ms  38.205 ms  38.595 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  38.627 ms  19.340 ms  19.160 ms
+ 7  be-1401-cr01.newark.nj.ibone.comcast.net (96.110.36.94)  18.919 ms  18.360 ms  39.621 ms
+ 8  be-10203-cr02.newyork.ny.ibone.comcast.net (68.86.85.186)  22.549 ms  28.816 ms  28.905 ms
+ 9  be-10381-pe02.111eighthave.ny.ibone.comcast.net (68.86.86.250)  23.016 ms  23.129 ms  23.114 ms
+10  50.242.151.70 (50.242.151.70)  21.138 ms  21.344 ms  21.340 ms
+11  ae-5.r20.nwrknj03.us.bb.gin.ntt.net (129.250.3.128)  26.588 ms  32.769 ms  32.608 ms
+12  ae-5.r22.sttlwa01.us.bb.gin.ntt.net (129.250.6.177)  94.716 ms  96.082 ms  96.082 ms
+13  ae-13.r30.tokyjp05.jp.bb.gin.ntt.net (129.250.4.143)  195.334 ms  177.923 ms  177.860 ms
+14  ae-2.r03.tokyjp05.jp.bb.gin.ntt.net (129.250.3.33)  177.579 ms  177.558 ms  177.622 ms
+15  ae-1.a02.tokyjp05.jp.bb.gin.ntt.net (129.250.6.189)  173.418 ms  173.417 ms  173.409 ms
+16  xe-0-0-12-2.a02.tokyjp05.jp.ce.gin.ntt.net (61.213.161.22)  171.928 ms  173.096 ms  186.741 ms
+17  ae0.3.TR2.B9A.FreeBit.NET (219.99.124.61)  202.692 ms  185.260 ms  185.323 ms
+18  v26.SR2-03.B9A.FreeBit.NET (219.99.124.201)  192.652 ms  192.747 ms  200.549 ms
+19  tokyoA-10G-IF.ntt-poi.FreeBit.NET (122.152.1.174)  195.680 ms  195.784 ms  181.067 ms
+20  tokyo-26-1A-2.ntt-poi.FreeBit.NET (220.150.74.86)  182.604 ms  182.503 ms  184.454 ms
+21  177.235.75.202.tokyo.global.crust-r.net (202.75.235.177)  193.480 ms  189.575 ms  200.150 ms
+***********************
+PING www.wikipedia.jp (202.75.235.177) 56(84) bytes of data.
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=1 ttl=42 time=182 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=2 ttl=42 time=178 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=3 ttl=42 time=200 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=4 ttl=42 time=572 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=5 ttl=42 time=218 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=6 ttl=42 time=306 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=7 ttl=42 time=315 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=8 ttl=42 time=204 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=9 ttl=42 time=190 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=10 ttl=42 time=241 ms
+64 bytes from 177.235.75.202.tokyo.global.crust-r.net (202.75.235.177): icmp_seq=11 ttl=42 time=442 ms
+
+--- www.wikipedia.jp ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 23ms
+rtt min/avg/max/mdev = 178.054/277.154/572.054/120.248 ms
+=====================================================
+traceroute to www.inquirer.com (23.59.250.152), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  7.734 ms  8.090 ms  8.097 ms
+ 2  96.120.74.249 (96.120.74.249)  32.786 ms  33.357 ms  33.364 ms
+ 3  68.86.223.249 (68.86.223.249)  33.654 ms  33.651 ms  33.643 ms
+ 4  96.108.142.197 (96.108.142.197)  33.272 ms  33.266 ms  33.342 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  35.278 ms  35.439 ms  35.437 ms
+ 6  be-31123-cs02.newark.nj.ibone.comcast.net (96.110.42.37)  36.382 ms  149.497 ms  149.524 ms
+ 7  be-2212-pe12.newark.nj.ibone.comcast.net (96.110.34.6)  149.501 ms  26.028 ms  36.377 ms
+ 8  as36408-1.350ecermak.il.ibone.comcast.net (75.149.228.46)  22.095 ms  22.076 ms  22.070 ms
+ 9  ae2.halsey-ewr.netarch.akamai.com (23.203.154.129)  21.716 ms  21.921 ms  21.922 ms
+10  a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152)  21.140 ms  21.518 ms  21.521 ms
+***********************
+PING e15833.a.akamaiedge.net (23.59.250.152) 56(84) bytes of data.
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=1 ttl=55 time=89.7 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=2 ttl=55 time=249 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=3 ttl=55 time=153 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=4 ttl=55 time=23.4 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=5 ttl=55 time=292 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=6 ttl=55 time=290 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=7 ttl=55 time=136 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=8 ttl=55 time=179 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=9 ttl=55 time=40.9 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=10 ttl=55 time=281 ms
+64 bytes from a23-59-250-152.deploy.static.akamaitechnologies.com (23.59.250.152): icmp_seq=11 ttl=55 time=68.6 ms
+
+--- e15833.a.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 19ms
+rtt min/avg/max/mdev = 23.377/163.972/292.438/97.299 ms
+***********************
+pchar to e15833.a.akamaiedge.net (23.59.250.152) using ICMP/IPv4 (raw sockets)
+Using raw socket input
+Packet size increments from 32 to 1500 by 256
+5 test(s) per repetition
+2 repetition(s) per hop
+ 0: 192.168.86.216 (raspberrypi.lan)
+    Partial loss:      1 / 10 (10%)
+    Partial char:      rtt = 7.801675 ms, (b = -0.000105 ms/B), r2 = 0.003479
+                       stddev rtt = 1.312081, stddev b = 0.001026
+    Partial queueing:  avg = 0.000564 ms (0 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.000564 ms (0 bytes)
+ 1: 192.168.86.1 (testwifi.here)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 28.477231 ms, (b = 0.003635 ms/B), r2 = 0.026646
+                       stddev rtt = 10.452164, stddev b = 0.012685
+    Partial queueing:  avg = 0.005307 ms (1267 bytes)
+    Hop char:          rtt = 20.675556 ms, bw = 2138.928641 Kbps
+    Hop queueing:      avg = 0.004742 ms (1267 bytes)
+ 2: 96.120.74.249 (96.120.74.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 33.205472 ms, (b = 0.034768 ms/B), r2 = 0.098837
+                       stddev rtt = 49.945117, stddev b = 0.060613
+    Partial queueing:  avg = 0.021203 ms (1777 bytes)
+    Hop char:          rtt = 4.728241 ms, bw = 256.960389 Kbps
+    Hop queueing:      avg = 0.015897 ms (510 bytes)
+ 3: 68.86.223.249 (68.86.223.249)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 46.591012 ms, (b = -0.017839 ms/B), r2 = 0.885406
+                       stddev rtt = 3.201290, stddev b = 0.003705
+    Partial queueing:  avg = 0.052825 ms (1777 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.031622 ms (0 bytes)
+ 4: 96.108.142.197 (96.108.142.197)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 143.409750 ms, (b = -0.076202 ms/B), r2 = 0.261434
+                       stddev rtt = 63.889690, stddev b = 0.073946
+    Partial queueing:  avg = 0.057838 ms (1777 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = 0.005013 ms (0 bytes)
+ 5: 68.85.35.37 (be-98-ar03.plainfield.nj.panjde.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 22.708787 ms, (b = 0.016639 ms/B), r2 = 0.167007
+                       stddev rtt = 18.536355, stddev b = 0.021454
+    Partial queueing:  avg = 0.037896 ms (1777 bytes)
+    Hop char:          rtt = --.--- ms, bw = 86.169537 Kbps
+    Hop queueing:      avg = -0.019942 ms (0 bytes)
+ 6: 96.110.42.37 (be-31123-cs02.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.734100 ms, (b = 0.052266 ms/B), r2 = 0.162519
+                       stddev rtt = 59.183993, stddev b = 0.068500
+    Partial queueing:  avg = 0.040127 ms (1839 bytes)
+    Hop char:          rtt = 14.025313 ms, bw = 224.549093 Kbps
+    Hop queueing:      avg = 0.002231 ms (62 bytes)
+ 7: 96.110.34.6 (be-2212-pe12.newark.nj.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 36.859091 ms, (b = -0.004311 ms/B), r2 = 0.045061
+                       stddev rtt = 9.440261, stddev b = 0.011457
+    Partial queueing:  avg = 0.024594 ms (1839 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.015533 ms (0 bytes)
+ 8: 75.149.228.46 (as36408-1.350ecermak.il.ibone.comcast.net)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = -5.395166 ms, (b = 0.133951 ms/B), r2 = 0.154262
+                       stddev rtt = 149.211229, stddev b = 0.181082
+    Partial queueing:  avg = 0.028885 ms (1870 bytes)
+    Hop char:          rtt = --.--- ms, bw = 57.861280 Kbps
+    Hop queueing:      avg = 0.004290 ms (31 bytes)
+ 9: 23.203.154.129 (ae2.halsey-ewr.netarch.akamai.com)
+    Partial loss:      0 / 10 (0%)
+    Partial char:      rtt = 32.676300 ms, (b = -0.002429 ms/B), r2 = 0.108755
+                       stddev rtt = 6.166662, stddev b = 0.004015
+    Partial queueing:  avg = 0.006309 ms (1870 bytes)
+    Hop char:          rtt = 0.000000 ms, bw = 0.000000 Kbps
+    Hop queueing:      avg = -0.022575 ms (0 bytes)
+10: 23.59.250.152 (a23-59-250-152.deploy.static.akamaitechnologies.com)
+    Path length:       10 hops
+    Path char:         rtt = 32.676300 ms r2 = 0.108755
+    Path bottleneck:   57.861280 Kbps
+    Path pipe:         236 bytes
+    Path queueing:     average = 0.006309 ms (1870 bytes)
+    Start time:        Wed May 13 22:13:22 2020
+    End time:          Wed May 13 22:13:58 2020
+***********************
+traceroute to www.inquirer.com (23.59.250.250), 30 hops max, 60 byte packets
+ 1  testwifi.here (192.168.86.1)  8.248 ms  8.502 ms  8.503 ms
+ 2  96.120.74.249 (96.120.74.249)  21.231 ms  21.823 ms  21.827 ms
+ 3  68.86.223.249 (68.86.223.249)  22.229 ms  22.224 ms  22.215 ms
+ 4  96.108.142.197 (96.108.142.197)  21.730 ms  21.722 ms  21.887 ms
+ 5  be-98-ar03.plainfield.nj.panjde.comcast.net (68.85.35.37)  21.879 ms  33.665 ms  33.884 ms
+ 6  be-31143-cs04.newark.nj.ibone.comcast.net (96.110.42.45)  33.879 ms  22.587 ms  40.625 ms
+ 7  be-2412-pe12.newark.nj.ibone.comcast.net (96.110.34.14)  40.680 ms  24.219 ms  22.944 ms
+ 8  as36408-1.350ecermak.il.ibone.comcast.net (75.149.228.46)  22.009 ms  22.403 ms  22.407 ms
+ 9  ae2.halsey-ewr.netarch.akamai.com (23.203.154.129)  24.392 ms  24.387 ms  24.381 ms
+10  a23-59-250-250.deploy.static.akamaitechnologies.com (23.59.250.250)  22.311 ms  22.310 ms  22.478 ms
+***********************
+PING e15833.a.akamaiedge.net (23.59.250.218) 56(84) bytes of data.
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=1 ttl=55 time=36.7 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=2 ttl=55 time=327 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=3 ttl=55 time=180 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=4 ttl=55 time=108 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=5 ttl=55 time=134 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=6 ttl=55 time=485 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=7 ttl=55 time=158 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=8 ttl=55 time=323 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=9 ttl=55 time=37.6 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=10 ttl=55 time=404 ms
+64 bytes from a23-59-250-218.deploy.static.akamaitechnologies.com (23.59.250.218): icmp_seq=11 ttl=55 time=249 ms
+
+--- e15833.a.akamaiedge.net ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 23ms
+rtt min/avg/max/mdev = 36.714/221.998/484.732/141.102 ms
